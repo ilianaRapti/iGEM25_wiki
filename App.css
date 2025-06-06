@@ -64,3 +64,17 @@ footer a:hover {
   color: white;
   text-decoration: underline;
 }
+
+/*changing navbar settings*/
+.custom-navbar{
+  background-color: #d8f3dc;
+}
+.navbar a{
+  color: #2D6A4F;
+  font-weight: lighter;
+  text-decoration: none;
+}
+
+.navbar a:hover{
+  color: #823D86;
+}
