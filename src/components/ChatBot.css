@@ -63,3 +63,29 @@
 .chatButton:active{
     transform: scale(0.8);
 }
+
+.langFlag {
+    width: 24px;
+    height: 16px;
+    object-fit: cover;
+    border-radius: 2px;
+}
+
+.languageToggle button{
+    background: none;
+    border: none;
+    padding: 0;
+    margin-left: 8px;
+    cursor: pointer;
+    opacity : 0.3;
+    transition: opacity 0.3s ease;
+}
+
+.languageToggle button.activeLang{
+    opacity: 1;
+}
+
+.languageToggle button:focus{
+    outline: none;
+    box-shadow: none;
+}
