@@ -7,6 +7,11 @@ import { Navbar } from "../../components/Navbar";
 import { Header } from "../../components/Header";
 import { NotFound } from "../../components/NotFound";
 import { Footer } from "../../components/Footer";
+import ChatBot from "../../components/ChatBot";
+import Team from "../../components/Team";
+
+
+
 
 const App = () => {
   const pathMapping = getPathMapping();
@@ -59,10 +64,13 @@ const App = () => {
           }
         />
       </Routes>
-
+      {/*Team carousel before footer*/}
+      <Team/>
       {/* Footer */}
       {/* MUST mention license AND have a link to team wiki's repository on gitlab.igem.org */}
       <Footer />
+      {/* ChatBot */}
+      <ChatBot/>
     </>
   );
 };
