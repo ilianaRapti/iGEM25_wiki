@@ -1,4 +1,6 @@
 import { Inspirations, InspirationLink } from "../components/Inspirations";
+import Team from "../components/Team";
+//import React from "react";
 
 export function Home() {
   const links: InspirationLink[] = [
@@ -72,6 +74,15 @@ export function Home() {
           </ul>
         </div>
       </div>
+      {/*my team carousel*/}
+      <div className="row mt-4">
+        <div className="col">
+          <Team />
+        </div>
+      </div>
+
+
+
       <div className="row mt-4">
         <div className="col">
           <h2>Building Your Wiki</h2>
