@@ -54,7 +54,7 @@ body {
 }
 
 /* footer */
-footer a {
+/*footer a {
   color: white;
   font-weight: bold;
   text-decoration: none;
@@ -63,7 +63,7 @@ footer a {
 footer a:hover {
   color: white;
   text-decoration: underline;
-}
+}*/
 
 /*changing navbar settings*/
 .custom-navbar{
