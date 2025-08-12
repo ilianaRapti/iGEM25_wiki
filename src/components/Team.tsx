@@ -4,7 +4,6 @@ import { Autoplay } from "swiper/modules";
 import {Swiper as SwiperType } from "swiper/types";
 import "swiper/css"
 import "./Team.css";
-//import { Members } from "../contents";
 
 const teamMembers = [
     {id: 1, name: "Ifigeneia", photo: "https://static.igem.wiki/teams/5684/wikipics/teampics/ifigeneia-wiki.webp"},
@@ -39,8 +38,16 @@ const Team: React.FC = () => {
             <h2>Meet our team!</h2>
             <div className="carousel-wrapper">
             <Swiper
-                slidesPerView={4}
-                spaceBetween={10}
+                breakpoints={{
+                    0: {
+                        slidesPerView: 2,
+                        spaceBetween: 16,      
+                    },
+                    768:{
+                        slidesPerView: 4,
+                        spaceBetween: 24,
+                    },
+                }}
                 loop={true}
                 onSwiper={(swiper)=> (swiperRef.current = swiper)}
                 autoplay={{delay:2500, disableOnInteraction: false}}
@@ -55,7 +62,12 @@ const Team: React.FC = () => {
                         onMouseEnter={() => handleMouseEnter(member.id)}
                         onMouseLeave={handleMouseLeave}
                         >
-                            <img src={member.photo} alt={member.name}/>
+                            <img 
+                            src={member.photo} 
+                            alt={member.name}
+                            onClick={()=> window.location.href = "https://2025.igem.wiki/ioannina/team"}
+                            style={{cursor: "pointer"}}
+                            />
                             <p>{member.name}</p>
                         </div>
                     </SwiperSlide>
