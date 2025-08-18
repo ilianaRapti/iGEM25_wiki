@@ -2,28 +2,67 @@
     position: fixed;
     bottom: 20px;
     right: 20px;
-    background-color: #ffe052;
     color: white;
+    background-color: transparent;
     border: none;
     border-radius: 50%;
     width: 60px;
     height: 60px;
     font-size: 24px;
     cursor: pointer;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
     z-index: 999;
+}
+
+.chat-icon{
+    width: 70px;
+    height: 70px;
 }
 
 .chatWindow {
     position: fixed;
     bottom: 90px;
     right: 20px;
-    width: 300px;
+    width: 300px; 
     background-color: #ffffff;
     border-radius: 10px;
-    box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
     padding: 16px;
     z-index: 1000;
+    max-height: calc(100vh - 180px);
+    overflow-y: auto;
+    scrollbar-width: thin;
+    scrollbar-color: rgb(221, 220, 220) transparent; 
+}
+
+
+@media (max-width: 480px){
+    .chatWindow{
+        right: 10px;
+        left: 10px;
+        width: auto;
+        max-width: unset;
+    }
+
+    .chatButton{
+        right: 10px;
+        bottom: 10px;
+        width: 50px;
+        height: 50px
+    }
+
+    .langFlag{
+        width: 20px;
+        height: 14px;
+    }
+
+    .questionButton{
+        font-size: 13px;
+        padding: 8px;
+    }
+
+    .answerBox{
+        font-size: 14px;
+    }
 }
 
 .chatTitle{
@@ -88,4 +127,11 @@
 .languageToggle button:focus{
     outline: none;
     box-shadow: none;
+}
+
+.bibliography{
+    font-size: 0.75rem;
+    color: #09472f6e;
+    margin-top: 0.5rem;
+    font-style: italic;
 }
