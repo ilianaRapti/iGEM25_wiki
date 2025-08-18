@@ -1,0 +1,7 @@
+.custom-navbar ,
+.custom-navbar .nav-link,
+.custom-navbar .dropdown-item{
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600; 
+  color: #B7E4C7;
+}
