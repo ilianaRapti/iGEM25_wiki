@@ -20,6 +20,7 @@ import {
   Software,
   Sustainability,
 } from "./contents";
+import Quiz from "./contents/quiz";
 
 interface Base {
   name: string | undefined;
@@ -46,6 +47,15 @@ const Pages: (Page | Folder)[] = [
     component: Home,
     lead: "We are iGEM IOANNINA 2025!",
   },
+  
+  {/*for our quiz*/
+    name: "QUIZ",
+    title: "Find what you're looking for!",
+    path: "/quiz",
+    component: Quiz,
+    lead: "Find what you're looking for and make your browsing experiencein our wiki  better.",
+  },
+  
   {
     name: "Team",
     folder: [
