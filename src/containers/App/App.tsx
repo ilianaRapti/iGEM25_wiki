@@ -8,7 +8,6 @@ import { Header } from "../../components/Header";
 import { NotFound } from "../../components/NotFound";
 import { Footer } from "../../components/Footer";
 import ChatBot from "../../components/ChatBot";
-//import Members from "../../contents/members";
 
 
 
@@ -41,9 +40,8 @@ const App = () => {
               key={path}
               path={path}
               element={
-                <>
-                  <Header title={title || ""} lead={lead || ""} />
-                  <div className="container">
+                <>{/*removed header from home and entrepreneurship page*/}
+                  {path !== "/entrepreneurship" && path !== "/" && (<Header title={title || ""} lead={lead || ""} />)}                 <div className="container">
                     <Component />
                   </div>
                 </>
