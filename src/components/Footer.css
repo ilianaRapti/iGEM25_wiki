@@ -1,24 +1,32 @@
 .myfooter{ 
-    width: 100%;
-    padding: 20px;
-    background-color: #95D5B2;
-    color: white;
-    display: flex;
-    align-items: center;
-    position: relative;
+  width: 100%;
+  padding: 500px 20px;
+  background-image: url(https://static.igem.wiki/teams/5684/wikipics/footer/footer-1.webp);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  color: white;
+  display: flex;
+  align-items: center;
+  position: relative;
+
+  flex-direction: column;
+  justify-content: flex-end;
+  text-align: center;
 }
 
 .footer-logo{  
-    width: 150px;
-    height: auto;
-    display: block;
-    margin-right: 15px;
-
-    transition: transform 0.3s ease;   
+  width: 150px;
+  height: auto;
+  position: absolute;
+  bottom: 100px;
+  left: 50%;
+  transform: translateX(-50%);
+  transition: transform 0.3s ease;   
 }
 
 .footer-logo:hover{
-    transform: rotate(20deg);
+  transform: translateX(-50%) rotate(20deg);
 }
 
 /* footer */
@@ -31,4 +39,13 @@ footer a {
 footer a:hover {
   color: #B7E4C7;
   text-decoration: underline;
+}
+
+.myfooter .row{
+  position: absolute;
+  bottom: 30px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 100%;
+  max-width: 700px;
 }
