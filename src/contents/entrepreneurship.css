@@ -1,0 +1,52 @@
+html {
+  scroll-behavior:smooth;
+}
+
+.toc-container {
+  position: relative; 
+}
+
+.toc {
+  position: fixed;
+  top: 150px; 
+  right: 20px;
+  width: 200px;
+}
+
+.toc ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.toc a {
+  display: block;
+  padding: 6px 10px;
+  text-decoration: none;
+  color: #40916d4d;
+  border-right: 3px solid transparent; 
+  transition: all 0.2s;
+}
+
+.toc a:hover {
+  color: #000;
+  background-color: #f3f3f3;
+}
+
+.toc a.active {
+  color: #40916C;
+  border-right: 3px solid #40916C;
+  font-weight: bold;
+}
+
+section {
+  scroll-margin-top: 100px; 
+}
+
+
+.halo-icon{
+  width: 40px;
+  height: 40px;
+  margin-right: 8px;
+  vertical-align: middle;
+}
