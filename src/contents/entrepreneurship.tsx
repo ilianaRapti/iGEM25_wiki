@@ -1,40 +1,76 @@
-import { Inspirations, InspirationLink } from "../components/Inspirations";
+import { useEffect, useState } from "react";
+import "./entrepreneurship.css";
 
 export function Entrepreneurship() {
-  const links: InspirationLink[] = [
-    { year: 2024, teamName: "UToronto", pageName: "entrepreneurship" },
-    { year: 2024, teamName: "Ionis-Paris", pageName: "entrepreneurship" },
-    { year: 2023, teamName: "Leiden", pageName: "entrepreneurship" },
+  const sections = [
+    { id: "intro", title: "About us" },
+    { id: "part1", title: "title 1" },
+    { id: "part2", title: "title 2" },
+    { id: "summary", title: "title 3" },
   ];
 
+  const [activeId, setActiveId] = useState<string>("");
+
+  useEffect(() => {
+    const observer = new IntersectionObserver(
+      (entries) => {
+        entries.forEach((entry) => {
+          if (entry.isIntersecting) {
+            setActiveId(entry.target.id);
+          }
+        });
+      },
+      { rootMargin: "-50% 0px -50% 0px" }
+    );
+
+    sections.forEach((section) => {
+      const el = document.getElementById(section.id);
+      if (el) observer.observe(el);
+    });
+
+    return () => observer.disconnect();
+  }, []);
+
   return (
-    <>
-      <div className="row mt-4">
-        <div className="col">
-          <div className="bd-callout bd-callout-info">
-            <h4>Best Entrepreneurship</h4>
-            <p>
-              The Best Entrepreneurship Prize recognizes exceptional effort to
-              build a business case and commercialize an iGEM project. This
-              award can go to a new project, or to a previous project that a
-              team has aimed to commercialize. Successful teams will (1)
-              construct a business plan based on customer needs and expert
-              knowledge on feasibility and (2) create a minimum viable product.
-            </p>
-            <hr />
-            <p>
-              Visit the{" "}
-              <a href="https://competition.igem.org/judging/special-prizes">
-                Special Prizes page
-              </a>{" "}
-              for more information.
-            </p>
-          </div>
-        </div>
-      </div>
-      <div className="row mt-4">
-        <Inspirations inspirationLinkList={links} />
-      </div>
-    </>
+    <div style={{ display: "flex" }}>
+      {/*Contents*/}
+      <main style={{ marginRight: "250px", padding: "20px", flex: 1 }}>
+        <section id="intro" style={{ height: "100vh" }}>
+          <h2>About Us</h2>
+          <p>Text...</p>
+        </section>
+
+        <section id="part1" style={{ height: "100vh" }}>
+          <h2>Title 1</h2>
+          <p>Text...</p>
+        </section>
+
+        <section id="part2" style={{ height: "100vh" }}>
+          <h2>Title 2</h2>
+          <p>Text...</p>
+        </section>
+
+        <section id="summary" style={{ height: "100vh" }}>
+          <h2>Title 3</h2>
+          <p>Summary...</p>
+        </section>
+      </main>
+
+      <nav className="toc">
+        <ul>
+          {sections.map((sec) => (
+            <li key={sec.id}>
+              <a
+                href={`#${sec.id}`}
+                className={activeId === sec.id ? "active" : ""}
+              >
+                <img src="https://static.igem.wiki/teams/5684/wikipics/halocrop/green-holo-crop-trans.webp" alt="" className="halo-icon"/>
+                {sec.title}
+              </a>
+            </li>
+          ))}
+        </ul>
+      </nav>
+    </div>
   );
 }
