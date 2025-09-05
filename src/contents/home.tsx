@@ -1,6 +1,6 @@
 import { Inspirations, InspirationLink } from "../components/Inspirations";
 import Team from "../components/Team";
-//import React from "react";
+import VideoHeader from "./header-video";
 
 export function Home() {
   const links: InspirationLink[] = [
@@ -18,6 +18,7 @@ export function Home() {
 
   return (
     <>
+      <VideoHeader/> {/*added video as header*/}
       <div className="row">
         <div className="col">
           <h2>Essential First Steps</h2>
