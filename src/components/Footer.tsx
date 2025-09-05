@@ -57,43 +57,48 @@ export function Footer() {
             spaceBetween={8}
           >
             <SwiperSlide>
-              <img src="https://static.igem.wiki/teams/5684/wikipics/sponsors/antisel.webp" alt="antisel"/>
+              <img src="https://static.igem.wiki/teams/5684/wikipics/sponsors/c-antisel.webp" alt="antisel"/>
             </SwiperSlide>
 
             <SwiperSlide>
-              <img src="https://static.igem.wiki/teams/5684/wikipics/sponsors/helppharm.webp" alt="helppharm"/>
+              <img src="https://static.igem.wiki/teams/5684/wikipics/sponsors/c-helppharm.webp" alt="helppharm"/>
             </SwiperSlide>
 
              <SwiperSlide>
-              <img src="https://static.igem.wiki/teams/5684/wikipics/sponsors/ite.webp" alt="ite"/>
+              <img src="https://static.igem.wiki/teams/5684/wikipics/sponsors/c-ite.webp" alt="ite"/>
             </SwiperSlide>  
     
             <SwiperSlide>
-              <img src="https://static.igem.wiki/teams/5684/wikipics/sponsors/kd.webp" alt="kd"/>
+              <img src="https://static.igem.wiki/teams/5684/wikipics/sponsors/c-kd.webp" alt="kd"/>
             </SwiperSlide>
 
             <SwiperSlide>
-              <img src="https://static.igem.wiki/teams/5684/wikipics/sponsors/perifereia.webp" alt="perifereia"/>
+              <img src="https://static.igem.wiki/teams/5684/wikipics/sponsors/c-perifereia.webp" alt="perifereia"/>
             </SwiperSlide>
 
             <SwiperSlide>
-              <img src="https://static.igem.wiki/teams/5684/wikipics/sponsors/pfi.webp" alt="pfi"/>
+              <img src="https://static.igem.wiki/teams/5684/wikipics/sponsors/c-pfi.webp" alt="pfi"/>
             </SwiperSlide>  
             
             <SwiperSlide>
-              <img src="https://static.igem.wiki/teams/5684/wikipics/sponsors/polyeco.webp" alt="polyeco"/>
+              <img src="https://static.igem.wiki/teams/5684/wikipics/sponsors/c-polyeco.webp" alt="polyeco"/>
             </SwiperSlide> 
 
             <SwiperSlide>
-              <img src="https://static.igem.wiki/teams/5684/wikipics/sponsors/sayyes.webp" alt="sayyes"/>
+              <img src="https://static.igem.wiki/teams/5684/wikipics/sponsors/c-sayyes.webp" alt="sayyes"/>
             </SwiperSlide> 
 
             <SwiperSlide>
-              <img src="https://static.igem.wiki/teams/5684/wikipics/sponsors/sygenta.webp" alt="sygenta"/>
+              <img src="https://static.igem.wiki/teams/5684/wikipics/sponsors/c-sygenta.webp" alt="sygenta"/>
             </SwiperSlide>
 
              <SwiperSlide>
-              <img src="https://static.igem.wiki/teams/5684/wikipics/sponsors/uoi.webp" alt="uoi"/>
+              <img src="https://static.igem.wiki/teams/5684/wikipics/sponsors/c-uoi.webp" alt="uoi"/>
+            </SwiperSlide> 
+
+            
+             <SwiperSlide>
+              <img src="https://static.igem.wiki/teams/5684/wikipics/sponsors/dimitriou.webp" alt="dimitriou"/>
             </SwiperSlide> 
           </Swiper>
         </div>

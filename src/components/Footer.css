@@ -1,6 +1,7 @@
 .myfooter{ 
   width: 100%;
   padding: 220px;
+  right: -10px;
   background-image: url(https://static.igem.wiki/teams/5684/wikipics/footer/footer-header-2125-x-460-px.webp);
   background-repeat: no-repeat;
   background-position: center;
@@ -9,7 +10,6 @@
   display: flex;
   align-items: center;
   position: relative;
-
   flex-direction: column;
   justify-content: flex-end;
   text-align: center;
@@ -75,8 +75,8 @@ footer a:hover {
 }
 
 .footer-carousel img{
-  width: 80%;
-  margin-bottom: 10px;
+  width: 50%;
+  margin-bottom: 30px;
 }
 
 /*for carousel bullet*/
@@ -89,14 +89,14 @@ footer a:hover {
 
 @media (max-width: 768px){
   .myfooter{
-    padding: 120px;
+    padding: 100px 15px 160px 15px;
     text-align: center;
   }
 
   .footer-top{
     flex-direction: column;
     gap: 15px;
-    bottom: 140px;
+    bottom: 180px;
   }
 
   .footer-logo{
@@ -107,6 +107,7 @@ footer a:hover {
     width: 40px;
     height: 40px;
   }
+  
 }
 @media (max-width: 480px){
   .myfooter{
@@ -118,8 +119,8 @@ footer a:hover {
   }
 
   .footer-socials img{
-    width: 35px;
-    height: 35px;
+    width: 28px;
+    height: 28px;
   }
 
   .myfooter .row{
