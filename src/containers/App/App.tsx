@@ -8,6 +8,7 @@ import { Header } from "../../components/Header";
 import { NotFound } from "../../components/NotFound";
 import { Footer } from "../../components/Footer";
 import ChatBot from "../../components/ChatBot";
+import AccessibilityWidget from "../../components/AccessibilityWidget";
 
 
 
@@ -68,6 +69,7 @@ const App = () => {
       <Footer />
       {/* ChatBot */}
       <ChatBot/>
+      <AccessibilityWidget />
     </>
   );
 };
