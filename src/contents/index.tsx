@@ -2,6 +2,7 @@ export * from "./home.tsx";
 // Team
 export * from "./members.tsx";
 export * from "./attributions.tsx";
+export * from "./sponsors.tsx";
 // Project
 export * from "./description.tsx";
 export * from "./engineering.tsx";
