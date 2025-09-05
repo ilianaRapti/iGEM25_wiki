@@ -19,6 +19,7 @@ import {
   Plant,
   Software,
   Sustainability,
+  Sponsors,
 } from "./contents";
 import Quiz from "./contents/quiz";
 
@@ -72,6 +73,13 @@ const Pages: (Page | Folder)[] = [
         path: "/attributions",
         component: Attributions,
         lead: "Accurate attribution is essential in the iGEM Competition. It ensures that the judges can properly assess your team's contributions and recognize the support provided by external collaborators. This page is dedicated to fulfilling the Attributions requirement for judging.",
+      },
+      {
+        name: "Sponsors",
+        title: "Sponsors",
+        path: "/sponsors",
+        component: Sponsors,
+        lead: "This page is dedicated to introducing the individuals who made our iGEM project possible. Here, you'll find information about our team members, instructors, and advisors.",
       },
     ],
   },
