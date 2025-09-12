@@ -3,9 +3,6 @@
   width: 100vw;
   height: 60vh;  
   overflow: hidden;  
-  margin: 0;
-  padding: 0;
-  left: -32%;
 }
 
 .video-bg {
@@ -15,7 +12,7 @@
   width: 120vw;     
   height: 120vh;
   transform: translate(-50%, -50%);
-  object-fit: cover;
+  object-fit: contain;
   z-index: -1;
 }
 
@@ -35,7 +32,7 @@
   background: rgba(6, 72, 25, 0.4);
 }
 
-
+/*changing the dimensions for different screen sizes*/
 @media (max-width: 1024px) {
   .video-header {
     left: -3%;          
@@ -64,5 +61,18 @@
 
   .header-content {
     font-size: 0.8rem;
+  }
+}
+
+@media screen and (width: 1280px) and (height: 720px) {
+  .video-header {
+    width: 100vw;
+    height: 100vh; 
+  }
+
+  .video-bg {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
   }
 }
