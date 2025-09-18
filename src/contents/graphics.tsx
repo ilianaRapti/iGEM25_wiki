@@ -9,7 +9,9 @@ export function Graphics() {
     { id: "logo-igem", title: "Logo of iGEM IOANNINA 2025" },
     { id: "logo-amad", title: "Logo of AMADRYADS" },
     //{ id: "references-2", title: "References" },
-    { id: "graphics", title: "Promotion" },
+    { id: "typography", title: "Typography" },
+    { id: "accessibility", title: "Accessibility" },
+    { id: "promotion", title: "Promotion" },
   ];
 
   const [activeId, setActiveId] = useState<string>("");
@@ -197,11 +199,57 @@ export function Graphics() {
                     </li>
                 </ol>
             </div>
-
         </section>
-        <section id="graphics">
+        
+        <section id="typography">
+          <h2>Typography</h2>
+                          <p>Our visual identity is built around Poppins Regular, used across the wiki 
+                            for a clean and consistent look. Its geometric shapes provide excellent readability 
+                            for both headings and body text, staying modern and easy on the eyes even in long passages. 
+                            The characters are simple and balanced, avoiding unnecessary curves that could cause visual 
+                            fatigue.For the project title, we highlight it with the Siouta font, an elegant typeface designed
+                            in Ioannina, Greece. This local touch adds a distinctive character to the main project’s
+                            logo while keeping the overall style minimal and cohesive.
+                          </p>
+
+                          <h2>References</h2>
+                          <div className="graphics-references">
+                              <ol>
+                                  <li>
+                                      <a
+                                          href="https://fontesk.com/siouta-font/"
+                                          target="_blank"
+                                          rel="noopener noreferrer"
+                                      >
+                                          Reference Fontesk. (2024, July 14). Siouta Font [Font]. Fontesk.                        
+                                      </a>
+                                  </li>
+                              </ol>
+                          </div>
+        </section>
+        <section id="accessibility">
+              <h2>Accessibility</h2>
+              <p>The iGEM Ioannina 2025 wiki is designed with inclusive features that let visitors personalize the interface for greater comfort and readability. 
+                These options support users with different visual or cognitive needs and help everyone navigate the site with ease.
+                Key tools include:
+              </p>
+
+              <ul style={{color: "#40916c"}}>
+                <li><strong>Text Size Control:</strong> Readers can enlarge or reduce text to match their visual
+                preferences, improving legibility for those with low vision.</li>
+                <li><strong>Color & Contrast Modes:</strong>  High-contrast and dark themes are available to aid 
+                people with color-vision deficiencies or light sensitivity.</li>
+                <li><strong>Font Flexibility:</strong>  Alternative typefaces can be selected to assist 
+                individuals with dyslexia or other reading challenges.</li>
+                <li><strong>Spacing Adjustments:</strong>  Users may modify line height and letter spacing to 
+                reduce eye strain and improve comprehension.</li>
+              </ul>
+              <p>These features ensure that our wiki remains accessible, comfortable, and user-friendly for a wide and diverse audience.</p>
+        </section>
+
+        <section id="promotion">
             <h2>Graphic design and promotion of our project</h2>
-            <h5>Promotion Materials</h5>
+              <h5>Promotion Materials</h5>
                 <p>
                     Our promotional materials were designed to spark curiosity and make the project approachable 
                     for audiences inside and outside the lab. The collection includes two main elements: stickers 

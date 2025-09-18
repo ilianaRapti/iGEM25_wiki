@@ -1,3 +1,4 @@
+
 html { 
   scroll-behavior: smooth; 
   font-family: 'Poppins', sans-serif; 
@@ -137,7 +138,7 @@ section img {
 .graphics-toc { 
   position: sticky; 
   top: 150px; 
-  width: 200px; 
+  width: 400px; 
   max-height: 80vh; 
   overflow-y: auto; 
   background: #fff; 
