@@ -1,0 +1,256 @@
+body {
+  overflow-x: hidden;
+}/*hiding white space on the right side*/
+
+.about-page {
+  background-image: url("https://static.igem.wiki/teams/5684/wikipics/about-whyitmatters/why-it-matters-back-new.webp");
+  background-repeat: no-repeat;
+  background-position: center top;  
+  background-size: cover;           
+  background-attachment: fixed;    
+  min-height: 100vh;
+  width: 100%;
+  font-family: Poppins, sans-serif;
+}
+
+
+.about-wrapper {
+  position: relative;
+  margin: 4rem auto;               
+  max-width: 900px;
+  width: 90%;
+}
+
+.about-container {
+  display: flex;
+  justify-content: flex-start; 
+  align-items: flex-start;
+  padding: 2rem;
+  width: 100%;
+  position: relative;
+}
+
+.about-text {
+  max-width: 600px;
+  padding: 2rem;
+  border-radius: 16px;
+  background-color: rgba(240, 249, 245, 0.85);
+  box-shadow: 0 8px 20px rgba(0,0,0,0.12);
+  color: #1b4332;
+  font-size: 1.1rem;
+  line-height: 1.6;
+}
+
+/* Titles */
+.about-title {
+  font-size: 2rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+  color: #184d47;
+}
+
+
+.first-wrapper::before,
+.second-wrapper::before,
+.third-wrapper::before,
+.fourth-wrapper::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 30%;
+  height: 100%;
+  background-color: #022918c6;
+  border-radius: 20px;
+  z-index: -1;
+}
+
+
+
+.amadryads-image {
+  width: 100%;
+  margin: 2rem 0;
+  text-align: center;
+}
+.amadryads-image img {
+  max-width: 100%;
+  height: auto;
+}
+
+
+.about-image {
+  flex: 0 0 320px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-start;
+}
+
+
+/*1st container + img*/
+.first-container {
+  position: relative;    
+  margin-left: -20rem;   
+}
+
+.map-image {
+  position: absolute;
+  top: -4rem;       
+  right: -20rem;    
+  width: 900px;
+  height: auto;
+}
+
+/* 2nd container + img*/
+.second-container {
+  position: relative;    
+  right: -20rem;
+  top: 10rem; 
+}
+
+.second-image-left {
+  position: absolute;
+  top: -10rem;       
+  left: -40rem;    
+  width: 700px;
+  height: auto;
+}
+
+/* 3d container + imgs*/
+.third-container {
+  position: relative;
+  right: 10rem;
+  top: 20rem;
+}
+
+
+.third-image-floating {
+  position: absolute;
+  top: -20rem;     
+  right: -50rem;  
+  width: 1500px;
+  height: auto;
+  border-radius: 12px;
+}
+
+.top-left-image {
+  position: absolute;
+  top: -7rem;
+  right: 50rem;
+  width: 200px;
+  height: auto;
+}
+
+/* 4th container*/
+.fourth-container{
+  position: relative;
+  right: 20rem;
+  top: 20rem;
+  padding-bottom: 20rem;
+}
+
+.about-references { 
+  background-color: rgba(240, 249, 245, 0.85);
+  border-left: 4px solid #40916c;
+  padding: 20px;
+}
+.references-title {
+  font-size: 1.5rem;
+  color: #40916c;
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+
+.about-references ol { 
+  margin: 0; 
+  padding-left: 20px; 
+}
+
+.about-references li {
+  margin-bottom: 10px; 
+  color: #2d6a4f; 
+}
+
+.about-references li::marker { 
+  color: #40916c; 
+  font-weight: bold; 
+}
+
+.about-references a {
+  color: #2d6a4f;
+  text-decoration: underline;
+}
+
+
+
+
+@media (max-width: 900px) {
+ 
+  .top-left-image {
+    display: none;
+  }
+  /* stacked so it can fit */
+  .about-container {
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem;
+  }
+
+  .about-text {
+    max-width: 100%;
+    padding: 1.5rem;
+  }
+
+  /* 1st container + image */
+  .first-container {
+    margin-left: 0;
+  }
+  .map-image {
+    position: static; 
+    width: 90%;
+    max-width: 600px;
+    margin: 1rem 0;
+  }
+
+  /* 2nd container + image */
+  .second-container {
+    right: 0;
+    top: 0;
+    margin: 1rem 0;
+  }
+  .second-image-left {
+    position: static;
+    width: 90%;
+    max-width: 600px;
+    margin-bottom: 1rem;
+  }
+
+  /* 3rd container + images */
+  .third-container {
+    right: 0;
+    top: 0;
+    margin: 1rem 0;
+    flex-direction: column;
+    align-items: center;
+  }
+  .third-image-floating,
+  .top-left-image {
+    position: static;
+    width: 90%;
+    max-width: 600px;
+    margin: 1rem 0;
+  }
+
+  /* 4th container */
+  .fourth-container {
+    right: 0;
+    top: 0;
+    padding-bottom: 2rem;
+  }
+
+  /* References */
+  .about-references {
+    max-width: 95%;
+    padding: 15px;
+    margin: 2rem auto;
+  }
+}
