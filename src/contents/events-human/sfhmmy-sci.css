@@ -1,0 +1,348 @@
+
+
+.sfhmmy-section-sci {
+  position: relative;
+  width: 90%;
+  max-width: 1200px;
+  margin: 2rem auto;
+  padding: 2rem;
+}
+
+.sfhmmy-text-container-sci{
+  position: relative;   
+  top: -2rem;            
+  margin-right: 320px; 
+  color: #1b4332;
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.2rem;
+  line-height: 1.8;
+  width: 70rem;
+  background-color:#f1f8e8;
+  border-radius: 12px;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+  padding: 3rem;
+
+}
+
+/* Organization section */
+.organization-section-sci {
+  margin-top: 4rem;
+  text-align: center;
+}
+
+.organization-text-sci {
+  position: relative;   
+  color: #1b4332;
+  padding: 2rem;
+  border-radius: 12px;
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.1rem;
+  line-height: 1.8;
+  text-align: left;
+  top: -3rem;            
+  right: -0.4rem;
+  width: 70rem;
+  background-color:#f1f8e8;
+  border-radius: 12px;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+  padding: 3rem;
+}
+
+
+/* Implementation section */
+.implementation-section-sci {
+  margin-top: 4rem;
+  text-align: center;
+}
+
+.impl-block-sci {
+  padding: 1rem;
+  font-size: 1.1rem;
+  line-height: 1.8;
+}
+
+
+.impl-block-edu.center-sci {
+  position: relative;   
+  color: #1b4332;
+  padding: 2rem;
+  border-radius: 12px;
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.1rem;
+  line-height: 1.8;
+  text-align: left;
+  top: -3rem;            
+  right: -0.4rem;
+  width: 70rem;
+  background-color:#f1f8e8;
+  border-radius: 12px;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+  padding: 3rem;
+}
+
+.outcomes-section-sci {
+  margin-top: 4rem;
+  text-align: center;
+}
+
+.outcomes-text-sci {
+  position: relative;   
+  color: #1b4332;
+  padding: 2rem;
+  border-radius: 12px;
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.1rem;
+  line-height: 1.8;
+  text-align: left;
+  top: -3rem;            
+  right: -0.4rem;
+  width: 70rem;
+  background-color:#f1f8e8;
+  border-radius: 12px;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+  padding: 3rem;
+}
+
+/*screens*/
+@media (max-width: 1280px) {
+
+.sfhmmy-text-container-edu {
+  position: relative;   
+  top: 7rem;            
+  margin-right: 320px; 
+  color: #1b4332;
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.2rem;
+  line-height: 1.8;
+  width: 60rem;
+}
+
+
+.organization-image-edu {
+  position: absolute;
+  width: 300px;   
+  height: auto;
+  border-radius: 12px;
+  top: 25rem;
+  right: 45rem;  
+  z-index: 10;
+}
+
+.organization-text-edu {
+  position: relative;   
+  background: #823d86;
+  color: white;
+  padding: 2rem;
+  border-radius: 12px;
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.1rem;
+  line-height: 1.8;
+  text-align: left;
+  top: 10rem;
+  right: 4rem;
+  width: 70rem;
+}
+
+
+/* Implementation section */
+.implementation-section-edu {
+  position: relative;   
+  padding: 2rem;
+  border-radius: 12px;
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.1rem;
+  line-height: 1.8;
+  text-align: left;
+  top: 25rem;
+  right: 2rem;
+  width: 70rem;
+  color: #1b4332;
+}
+
+.implementation-image-edu {
+  position: absolute;
+  width: 300px;   
+  height: auto;
+  border-radius: 12px;
+  right: 45rem;  
+  z-index: 10;
+  width: 20rem;
+  top: -22rem;
+}
+
+.impl-pc-image {
+  text-align: left;
+  position: absolute;   
+  left: 40rem;
+  width: 25rem;
+  top: -19rem;
+}
+
+.impl-block-edu.center-edu{
+  position: relative;
+  color: #1b4332;
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.2rem;
+  line-height: 1.8;
+  width: 45rem;
+  top: -10rem;
+  right: 7rem;
+
+}
+
+.references-edu {
+  position: absolute;
+  top: 7rem;         
+  right: 19rem;            
+  padding: 1rem 2rem;
+  background: #823d86; 
+  border-radius: 20px;
+  z-index: 10;
+}
+
+.edu-references {
+  position: absolute;
+  top: 10rem;                 
+  left: 51rem;           
+  margin-left: -12rem;  
+  width: 500px;
+  max-width: 500px;
+  background: #823d86; 
+  padding: 1.5rem 2rem;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+  font-size: 0.95rem;
+  line-height: 1.5;
+  color: #ffffff; 
+}
+
+
+
+/*outcome part*/
+.outcomes-image-edu {
+  position: absolute;
+  height: auto;
+  border-radius: 12px;
+  left: 19rem;  
+  z-index: 10;
+  width: 25rem;
+  top: 105rem;
+}
+
+.outcomes-text-edu {
+  position: relative;   
+  padding: 2rem;
+  border-radius: 12px;
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.1rem;
+  line-height: 1.8;
+  text-align: left;
+  top: 22rem;
+  left: 16rem;
+  width: 35rem;
+  color: #1b4332;
+}
+
+.outcomes-image-left-edu {
+  position: absolute;
+  height: auto;
+  border-radius: 12px;
+  z-index: 10;
+  width: 25rem;
+  top: 120rem;
+  left: 46rem;  
+}
+
+.outcomes-image-right-edu {
+  position: absolute;
+  width: 250px;   
+  height: auto;
+  border-radius: 12px;
+  z-index: 10;
+  width: 25rem;
+  top: 120rem;
+  right: 46rem;   
+}
+
+.outcomes-text1-edu {
+  position: relative;   
+  padding: 2rem;
+  border-radius: 12px;
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.1rem;
+  line-height: 1.8;
+  text-align: left;
+  top: 20rem;
+  left: -3rem; 
+  width: 70rem;
+  color: #ffffff;
+}
+
+/*why is it important part*/
+.important-image-edu {
+  position: absolute;
+  width: 250px;   
+  height: auto;
+  border-radius: 12px;
+  right: 20rem;  
+  z-index: 10;
+  width: 25rem;
+  top: 150rem;
+}
+
+.important-text-edu {
+  position: relative;   
+  padding: 2rem;
+  border-radius: 12px;
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.1rem;
+  line-height: 1.8;
+  text-align: left;
+  top: 15rem;
+  left: 3rem;
+  width: 60rem;
+  color: #1b4332;
+}
+
+/* What did we gain section */
+.gain-section-edu {
+  display: flex;
+  align-items: flex-start;
+  gap: 2rem;
+  margin: 10rem auto;   
+  max-width: 1200px;
+}
+
+.gain-image-edu {
+  position: absolute;
+  width: 250px;   
+  height: auto;
+  border-radius: 12px;
+  right: 35rem;  
+  z-index: 10;
+  width: 25rem;
+  top: 170rem;
+}
+
+.gain-text-edu {
+  position: relative;
+  padding: 2rem;
+  border-radius: 12px;
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.1rem;
+  line-height: 1.8;
+  text-align: left;
+  top: 10rem;
+  left: 5rem;
+  width: 60rem;
+  color: #fff;
+  padding-bottom: 0rem;
+}
+
+.iThess-image-edu {
+  display: block;
+  margin: -10rem 0 0 auto;
+  width: 50rem;
+  height: auto;
+}
+}

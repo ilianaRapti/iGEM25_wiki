@@ -1,0 +1,466 @@
+
+
+.junhigh-section-edu {
+  position: relative;
+  width: 90%;
+  max-width: 1200px;
+  margin: 2rem auto;
+  padding: 2rem;
+}
+
+.junhigh-text-container-edu{
+  position: relative;   
+  top: 7rem;            
+  margin-right: 320px; 
+  color: #1b4332;
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.2rem;
+  line-height: 1.8;
+  width: 70rem;
+}
+
+.introduction-junhigh-edu{
+  position: absolute;
+  width: 300px;   
+  height: auto;
+  border-radius: 12px;
+  top: -4rem;
+  right: 43rem;  
+  z-index: 10;
+}
+
+
+/* Organization section */
+.organization-section-edu {
+  margin-top: 4rem;
+  text-align: center;
+}
+
+.organization-junhigh-image-edu {
+  position: absolute;
+  width: 300px;   
+  height: auto;
+  border-radius: 12px;
+  top: 13rem;
+  right: 20rem;  
+  z-index: 10;
+}
+
+.organization-junhigh-text-edu {
+  position: relative;   
+  background: #823d86;
+  color: white;
+  padding: 2rem;
+  border-radius: 12px;
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.1rem;
+  line-height: 1.8;
+  text-align: left;
+  top: 11rem;
+  right: 1rem;
+  width: 70rem;
+}
+
+/* Implementation section */
+.implementation-junhigh-section-edu {
+  margin-top: 4rem;
+  text-align: center;
+}
+
+.implementation-junhigh-image-edu {
+  position: absolute;
+  width: 300px;   
+  height: auto;
+  border-radius: 12px;
+  right: 35rem;  
+  z-index: 10;
+  width: 30rem;
+  top: 30rem;
+}
+
+.impl-block-edu-junhigh{
+  padding: 1rem;
+  font-size: 1.1rem;
+  line-height: 1.8;
+}
+
+.impl-block-edu-junhigh.junhigh-center-edu {
+  position: relative;
+  color: #1b4332;
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.2rem;
+  line-height: 1.8;
+  width: 50rem;
+  top: 20rem;
+  right: 15rem;
+}
+
+.impl-block-edu-junhigh.junhigh-center-edu ul {
+  list-style: disc;
+  list-style-position: inside;
+  padding-left: 0; 
+  margin: 0;
+}
+
+.impl-block-edu-junhigh.junhigh-center-edu li {
+  margin-bottom: 0.8rem;
+}
+
+
+.presentation-image{
+  position: absolute;
+  width: 300px;   
+  height: auto;
+  border-radius: 12px;
+  left: 40rem;  
+  z-index: 10;
+  width: 30rem;
+  top: 53rem;
+}
+
+
+/*outcome part*/
+.outcomes-junhigh-section-edu {
+  margin-top: 4rem;
+  text-align: center;
+}
+
+.outcomes-text-edu-high {
+  position: relative;   
+  padding: 2rem;
+  border-radius: 12px;
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.1rem;
+  line-height: 1.8;
+  text-align: left;
+  top: 20rem;
+  left: -10rem;
+  width: 50rem;
+  color: #1b4332;
+}
+
+.outcomes-junhigh-image-edu {
+  position: absolute;
+  width: 250px;   
+  height: auto;
+  border-radius: 12px;
+  right: -10rem;  
+  z-index: 10;
+  width: 30rem;
+  top: 85rem;
+}
+
+/*why is it important part*/
+.important-junhigh-section-edu {
+  display: flex;
+  align-items: flex-start;
+  gap: 2rem;
+  margin: 10rem auto;   
+  max-width: 1200px;
+}
+
+.important-junhigh-image-edu {
+  position: absolute;
+  width: 250px;   
+  height: auto;
+  border-radius: 12px;
+  left: -6rem;  
+  z-index: 10;
+  width: 30rem;
+  top: 100rem;
+}
+
+.important-junhigh-text-edu {
+  position: relative;   
+  padding: 2rem;
+  border-radius: 12px;
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.1rem;
+  line-height: 1.8;
+  text-align: left;
+  top: 27rem;
+  left: -2rem;
+  width: 60rem;
+  color: #fff;
+}
+
+/* What did we gain section */
+.gain-junhigh-section-edu{
+  display: flex;
+  align-items: flex-start;
+  gap: 2rem;
+  margin: 10rem auto;   
+  max-width: 1200px;
+}
+
+.gain-junhigh-image-edu {
+  position: absolute;
+  width: 250px;   
+  height: auto;
+  border-radius: 12px;
+  right: -5rem;  
+  z-index: 10;
+  width: 30rem;
+  top: 120rem;
+}
+
+.gain-junhigh-text-edu {
+  position: relative;   
+  padding: 2rem;
+  border-radius: 12px;
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.1rem;
+  line-height: 1.8;
+  text-align: left;
+  top: 25rem;
+  left: 33rem;
+  width: 40rem;
+  color: #1b4332;
+  padding-bottom: 30rem;
+}
+
+.lab-image-edu {
+  position: absolute;
+  width: 300px;   
+  height: auto;
+  border-radius: 12px;
+  right: 30rem;  
+  z-index: 10;
+  width: 30rem;
+  top: 128rem;
+}
+
+/*screens*/
+@media (max-width: 1280px) {
+
+.junhigh-section-edu {
+  position: relative;
+  width: 90%;
+  max-width: 1200px;
+  margin: 2rem auto;
+  padding: 2rem;
+}
+
+.junhigh-text-container-edu{
+  position: relative;   
+  top: 7rem;            
+  margin-right: 320px; 
+  color: #1b4332;
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.2rem;
+  line-height: 1.8;
+  width: 70rem;
+  left: -2rem;
+}
+
+.introduction-junhigh-edu{
+  position: absolute;
+  width: 300px;   
+  height: auto;
+  border-radius: 12px;
+  top: -4rem;
+  right: 43rem;  
+  z-index: 10;
+}
+
+
+/* Organization section */
+.organization-section-edu {
+  margin-top: 4rem;
+  text-align: center;
+}
+
+.organization-junhigh-image-edu {
+  position: absolute;
+  width: 300px;   
+  height: auto;
+  border-radius: 12px;
+  top: 13rem;
+  right: 20rem;  
+  z-index: 10;
+}
+
+.organization-junhigh-text-edu {
+  position: relative;   
+  background: #823d86;
+  color: white;
+  padding: 2rem;
+  border-radius: 12px;
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.1rem;
+  line-height: 1.8;
+  text-align: left;
+  top: 11rem;
+  right: 5rem;
+  width: 70rem;
+}
+
+/* Implementation section */
+.implementation-junhigh-section-edu {
+  margin-top: 4rem;
+  text-align: center;
+}
+
+.implementation-junhigh-image-edu {
+  position: absolute;
+  width: 300px;   
+  height: auto;
+  border-radius: 12px;
+  right: 30rem;  
+  z-index: 10;
+  width: 30rem;
+  top: 30rem;
+}
+
+.impl-block-edu-junhigh{
+  padding: 1rem;
+  font-size: 1.1rem;
+  line-height: 1.8;
+}
+
+.impl-block-edu-junhigh.junhigh-center-edu {
+  position: relative;
+  color: #1b4332;
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.2rem;
+  line-height: 1.8;
+  width: 50rem;
+  top: 20rem;
+  right: 10rem;
+}
+
+.impl-block-edu-junhigh.junhigh-center-edu ul {
+  list-style: disc;
+  list-style-position: inside;
+  padding-left: 0; 
+  margin: 0;
+}
+
+.impl-block-edu-junhigh.junhigh-center-edu li {
+  margin-bottom: 0.8rem;
+}
+
+
+.presentation-image{
+  position: absolute;
+  width: 300px;   
+  height: auto;
+  border-radius: 12px;
+  left: 40rem;  
+  z-index: 10;
+  width: 30rem;
+  top: 53rem;
+}
+
+
+/*outcome part*/
+.outcomes-junhigh-section-edu {
+  margin-top: 4rem;
+  text-align: center;
+}
+
+.outcomes-text-edu1 {
+  position: relative;   
+  padding: 2rem;
+  border-radius: 12px;
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.1rem;
+  line-height: 1.8;
+  text-align: left;
+  top: 19rem;
+  left: -5rem;
+  width: 40rem;
+  color: #1b4332;
+}
+
+.outcomes-junhigh-image-edu {
+  position: absolute;
+  width: 250px;   
+  height: auto;
+  border-radius: 12px;
+  right: -6rem;  
+  z-index: 10;
+  width: 30rem;
+  top: 84rem;
+}
+
+/*why is it important part*/
+.important-junhigh-section-edu {
+  display: flex;
+  align-items: flex-start;
+  gap: 2rem;
+  margin: 10rem auto;   
+  max-width: 1200px;
+}
+
+.important-junhigh-image-edu {
+  position: absolute;
+  width: 250px;   
+  height: auto;
+  border-radius: 12px;
+  left: -6rem;  
+  z-index: 10;
+  width: 30rem;
+  top: 100rem;
+}
+
+.important-junhigh-text-edu {
+  position: relative;   
+  padding: 2rem;
+  border-radius: 12px;
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.1rem;
+  line-height: 1.8;
+  text-align: left;
+  top: 22rem;
+  left: -2rem;
+  width: 60rem;
+  color: #fff;
+}
+
+/* What did we gain section */
+.gain-junhigh-section-edu{
+  display: flex;
+  align-items: flex-start;
+  gap: 2rem;
+  margin: 10rem auto;   
+  max-width: 1200px;
+}
+
+.gain-junhigh-image-edu {
+  position: absolute;
+  width: 250px;   
+  height: auto;
+  border-radius: 12px;
+  right: -5rem;  
+  z-index: 10;
+  width: 30rem;
+  top: 120rem;
+}
+
+.gain-junhigh-text-edu {
+  position: relative;   
+  padding: 2rem;
+  border-radius: 12px;
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.1rem;
+  line-height: 1.8;
+  text-align: left;
+  top: 23rem;
+  left: 33rem;
+  width: 35rem;
+  color: #1b4332;
+  padding-bottom: 30rem;
+}
+
+.lab-image-edu {
+  position: absolute;
+  width: 300px;   
+  height: auto;
+  border-radius: 12px;
+  right: 30rem;  
+  z-index: 10;
+  width: 30rem;
+  top: 128rem;
+}
+}
