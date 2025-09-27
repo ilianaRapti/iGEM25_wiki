@@ -1,48 +1,70 @@
-import { Inspirations, InspirationLink } from "../components/Inspirations";
+import { useState } from "react";
+import "./education.css";
+
+// imports for education events
+import { SfhmmyEdu } from "./events-human/sfhmmy-edu";
+import { PrisonEdu } from "./events-human/prison-edu";
+import { JunhighEdu } from "./events-human/junhigh-edu";
+
+
+
 
 export function Education() {
-  const links: InspirationLink[] = [
-    { year: 2024, teamName: "CityU-HongKong", pageName: "education" },
-    { year: 2024, teamName: "CJUH-JLU-China", pageName: "education" },
-    { year: 2024, teamName: "Keystone", pageName: "education" },
-    { year: 2024, teamName: "Stanford", pageName: "education" },
-    { year: 2024, teamName: "GEMS-Taiwan", pageName: "education" },
-    { year: 2024, teamName: "Heidelberg", pageName: "education" },
-  ];
+  // add all education events here
+  const options = [SfhmmyEdu,PrisonEdu,JunhighEdu];
+
+  const [selectedEvent, setSelectedEvent] = useState<number | null>(null);
+
+  const handleSelect = (id: number) => {
+    setSelectedEvent(id);
+  };
+
+  const event = options.find((opt) => opt.id === selectedEvent);
 
   return (
-    <>
-      <div className="row mt-4">
-        <div className="col">
-          <div className="bd-callout bd-callout-info">
-            <h4>Best Education</h4>
-            <p>
-              Innovative educational tools and outreach activities have the
-              ability to establish a two-way dialogue with new communities by
-              discussing public values and the science behind synthetic biology.
-              How have you developed new opportunities to include more people in
-              shaping synthetic biology? Education activities do not have to be
-              directly related to your project but may look at wider issues of
-              iGEM or synthetic biology. Education activities must promote
-              scientific learning and avoid simply proselytizing or marketing
-              synthetic biology and/or iGEM. Document your approach, and what
-              was learned by everyone involved, to compete for this award.
-            </p>
-            <hr />
-            <p>
-              Visit the{" "}
-              <a href="https://competition.igem.org/judging/special-prizes">
-                Special Prizes page
-              </a>{" "}
-              for more information.
-            </p>
+    <div className="education-list">
+      {!selectedEvent && <h1 className="education-title">Our Educational Activities</h1>}
+
+      {!selectedEvent && (
+        <>
+          <div className="education-options">
+            {options.map((opt) => (
+              <div
+                key={opt.id}
+                className="education-option-card"
+                onClick={() => handleSelect(opt.id)}
+              >
+                <img
+                  src={opt.thumbnail}
+                  alt={opt.title}
+                  className="education-option-image"
+                />
+                <p className="education-option-title">{opt.title}</p>
+              </div>
+            ))}
+          </div>
+        </>
+      )}
+
+      {selectedEvent && event && (
+        <div
+          className="education-details-full"
+          style={{ backgroundImage: `url(${event.background})` }}
+        >
+          <div className="education-details-overlay">
+            <h2 className="education-details-title">{event.title}</h2>
+
+            <div className="education-details-text">{event.description}</div>
+
+            <button
+              className="back-to-education"
+              onClick={() => setSelectedEvent(null)}
+            >
+              Back
+            </button>
           </div>
         </div>
-      </div>
-
-      <div className="row mt-4">
-        <Inspirations inspirationLinkList={links} />
-      </div>
-    </>
+      )}
+    </div>
   );
 }
