@@ -1,7 +1,18 @@
 body {
-  padding-top: 56px;
   background-color: #d8f3dc;
 }
+
+.app-wrapper {
+  position: relative;
+}
+
+
+/* .container {
+  display: flex;
+  margin:auto;
+  align-items: center;
+  align-content: center;
+} */
 
 .left-aligned {
   margin-left: auto;
@@ -78,3 +89,12 @@ footer a:hover {
 .navbar a:hover{
   color: #823D86;
 }
+
+/*.footer-bottom-fill {
+  width: 100%;
+  height: 150px; 
+  background-image: url('https://static.igem.wiki/teams/5684/wikipics/footer/underfooter.webp');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}*/
