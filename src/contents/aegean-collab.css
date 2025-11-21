@@ -1,0 +1,95 @@
+.aegean-collab-full-row {
+  position: relative;
+  left: 50%;
+  right: 50%;
+  margin-left: -50vw;   /* pull row to full left edge */
+  margin-right: -50vw;  /* pull row to full right edge */
+  width: 100vw;         /* force row to span viewport */
+  
+  min-height: 100px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+  display: flex;
+  justify-content: center;
+}
+
+.aegean-collab-row-content {
+  max-width: 1200px;    /* match your page-container max width */
+  width: 100%;
+  padding: 2rem 3rem;   /* same as container so text aligns */
+  color: white;
+}
+
+.aegean-collab-text_color_1{
+  color:#d8f3dc
+}
+
+.aegean-collab-text_color_2{
+  color: #2d6a4f
+}
+
+.aegean-collab-special-layout_1 {
+  display: grid;
+  grid-template-columns: 2fr 1fr;   /* text 2/3, images 1/3 */
+  gap: 2rem;
+  align-items: stretch;
+}
+
+.aegean-collab-text-side {
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+}
+
+.aegean-collab-images-side {
+  display: grid;
+  grid-template-rows: 10fr 2fr;     /* top img taller than bottom */
+  gap: 1rem;
+}
+
+.aegean-collab-special-layout_2 {
+  display: grid;
+  grid-template-columns: 4fr 6fr;
+  gap: 2rem;
+  align-items: stretch;
+  margin-top: 40px;
+  margin-bottom: 70px;
+}
+
+.aegean-collab-top-img {
+  width: 100%;
+  max-width: 526px;
+}
+
+.aegean-collab-bottom-img{
+  width: 140%;
+  max-width: 526px;
+}
+
+.aegean-collab-row-spacer{
+  height: 300px;
+}
+
+/* Mobile breakpoint */
+@media (max-width: 1054px) {
+  .aegean-collab-special-layout_1 {
+    grid-template-columns: 1fr;   /* collapse to 1 column */
+  }
+
+  .aegean-collab-special-layout_2 {
+    grid-template-columns: 1fr;   /* collapse to 1 column */
+  }
+
+  .aegean-collab-images-side {
+    grid-template-rows: auto auto; /* stack naturally */
+  }
+}
+
+.aegean-collab-row1{background-image:url("https://static.igem.wiki/teams/5684/wikipics/collabs/aegean/bg-1.webp")}
+.aegean-collab-row2{background-image:url("https://static.igem.wiki/teams/5684/wikipics/collabs/aegean/bg-2.webp")}
+.aegean-collab-row3{background-image:url("https://static.igem.wiki/teams/5684/wikipics/collabs/aegean/bg-3.webp")}
+.aegean-collab-row4{background-image:url("https://static.igem.wiki/teams/5684/wikipics/collabs/aegean/bg-4.webp")}
+.aegean-collab-row5{background-image:url("https://static.igem.wiki/teams/5684/wikipics/collabs/aegean/bg-5.webp")}
+

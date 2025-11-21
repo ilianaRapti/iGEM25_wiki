@@ -1,0 +1,486 @@
+
+
+.blind-intro-section-inclu{
+  position: relative;
+  width: 90%;
+  max-width: 1200px;
+  margin: -20rem auto;
+  padding: 2rem;
+}
+
+
+.blind-intro-text-container-inclu{
+  position: relative;   
+  top: 28rem;            
+  margin-right: 320px; 
+  color: #fff;
+  background-color: #823d86;
+  padding: 2rem;
+  border-radius: 2rem;
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.2rem;
+  line-height: 1.8;
+  width: 65rem;
+  right: 1rem;
+}
+
+.intro-blind-inclu-but{
+  position: absolute;
+  width: 300px;   
+  height: auto;
+  border-radius: 12px;
+  top: -11rem;
+  right: 40rem;  
+  z-index: 10;
+}
+
+/* Organization section */
+.blind-org-section-inclu{
+  margin-top: 30rem;
+  text-align: center;
+}
+
+.org-blind-inclu-but{
+  position: absolute;
+  width: 400px;   
+  height: auto;
+  border-radius: 12px;
+  top: 33rem;
+  left: 39rem;  
+  z-index: 10;
+}
+
+.blind-org-text-container-inclu{
+  position: relative;   
+  color: #1b4332;
+  background-color: #D8F3DC;
+  padding: 2rem;
+  border-radius: 12px;
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.1rem;
+  line-height: 1.8;
+  text-align: left;
+  top: 5rem;
+  right: 1rem;
+  width: 70rem;
+  margin-bottom: 15rem;
+}
+
+
+
+/* Implementation section */
+.blind-impl-section-inclu{
+  margin-top: 4rem;
+  text-align: left;
+}
+
+.impl-blind-inclu-but{
+  position: absolute;
+  width: 300px;   
+  height: auto;
+  border-radius: 12px;
+  right: 39rem;  
+  z-index: 10;
+  width: 30rem;
+  top: 52rem;
+}
+
+.blind-impl-text-container-inclu{
+  position: absolute;
+  width: 300px;   
+  height: auto;
+  border-radius: 12px;
+  right: 5rem;  
+  z-index: 10;
+  width: 60rem;
+  top: 73rem;
+  color: #1b4332;
+}
+
+.impl-blind-inclu-img{
+  position: absolute;
+  height: auto;
+  border-radius: 12px;
+  left: 56rem;  
+  z-index: 10;
+  width: 25rem;
+  top: 65rem;
+}
+
+/*outcomes*/
+.outc-blind-inclu-but{
+  position: absolute;
+  width: 250px;   
+  height: auto;
+  border-radius: 12px;
+  right: 45rem;  
+  z-index: 10;
+  width: 30rem;
+  top: 86rem;
+}
+
+.blind-outc-text-container-inclu{
+  position: relative;   
+  padding: 2rem;
+  border-radius: 12px;
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.1rem;
+  line-height: 1.8;
+  text-align: left;
+  top: 25rem;
+  left: 15rem;
+  width: 65rem;
+  color: #1d443a;
+}
+
+
+/*why is it important part*/
+.blind-impo-section-inclu-conf{
+  display: flex;
+  align-items: flex-start;
+  gap: 2rem;
+  margin: 10rem auto;   
+  max-width: 1200px;
+}
+
+.impo-blind-inclu-but{
+  position: absolute;
+  height: auto;
+  border-radius: 12px;
+  right: 40rem;  
+  z-index: 10;
+  width: 30rem;
+  top: 103rem;
+}
+
+.blind-impo-text-container-inclu{
+  position: relative;   
+  padding: 2rem;
+  border-radius: 12px;
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.1rem;
+  line-height: 1.8;
+  text-align: left;
+  top: 29rem;
+  left: -15rem;
+  width: 40rem;
+  color: #1b4332;
+}
+
+
+.ref-blind-inclu{
+  position: absolute;
+  top: 140rem;                 
+  right: 62rem;           
+  margin-left: -12rem;  
+  width: 200px;
+  max-width: 200px;
+  background-color: #823d86;
+  padding: 1rem 1rem 0.7rem 2rem;
+  border-radius: 50px;  
+  font-size: 0.95rem;
+  line-height: 1.5;
+}
+
+.ref-blind-inclu a {
+  color: #fff;
+  text-decoration: underline;
+}
+
+
+/* What did we gain section */
+.blind-gain-section-inclu-conf{
+  display: flex;
+  align-items: flex-start;
+  gap: 2rem;
+  margin: 10rem auto;   
+  max-width: 1200px;
+}
+
+.gain-blind-inclu-but{
+  position: absolute;
+  height: auto;
+  border-radius: 12px;
+  left: 45rem;  
+  z-index: 10;
+  width: 30rem;
+  top: 103rem;
+}
+
+.blind-gain-text-container-inclu{
+  position: relative;   
+  padding: 2rem;
+  border-radius: 12px;
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.1rem;
+  line-height: 1.8;
+  text-align: left;
+  top: 1rem;
+  left: 35rem;
+  width: 60rem;
+  color: #fff;
+  padding-bottom: 18rem;
+}
+
+/*adhd version*/
+.blind-adhd-text-inclu{
+  position: relative;   
+  color: #1b4332;
+  background-color: rgba(210, 232, 222, 0.75);
+  padding: 2rem;
+  border-radius: 12px;
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.1rem;
+  line-height: 1.8;
+  text-align: left;
+  top: 2rem;            
+  left: 5rem;
+  width: 60rem;
+  border-radius: 12px;
+  padding: 3rem;
+  margin-bottom: 5rem;
+}
+
+
+/*screens*/
+@media (max-width: 1280px) {
+
+.blind-intro-section-inclu{
+  position: relative;
+  width: 90%;
+  max-width: 1200px;
+  margin: -20rem auto;
+  padding: 2rem;
+}
+
+
+.blind-intro-text-container-inclu{
+  position: relative;   
+  top: 25rem;            
+  margin-right: 320px; 
+  color: #fff;
+  background-color: #823d86;
+  padding: 2rem;
+  border-radius: 2rem;
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.2rem;
+  line-height: 1.8;
+  width: 65rem;
+  right: 1rem;
+}
+
+.intro-blind-inclu-but{
+  position: absolute;
+  width: 300px;   
+  height: auto;
+  border-radius: 12px;
+  top: -11rem;
+  right: 40rem;  
+  z-index: 10;
+}
+
+/* Organization section */
+.blind-org-section-inclu{
+  margin-top: 30rem;
+  text-align: center;
+}
+
+.org-blind-inclu-but{
+  position: absolute;
+  width: 400px;   
+  height: auto;
+  border-radius: 12px;
+  top: 33rem;
+  left: 36rem;  
+  z-index: 10;
+}
+
+.blind-org-text-container-inclu{
+  position: relative;   
+  color: #1b4332;
+  background-color: #D8F3DC;
+  padding: 2rem;
+  border-radius: 12px;
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.1rem;
+  line-height: 1.8;
+  text-align: left;
+  top: 5rem;
+  right: 3rem;
+  width: 70rem;
+  margin-bottom: 15rem;
+}
+
+
+
+/* Implementation section */
+.blind-impl-section-inclu{
+  margin-top: 4rem;
+  text-align: left;
+}
+
+.impl-blind-inclu-but{
+  position: absolute;
+  height: auto;
+  border-radius: 12px;
+  right: 39rem;  
+  z-index: 10;
+  width: 25rem;
+  top: 54rem;
+}
+
+.blind-impl-text-container-inclu{
+  position: absolute;
+  height: auto;
+  border-radius: 12px;
+  right: 12rem;  
+  z-index: 10;
+  width: 55rem;
+  top: 72rem;
+  color: #1b4332;
+}
+
+.impl-blind-inclu-img{
+  position: absolute;
+  height: auto;
+  border-radius: 12px;
+  left: 50rem;  
+  z-index: 10;
+  width: 20rem;
+  top: 69rem;
+}
+
+/*outcomes*/
+.outc-blind-inclu-but{
+  position: absolute;
+  height: auto;
+  border-radius: 12px;
+  right: 43rem;  
+  z-index: 10;
+  width: 25rem;
+  top: 85rem;
+}
+
+.blind-outc-text-container-inclu{
+  position: relative;   
+  padding: 2rem;
+  border-radius: 12px;
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.1rem;
+  line-height: 1.8;
+  text-align: left;
+  top: 21rem;
+  left: 20rem;
+  width: 45rem;
+  color: #D8F3DC;
+  background-color: #1b4332;
+}
+
+
+/*why is it important part*/
+.blind-impo-section-inclu-conf{
+  display: flex;
+  align-items: flex-start;
+  gap: 2rem;
+  margin: 10rem auto;   
+  max-width: 1200px;
+}
+
+.impo-blind-inclu-but{
+  position: absolute;
+  height: auto;
+  border-radius: 12px;
+  right: 42rem;  
+  z-index: 10;
+  width: 25rem;
+  top: 99rem;
+}
+
+.blind-impo-text-container-inclu{
+  position: relative;   
+  padding: 2rem;
+  border-radius: 12px;
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.1rem;
+  line-height: 1.8;
+  text-align: left;
+  top: 13rem;
+  left: -10rem;
+  width: 40rem;
+  color: #1b4332;
+}
+
+
+.ref-blind-inclu{
+  position: absolute;
+  top: 132rem;                 
+  right: 55rem;           
+  margin-left: -12rem;  
+  width: 200px;
+  max-width: 200px;
+  background-color: #823d86;
+  padding: 1rem 1rem 0.7rem 2rem;
+  border-radius: 50px;  
+  font-size: 0.95rem;
+  line-height: 1.5;
+}
+
+.ref-blind-inclu a {
+  color: #fff;
+  text-decoration: underline;
+}
+
+
+/* What did we gain section */
+.blind-gain-section-inclu-conf{
+  display: flex;
+  align-items: flex-start;
+  gap: 2rem;
+  margin: 10rem auto;   
+}
+
+.gain-blind-inclu-but{
+  position: absolute;
+  height: auto;
+  border-radius: 12px;
+  left: 37rem;  
+  z-index: 10;
+  width: 30rem;
+  top: 110rem;
+}
+
+.blind-gain-text-container-inclu{
+  position: relative;   
+  padding: 2rem;
+  border-radius: 12px;
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.1rem;
+  line-height: 1.8;
+  text-align: left;
+  top: -1rem;
+  left: 20rem;
+  width: 45rem;
+  color: #D8F3DC;
+  background-color: #1b4332;
+  margin-bottom: 14rem;
+}
+
+/*adhd version*/
+.blind-adhd-text-inclu{
+  position: relative;   
+  color: #1b4332;
+  background-color: rgba(210, 232, 222, 0.75);
+  padding: 2rem;
+  border-radius: 12px;
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.1rem;
+  line-height: 1.8;
+  text-align: left;
+  top: 2rem;            
+  left: 5rem;
+  width: 60rem;
+  border-radius: 12px;
+  padding: 3rem;
+  margin-bottom: 5rem;
+}
+}

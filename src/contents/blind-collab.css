@@ -1,0 +1,242 @@
+
+
+.blind1-section-coll {
+  position: relative;
+  width: 90%;
+  max-width: 1200px;
+  padding: 2rem;
+  margin: 7rem auto;
+  
+}
+
+.blind1-text-container-coll{
+    position: relative;   
+    top: 1rem;            
+    color: #fff;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.2rem;
+    line-height: 1.8;
+    width: 70rem;
+    right: 10rem;
+    top: -5rem;
+    border-radius: 12px;
+    padding: 3rem;
+
+}
+
+
+
+.blind2-section-coll {
+  text-align: center;
+}
+
+.blind2-text-coll{
+    position: relative;   
+    color: #1b4332;
+    padding: 2rem;
+    border-radius: 12px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.1rem;
+    line-height: 1.8;
+    text-align: left;
+    top: -5rem;            
+    right: 10rem;
+    width: 50rem;
+    border-radius: 12px;
+    padding: 3rem;
+}
+
+.blind3-text-coll{
+    position: relative;   
+    color: #1b4332;
+    padding: 2rem;
+    border-radius: 12px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.1rem;
+    line-height: 1.8;
+    text-align: left;
+    top: -5rem;            
+    right: 8rem;
+    width: 50rem;
+    border-radius: 12px;
+}
+
+
+.blind-img-coll{
+  position: absolute;
+  width: 450px;   
+  height: auto;
+  border-radius: 12px;
+  top: 16rem;
+  left: 40rem;  
+  z-index: 10;
+}
+
+
+/*screens*/
+@media (max-width: 1280px) {
+
+.blind1-section-coll {
+  position: relative;
+  width: 90%;
+  max-width: 1200px;
+  padding: 2rem;
+  margin: -1rem auto;
+  
+}
+
+.blind1-text-container-coll{
+    position: relative;   
+    top: 1rem;            
+    color: #fff;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.2rem;
+    line-height: 1.8;
+    width: 70rem;
+    right: 10rem;
+    top: -1rem;
+    border-radius: 12px;
+    padding: 3rem;
+
+}
+
+
+
+.blind2-section-coll {
+  text-align: center;
+}
+
+.blind2-text-coll{
+    position: relative;   
+    color: #1b4332;
+    padding: 2rem;
+    border-radius: 12px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.1rem;
+    line-height: 1.8;
+    text-align: left;
+    top: -1rem;            
+    right: 10rem;
+    width: 50rem;
+    border-radius: 12px;
+    padding: 3rem;
+}
+
+.blind3-text-coll{
+    position: relative;   
+    color: #fff;
+    padding: 2rem;
+    border-radius: 12px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.1rem;
+    line-height: 1.8;
+    text-align: left;
+    top: -1rem;            
+    right: 8rem;
+    width: 50rem;
+    border-radius: 12px;
+}
+
+.blind-img-coll{
+  position: absolute;
+  width: 450px;   
+  height: auto;
+  border-radius: 12px;
+  top: 17rem;
+  left: 40rem;  
+  z-index: 10;
+}
+
+}
+
+
+
+/* Tablets */
+@media (max-width: 1024px) {
+  .blind1-section-coll {
+    width: 94%;
+    margin: 2rem auto;
+    padding: 1.25rem;
+  }
+
+  .blind1-text-container-coll,
+  .blind2-text-coll,
+  .blind3-text-coll {
+    position: static;
+    width: 100%;
+    max-width: 100%;
+    margin: 0 auto 1.25rem;
+    padding: 1.25rem 1rem;
+    box-sizing: border-box;
+    border-radius: 12px;
+  }
+
+  .blind1-text-container-coll {
+    background: rgba(130, 61, 134, 0.9); /* soft purple bg */
+    color: #fff;
+  }
+
+  .blind2-text-coll,
+  .blind3-text-coll {
+    background: rgba(240, 249, 245, 0.9); /* light green/white bg */
+    color: #1b4332;
+  }
+
+  .blind2-section-coll,
+  .blind3-section-coll {
+    margin-top: 2rem;
+    text-align: left;
+  }
+
+  .blind-img-coll {
+    position: static;
+    display: block;
+    width: 100%;
+    height: auto;
+    max-width: 100%;
+    margin: 0.75rem auto;
+    border-radius: 12px;
+  }
+}
+
+/* Mobiles */
+@media (max-width: 768px) {
+  .blind1-section-coll {
+    width: 92%;
+    margin: 1.5rem auto;
+    padding: 1rem;
+  }
+
+  .blind1-text-container-coll,
+  .blind2-text-coll,
+  .blind3-text-coll {
+    margin-bottom: 1rem;
+    padding: 1rem 0.9rem;
+    font-size: 1rem;
+    line-height: 1.7;
+    word-break: break-word;
+  }
+
+  .blind2-section-coll,
+  .blind3-section-coll {
+    margin-top: 1rem;
+  }
+
+  .blind-img-coll {
+    margin-top: 0.5rem;
+  }
+}
+
+/* Very small phones */
+@media (max-width: 480px) {
+  .blind1-section-coll {
+    width: 95%;
+  }
+
+  .blind1-text-container-coll,
+  .blind2-text-coll,
+  .blind3-text-coll {
+    padding: 0.9rem 0.85rem;
+    font-size: 0.98rem;
+  }
+}

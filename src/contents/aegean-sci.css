@@ -1,0 +1,63 @@
+.aegean-sci-full-row {
+  position: relative;
+  left: 50%;
+  right: 50%;
+  margin-left: -50vw;
+  margin-right: -50vw; 
+  width: 100vw;         
+  
+  min-height: 100px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+  display: flex;
+  justify-content: center;
+}
+
+.aegean-sci-row-content {
+  max-width: 1200px;
+  width: 100%;
+  padding: 2rem 3rem;
+  color: white;
+}
+
+.aegean-sci-special-layout_1 {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  gap: 2rem;
+  align-items: stretch;
+}
+
+.aegean-sci-bottom-img{
+  width: 60%;
+  max-width: 526px;
+}
+
+.aegean-sci-top-img {
+  width: 100%;
+  max-width: 526px;
+}
+
+.aegean-sci-text_color_1{
+  color:#d8f3dc
+}
+
+.aegean-sci-text_color_2{
+  color: #2d6a4f
+}
+
+.aegean-sci-row1{background-image:url("https://static.igem.wiki/teams/5684/wikipics/science-communication/aegean/bg-6.webp")}
+.aegean-sci-row2{background-image:url("https://static.igem.wiki/teams/5684/wikipics/science-communication/aegean/bg-7.webp")}
+.aegean-sci-row3{background-image:url("https://static.igem.wiki/teams/5684/wikipics/science-communication/aegean/bg-8.webp")}
+
+/* Mobile breakpoint */
+@media (max-width: 1054px) {
+  .aegean-sci-special-layout_1 {
+    grid-template-columns: 1fr;   /* collapse to 1 column */
+  }
+
+  .aegean-sci-images-side {
+    grid-template-rows: auto auto; /* stack naturally */
+  }
+}

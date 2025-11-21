@@ -1,0 +1,197 @@
+
+
+.blind1-section-sci {
+  position: relative;
+  width: 90%;
+  max-width: 1200px;
+  padding: 2rem;
+}
+
+
+.blind1-text-container-sci{
+  position: relative;   
+  color: #1b4332;
+  background-color: rgba(210, 232, 222, 0.75);
+  padding: 2rem;
+  border-radius: 12px;
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.1rem;
+  line-height: 1.8;
+  text-align: left;
+  top: 2rem;            
+  right: 5rem;
+  width: 65rem;
+  border-radius: 12px;
+  padding: 3rem;
+}
+
+.blind-img1-sci{
+  position: absolute;
+  width: 500px;   
+  height: auto;
+  border-radius: 12px;
+  top: 22rem;
+  left: 42rem;  
+  z-index: 10;
+}
+
+/* Organization section */
+.blind2-section-sci-conf {
+  text-align: center;
+}
+
+.blind2-text-sci-conf {
+  position: relative;   
+  color: #1b4332;
+  background-color: rgba(210, 232, 222, 0.75);  padding: 2rem;
+  border-radius: 12px;
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.1rem;
+  line-height: 1.8;
+  text-align: left;
+  top: 5rem;
+  right: 10rem;
+  width: 50rem;
+  margin-bottom: 10rem;
+}
+
+
+/*screens*/
+@media (max-width: 1280px) {
+.blind1-section-sci {
+  position: relative;
+  width: 90%;
+  max-width: 1200px;
+  padding: 2rem;
+}
+
+
+.blind1-text-container-sci{
+  position: relative;   
+  color: #1b4332;
+  background-color: rgba(210, 232, 222, 0.75);
+  padding: 2rem;
+  border-radius: 12px;
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.1rem;
+  line-height: 1.8;
+  text-align: left;
+  top: 2rem;            
+  right: 1rem;
+  width: 65rem;
+  border-radius: 12px;
+  padding: 3rem;
+}
+
+.blind-img1-sci{
+  position: absolute;
+  width: 500px;   
+  height: auto;
+  border-radius: 12px;
+  top: 22rem;
+  left: 42rem;  
+  z-index: 10;
+}
+
+/* Organization section */
+.blind2-section-sci-conf {
+  text-align: center;
+}
+
+.blind2-text-sci-conf {
+  position: relative;   
+  color: #1b4332;
+  background-color: rgba(210, 232, 222, 0.75);  padding: 2rem;
+  border-radius: 12px;
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.1rem;
+  line-height: 1.8;
+  text-align: left;
+  top: 5rem;
+  right: 5rem;
+  width: 45rem;
+  margin-bottom: 10rem;
+}
+}
+
+
+
+
+/* ---------- Tablet (≤1024px) ---------- */
+@media (max-width: 1024px) {
+  .blind1-section-sci {
+    width: 94%;
+    margin: 0 auto 2rem;
+    padding: 1.5rem;
+  }
+
+  /* make cards full-width; remove offsets */
+  .blind1-text-container-sci,
+  .blind2-text-sci-conf {
+    position: static;
+    top: auto; right: auto; left: auto;
+    width: 100%;
+    max-width: 100%;
+    margin: 0 auto 1.75rem;
+    padding: 2rem;
+    font-size: 1.05rem;
+    line-height: 1.8;
+    border-radius: 12px;
+    overflow-wrap: anywhere;
+  }
+
+  /* image becomes fluid, centered, stacked */
+  .blind-img1-sci {
+    position: static;
+    display: block;
+    width: 100%;
+    max-width: 560px;
+    height: auto;
+    border-radius: 12px;
+    margin: 0 auto 1.75rem;
+  }
+}
+
+/* ---------- Large phones / Small tablets (≤768px) ---------- */
+@media (max-width: 768px) {
+  .blind1-section-sci {
+    width: 96%;
+    padding: 1rem;
+  }
+
+  .blind1-text-container-sci,
+  .blind2-text-sci-conf {
+    padding: 1.25rem 1rem;
+    font-size: 1rem;
+    line-height: 1.7;
+    border-radius: 12px;
+    margin-bottom: 1.25rem;
+  }
+
+  .blind-img1-sci {
+    max-width: 440px;
+    margin-bottom: 1.25rem;
+  }
+}
+
+/* ---------- Small phones (≤480px) ---------- */
+@media (max-width: 480px) {
+  .blind1-section-sci {
+    width: 98%;
+    padding: 0.75rem;
+  }
+
+  .blind1-text-container-sci,
+  .blind2-text-sci-conf {
+    padding: 1rem 0.875rem;
+    font-size: 0.95rem;
+    line-height: 1.65;
+    border-radius: 10px;
+    margin-bottom: 1rem;
+  }
+
+  .blind-img1-sci {
+    max-width: 100%;
+    margin-bottom: 1rem;
+  }
+}
