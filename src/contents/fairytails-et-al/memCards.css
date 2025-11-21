@@ -1,0 +1,9 @@
+/*whole page as image for memory cards lab legends*/
+.everything-img-mem{
+  width: 100%;
+  height: 100%;
+  object-fit: cover; 
+  display: block;
+  margin-top: -20rem;
+}
+

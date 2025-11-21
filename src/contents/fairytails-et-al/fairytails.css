@@ -1,0 +1,928 @@
+.fairytails-section {
+  position: relative;
+  width: 90%;
+  max-width: 1200px;
+  margin: 2rem auto;
+  padding: 2rem;
+}
+
+.introduction-fairytails{
+  position: absolute;
+  width: 300px;   
+  height: auto;
+  border-radius: 12px;
+  top: -4rem;
+  right: 43rem;  
+  z-index: 10;
+}
+
+.fairytails-text-container{
+  position: relative;   
+  top: 7rem;            
+  margin-right: 320px; 
+  color: #1b4332;
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.2rem;
+  line-height: 1.8;
+  width: 70rem;
+}
+
+/* Organization section */
+.organization-section-fairytails {
+  margin-top: 4rem;
+  text-align: center;
+}
+
+.organization-image-fairytails {
+  position: absolute;
+  width: 300px;   
+  height: auto;
+  border-radius: 12px;
+  top: 20rem;
+  right: 45rem;  
+  z-index: 10;
+}
+
+.organization-text-fairytails {
+  position: relative;   
+  background: #823d86;
+  color: white;
+  padding: 2rem;
+  border-radius: 12px;
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.1rem;
+  line-height: 1.8;
+  text-align: left;
+  top: 10rem;
+  right: 1rem;
+  width: 70rem;
+}
+
+.organization-text-fairytails ul {
+  margin-left: 1.5rem;
+  list-style: disc;
+}
+
+/* Implementation section */
+.implementation-section-fairytails {
+  margin-top: 4rem;
+}
+
+.implementation-image-fairytails {
+  position: absolute;
+  width: 300px;   
+  height: auto;
+  border-radius: 12px;
+  right: 50rem;  
+  z-index: 10;
+  width: 30rem;
+  top: 58rem;
+}
+
+.impl-block-fairytails {
+  padding: 1rem;
+  font-size: 1.1rem;
+  line-height: 1.8;
+}
+
+.impl-block-fairytails.center {
+  position: relative;
+  color: #1b4332;
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.2rem;
+  line-height: 1.8;
+  width: 80rem;
+  top: 20rem;
+  right: 5rem;
+}
+
+.impl-block-fairytails.center ul {
+  list-style: disc;    
+  padding-left: 1.5rem;  
+  margin: 0;
+}
+
+.impl-block-fairytails.center li {
+  margin-bottom: 0.8rem;
+}
+
+
+/*outcome part*/
+.outcomes-image-fairytails {
+  position: absolute;
+  width: 250px;   
+  height: auto;
+  border-radius: 12px;
+  left: 25rem;  
+  z-index: 10;
+  width: 30rem;
+  top: 95rem;
+}
+
+.outcomes-text-fairytails {
+  position: relative;   
+  padding: 2rem;
+  border-radius: 12px;
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.1rem;
+  line-height: 1.8;
+  text-align: left;
+  top: 30rem;
+  right: 10rem;
+  width: 90rem;
+  color: #1b4332;
+}
+
+.outcomes-images-row {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30rem; 
+  gap: 1rem; 
+}
+
+.small-outcome-image {
+    width: 40%; 
+    height: auto;
+    object-fit: cover;
+    transition: transform 0.3s ease;
+}
+
+.small-outcome-image:hover {
+  transform: scale(1.05);
+}
+
+.covers-container {
+    background-color: #dcefe3; 
+    border-radius: 50px;      
+    padding: 0.2rem 1.5rem;    
+    margin: 1rem auto;     
+    text-align: center;        
+    color: #1b4332;               
+    font-family: 'Poppins', sans-serif;
+    font-size: 1rem;            
+    max-width: 40rem;           
+}
+.covers-container p {
+  margin-top: 1rem; 
+}
+
+
+
+/*why is it important part*/
+.important-section-fairytails {
+  display: flex;
+  align-items: flex-start;
+  gap: 2rem;
+  margin: 10rem auto;   
+  max-width: 1200px;
+}
+
+.important-image-fairytails {
+  position: absolute;
+  height: auto;
+  border-radius: 12px;
+  right: 16rem;  
+  z-index: 10;
+  width: 30rem;
+  bottom: 32rem;
+}
+
+.important-text-fairytails {
+  position: relative;   
+  padding: 2rem;
+  border-radius: 12px;
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.1rem;
+  line-height: 1.8;
+  text-align: left;
+  bottom: -3rem;
+  left: 1rem;
+  width: 70rem;
+  color: #1b4332;
+}
+
+/* What did we gain section */
+.gain-section-fairytails {
+  display: flex;
+  align-items: flex-start;
+  gap: 2rem;
+  margin: 10rem auto;   
+  max-width: 1200px;
+}
+
+.gain-image-fairytails {
+  position: absolute;
+  width: 250px;   
+  height: auto;
+  border-radius: 12px;
+  right: 35rem;  
+  z-index: 10;
+  width: 30rem;
+  top: 175rem;
+}
+
+.gain-text-fairytails {
+  position: relative;   
+  padding: 2rem;
+  border-radius: 12px;
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.1rem;
+  line-height: 1.8;
+  text-align: left;
+  top: 4rem;
+  left: 5rem;
+  width: 60rem;
+  color: #1b4332;
+  padding-bottom: 0rem;
+}
+
+/*for languages button*/
+.languages-tales-text-container{
+  position: relative;   
+  color: #1b4332;
+  background-color: #dcefe3;
+  padding: 2rem;
+  border-radius: 12px;
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.1rem;
+  line-height: 1.8;
+  text-align: center;
+  top: 1rem;            
+  left: -1rem;
+  width: 65rem;
+  border-radius: 12px;
+  padding: 3rem;
+}
+
+.languages-tales-ref-container{
+  position: absolute;
+  top: 79rem;                 
+  left: 89rem;           
+  margin-left: -12rem;  
+  width: 200px;
+  max-width: 200px;
+  background-color: #dcefe3;
+  padding: 1rem 1rem 1rem 0.1rem;
+  border-radius: 50px;  
+  font-size: 0.95rem;
+  line-height: 1.5;
+  color: #1b4332;
+
+}
+
+.languages-tales-ref-container a {
+  color: #1b4332;
+  text-decoration: underline;
+}
+
+.language-toggle-button {
+  background: none;       
+  border: none;           
+  cursor: pointer;        
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0;           
+  transition: transform 0.2s ease; 
+}
+
+.language-toggle-button:hover {
+  transform: scale(1.1);  
+}
+
+.language-toggle-button img {
+  width: 20rem;  
+  height: 20rem;
+  object-fit: contain;
+}
+
+/**/
+.braille-toggle-button {
+  background: none;       
+  border: none;           
+  cursor: pointer;        
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0;           
+  transition: transform 0.2s ease; 
+}
+
+.braille-toggle-button:hover {
+  transform: scale(1.1);  
+}
+
+.braille-toggle-button img {
+  width: 20rem;  
+  height: 20rem;
+  object-fit: contain;
+}
+
+/**/
+.audio-toggle-button {
+  background: none;       
+  border: none;           
+  cursor: pointer;        
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0;           
+  transition: transform 0.2s ease; 
+}
+
+.audio-toggle-button:hover {
+  transform: scale(1.1);  
+}
+
+.audio-toggle-button img {
+  width: 20rem;  
+  height: 20rem;
+  object-fit: contain;
+}
+
+
+
+/**/
+.sign-toggle-button {
+  background: none;       
+  border: none;           
+  cursor: pointer;        
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0;           
+  transition: transform 0.2s ease; 
+}
+
+.sign-toggle-button:hover {
+  transform: scale(1.1);  
+}
+
+.sign-toggle-button img {
+  width: 20rem;  
+  height: 20rem;
+  object-fit: contain;
+}
+
+/*for braille button content*/
+.braille-text-section{
+  position: relative;   
+  color: #1b4332;
+  background-color: #dcefe3;
+  padding: 2rem;
+  border-radius: 12px;
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.1rem;
+  line-height: 1.8;
+  text-align: center;
+  top: 1rem;            
+  left: 5rem;
+  width: 65rem;
+  border-radius: 12px;
+  padding: 3rem;
+  margin-bottom: 20rem;
+}
+
+.braille-tales-ref-container{
+  position: absolute;
+  top: 27rem;                 
+  right: 50rem;           
+  width: 200px;
+  max-width: 200px;
+  background-color: #dcefe3;
+  padding: 1rem 1rem 1rem 2rem;
+  border-radius: 50px;  
+  font-size: 0.95rem;
+  line-height: 1.5;
+  color: #1b4332;
+
+}
+
+.braille-tales-ref-container a {
+  color: #1b4332;
+  text-decoration: underline;
+}
+
+.braille-img-fairytales{
+  position: absolute;
+  height: auto;
+  border-radius: 12px;
+  top: 25rem;
+  left: 50rem;
+  width: 30rem;  
+  z-index: 10;
+}
+
+/*audiobook*/
+.audiobook-text-section{
+  position: relative;   
+  color: #1b4332;
+  background-color: #dcefe3;
+  padding: 2rem;
+  border-radius: 12px;
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.1rem;
+  line-height: 1.8;
+  text-align: center;
+  top: 1rem;            
+  left: 5rem;
+  width: 70rem;
+  border-radius: 12px;
+  padding: 3rem;
+  margin-bottom: 5rem;
+}
+
+.audio-tales-ref-container{
+  position: absolute;
+  top: 19rem;                 
+  left: 62rem;           
+  width: 200px;
+  max-width: 200px;
+  background-color: #dcefe3;
+  padding: 1rem 1rem 1rem 4rem;
+  border-radius: 50px;  
+  font-size: 0.95rem;
+  line-height: 1.5;
+  color: #1b4332;
+
+}
+.audio-tales-ref-container a {
+  color: #1b4332;
+  text-decoration: underline;
+}
+
+/*for audiobook icon*/
+.audiobook-img-icon{
+  position: absolute;
+  width: 15rem;   
+  height: auto;
+  border-radius: 12px;
+  top: 15rem;
+  right: 63rem;  
+  z-index: 10;
+}
+
+.audio-lang-buttons {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+  margin: 20px 0;
+}
+
+.audio-lang-button {
+  background-color: #D8F3DC;
+  border: 2px solid #52B788;
+  color: #40916C;
+  border-radius: 10px;
+  padding: 8px 16px;
+  cursor: pointer;
+  font-weight: 600;
+  transition: 0.2s;
+}
+
+.audio-lang-button:hover {
+  background-color: #95D5B2;
+}
+
+.audio-lang-button.active {
+  background-color: #823d86;
+  color: white;
+}
+
+
+
+/*sign language*/
+.sign-text-section{
+  position: relative;   
+  color: #1b4332;
+  background-color: #dcefe3;
+  padding: 2rem;
+  border-radius: 12px;
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.1rem;
+  line-height: 1.8;
+  text-align: center;
+  top: 1rem;            
+  left: 5rem;
+  width: 70rem;
+  border-radius: 12px;
+  padding: 3rem;
+}
+
+.sign-tales-ref-container{
+  position: absolute;
+  top: 20rem;                 
+  left: 66rem;           
+  width: 200px;
+  max-width: 200px;
+  background-color: #dcefe3;
+  padding: 1rem 1rem 1rem 2rem;
+  border-radius: 50px;  
+  font-size: 0.95rem;
+  line-height: 1.5;
+  color: #1b4332;
+
+}
+.sign-tales-ref-container a {
+  color: #1b4332;
+  text-decoration: underline;
+}
+.video-container-sign {
+  position: relative;
+  width: 100vw;
+  height: 40vh;  
+  overflow: hidden;
+  top: 2rem;
+  left: 20rem;  
+}
+
+
+
+
+
+
+/*screens*/
+@media (max-width: 1280px) {
+.introduction-fairytails{
+  position: absolute;
+  width: 300px;   
+  height: auto;
+  border-radius: 12px;
+  top: 1rem;
+  right: 43rem;  
+  z-index: 10;
+}
+
+.fairytails-text-container {
+  position: relative;   
+  top: 15rem;
+  left: 5rem;          
+  margin-right: 320px; 
+  color: #1b4332;
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.2rem;
+  line-height: 1.8;
+  width: 60rem;
+}
+
+.organization-image-fairytails {
+  position: absolute;
+  width: 300px;   
+  height: auto;
+  border-radius: 12px;
+  top: 37rem;
+  right: 45rem;  
+  z-index: 10;
+}
+
+.organization-text-fairytails {
+  position: relative;   
+  background: #823d86;
+  color: white;
+  padding: 2rem;
+  border-radius: 12px;
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.1rem;
+  line-height: 1.8;
+  text-align: left;
+  top: 25rem;
+  right: 1rem;
+  width: 70rem;
+}
+
+/* Implementation section */
+.implementation-section-fairytails {
+  margin-top: 4rem;
+  text-align: center;
+}
+
+.implementation-image-fairytails {
+  position: absolute;
+  height: auto;
+  border-radius: 12px;
+  z-index: 10;
+  width: 25rem;
+  top: 76rem;
+  right: 40rem;
+}
+
+.impl-block-fairytails.center {
+  text-align: left;
+  position: absolute;   
+  right: -8rem;
+  width: 70rem;
+  top: 68rem;
+}
+
+.impl-block-fairytails.center {
+  position: relative;
+  color: #1b4332;
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.2rem;
+  line-height: 1.8;
+  width: 70rem;
+  top: 35rem;
+  right: -1rem;
+}
+
+.impl-block-fairytails.center ul {
+  list-style: disc;    
+  padding-left: 1.5rem;  
+  margin: 0;
+}
+
+.impl-block-fairytails.center li {
+  margin-bottom: 0.8rem;
+}
+
+/*outcome part*/
+.outcomes-image-fairytails {
+  position: absolute;
+  height: auto;
+  border-radius: 12px;
+  left: 25rem;  
+  z-index: 10;
+  width: 25rem;
+  top: 120rem;
+}
+
+.outcomes-text-fairytails {
+  position: relative;   
+  padding: 2rem;
+  border-radius: 12px;
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.1rem;
+  line-height: 1.8;
+  text-align: left;
+  top: 50rem;
+  right: 1rem;
+  width: 70rem;
+  color: #1b4332;
+}
+
+.small-outcome-image {
+    width: 18rem;
+    margin-top: 20rem;      
+} 
+
+/*why is it important part*/
+.important-image {
+  position: absolute;
+  width: 250px;   
+  height: auto;
+  border-radius: 12px;
+  right: 15rem;  
+  z-index: 10;
+  width: 25rem;
+  top: 208rem;
+}
+
+.important-text {
+  position: relative;   
+  padding: 2rem;
+  border-radius: 12px;
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.1rem;
+  line-height: 1.8;
+  text-align: left;
+  top: -1rem;
+  left: 5rem;
+  width: 60rem;
+  color: #1b4332;
+}
+
+/* What did we gain section */
+.gain-section-fairytails {
+  display: flex;
+  align-items: flex-start;
+  gap: 2rem;
+  margin: 10rem auto;   
+  max-width: 1200px;
+}
+
+.gain-image-fairytails {
+  position: absolute;
+  width: 250px;   
+  height: auto;
+  border-radius: 12px;
+  right: 22rem;  
+  z-index: 10;
+  width: 30rem;
+  top: 195rem;
+}
+
+.gain-text-fairytails {
+  position: relative;   
+  padding: 2rem;
+  border-radius: 12px;
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.1rem;
+  line-height: 1.8;
+  text-align: left;
+  top: 4rem;
+  left: 5rem;
+  width: 60rem;
+  color: #1b4332;
+  padding-bottom: 0rem;
+}
+}
+
+/* --- TABLET/MOBILE OVERRIDES: ONLY fairytails-inclusivity --- */
+@media (max-width: 1024px) {
+  .fairytails-section { padding: 1rem; }
+
+  .introduction-fairytails,
+  .organization-image-fairytails,
+  .implementation-image-fairytails,
+  .outcomes-image-fairytails,
+  .important-image-fairytails,
+  .gain-image-fairytails {
+    position: static;
+    width: 100%;
+    max-width: 28rem;
+    height: auto;
+    margin: 0 auto 1rem;
+    display: block;
+  }
+
+  .fairytails-text-container,
+  .organization-text-fairytails,
+  .impl-block-fairytails.center,
+  .outcomes-text-fairytails,
+  .important-text-fairytails,
+  .gain-text-fairytails,
+  .languages-tales-text-container {
+    position: static;
+    top: auto; right: auto; left: auto; bottom: auto;
+    width: 100%;
+    margin: 0 auto 1.25rem;
+    font-size: 1rem;
+    padding: 1.25rem;
+  }
+
+  /* make standalone text sections fluid on tablet */
+  .braille-text-section,
+  .guide-braille-text-section,
+  .audiobook-text-section,
+  .sign-text-section {
+    position: static;
+    left: auto; top: auto;
+    width: 100%;
+    padding: 1.25rem;
+    margin: 0 0 1.25rem 0;
+  }
+
+  .organization-section-fairytails,
+  .implementation-section-fairytails,
+  .important-section-fairytails,
+  .gain-section-fairytails {
+    display: block;
+    margin: 2rem auto;
+    text-align: left;
+  }
+
+  .outcomes-images-row {
+    margin-top: 1.5rem;
+    gap: .75rem;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  .small-outcome-image {
+    width: calc(50% - .75rem);
+    max-width: 20rem;
+  }
+
+  .covers-container { 
+    max-width: 100%;
+    font-size: .95rem;
+    border-radius: 24px;
+  }
+
+  /* previously absolutely-positioned “ref” bubbles become normal blocks */
+  .languages-tales-ref-container,
+  .braille-tales-ref-container,
+  .braille-tales-ref2-container,
+  .audio-tales-ref-container,
+  .sign-tales-ref-container {
+    position: static;
+    width: 100%;
+    max-width: 100%;
+    margin: .75rem auto 0;
+    border-radius: 16px;
+    padding: 1rem 1.25rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .fairytails-section { padding: .75rem; }
+
+  .introduction-fairytails,
+  .organization-image-fairytails,
+  .implementation-image-fairytails,
+  .outcomes-image-fairytails,
+  .important-image-fairytails,
+  .gain-image-fairytails {
+    max-width: 22rem;
+  }
+
+  .fairytails-text-container,
+  .organization-text-fairytails,
+  .impl-block-fairytails.center,
+  .outcomes-text-fairytails,
+  .important-text-fairytails,
+  .gain-text-fairytails,
+  .languages-tales-text-container,
+  /* NEW: tighten padding on the standalone sections for small phones */
+  .braille-text-section,
+  .guide-braille-text-section,
+  .audiobook-text-section,
+  .sign-text-section {
+    font-size: .95rem;
+    line-height: 1.7;
+    padding: 1rem;
+  }
+
+  .outcomes-images-row { gap: .5rem; }
+  .small-outcome-image { width: 100%; max-width: 28rem; }
+
+  .covers-container { font-size: .9rem; border-radius: 20px; }
+}
+
+
+/* Put the "Introduction" title image ABOVE the text on tablet/mobile */
+@media (max-width: 1024px) {
+  .fairytails-section {
+    display: grid;
+    grid-auto-flow: row;
+    gap: 1rem;
+  }
+  .introduction-fairytails { grid-row: 1; }
+  .fairytails-text-container { grid-row: 2; }
+}
+
+@media (max-width: 768px) {
+  .introduction-fairytails { grid-row: 1; }
+  .fairytails-text-container { grid-row: 2; }
+}
+
+
+/* Reduce space between titles and their textboxes on tablet/mobile */
+@media (max-width: 1024px) {
+  /* reduce grid row gap introduced earlier */
+  .fairytails-section { gap: 0.25rem !important; }
+
+  /* squeeze space below title images */
+  img.introduction-fairytails,
+  .organization-image-fairytails,
+  .implementation-image-fairytails,
+  .outcomes-image-fairytails,
+  .important-image-fairytails,
+  .gain-image-fairytails {
+    margin-bottom: 0.2rem !important;
+  }
+
+  /* remove extra space above text boxes */
+  .fairytails-text-container,
+  .organization-text-fairytails,
+  .impl-block-fairytails.center,
+  .outcomes-text-fairytails,
+  .important-text-fairytails,
+  .gain-text-fairytails,
+  /* NEW: also apply to the standalone sections */
+  .braille-text-section,
+  .guide-braille-text-section,
+  .audiobook-text-section,
+  .sign-text-section {
+    margin-top: 0 !important;
+    padding-top: 0.5rem !important;
+  }
+}
+
+@media (max-width: 768px) {
+  .fairytails-section { gap: 0.2rem !important; }
+
+  img.introduction-fairytails,
+  .organization-image-fairytails,
+  .implementation-image-fairytails,
+  .outcomes-image-fairytails,
+  .important-image-fairytails,
+  .gain-image-fairytails {
+    margin-bottom: 0.15rem !important;
+  }
+
+  .fairytails-text-container,
+  .organization-text-fairytails,
+  .impl-block-fairytails.center,
+  .outcomes-text-fairytails,
+  .important-text-fairytails,
+  .gain-text-fairytails,
+  .braille-text-section,
+  .guide-braille-text-section,
+  .audiobook-text-section,
+  .sign-text-section {
+    margin-top: 0 !important;
+    padding-top: 0.4rem !important;
+  }
+}
