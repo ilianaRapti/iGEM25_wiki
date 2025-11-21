@@ -1,0 +1,518 @@
+#our-journey-container {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.our-journey-panel-1 {
+    font-size: 1.2rem;
+    text-align: left;
+    font-family: 'Poppins', sans-serif;
+    color: #D8F3DC;
+    border: 10px;
+    padding: 1rem;
+    background-color: #927951;
+    border-radius: 20px;
+}
+
+#our-journey-title-panel-1 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    color: #927951;
+    border: 10px;
+    padding: 1rem;
+    background-color: #bbd9ca;
+    border-radius: 20px;
+}
+
+#our-journey-panel-1 {
+    display: flex;
+    flex-direction: row;
+    background-image: url("https://static.igem.wiki/teams/5684/wikipics/entrepreneurship/journey-bg-1.webp");
+    background-position: center;
+    background-size: cover;
+    gap: 2rem;
+    padding: 2rem;
+}
+
+#our-journey-panel-1-texts {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+    width: 78%;
+    gap: 3rem;
+}
+
+#our-journey-panel-1-top-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+    gap: 1rem;
+}
+
+#our-journey-panel-1-bottom-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+    gap: 1rem;
+}
+
+#our-journey-panel-1-title {
+    align-self: center;
+    width: 18%;
+}
+
+#our-journey-title-panel-1 {
+    padding: 50% 0;
+}
+
+#our-journey-panel-2 {
+    display: flex;
+    background-image: url("https://static.igem.wiki/teams/5684/wikipics/entrepreneurship/journey-bg-2.webp");
+    background-position: center;
+    background-size: cover;
+    padding: 2rem;
+    gap: 2rem;
+}
+
+.our-journey-panel-2 {
+    font-size: 1.2rem;
+    text-align: left;
+    font-family: 'Poppins', sans-serif;
+    color: #2d6a4f;
+    border: 10px;
+    padding: 1rem;
+    background-color: #d8f3dc;
+    border-radius: 20px;
+}
+
+#our-journey-panel-2-left-column {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+    width: 50%;
+    gap: 3rem;
+}
+
+#our-journey-panel-2-left-top{
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+}
+
+#our-journey-panel-2-left-bottom {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: end;
+    gap: 1rem;
+}
+
+.our-journey-panel-2 h3 {
+    text-align: center;
+}
+
+#our-journey-panel-2-right-column {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+    width: 50%;
+    gap: 3rem;
+}
+
+#our-journey-panel-2-right-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+    gap: 1rem;
+}
+
+#our-journey-panel-2-img-1 {
+    width: 100%;
+}
+
+#our-journey-panel-2-title {
+    align-self: center;
+    width: 50%;
+    height: 100%;
+}
+
+#our-journey-title-panel-2 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    padding: 50% 2%;
+    border: 10px;
+    color: #2d6a4f;
+    background-color: #b7e4c7;
+    border-radius: 20px;
+    height: 100%;
+    align-self: center;
+}
+
+#our-journey-panel-2-right-bottom {
+    align-items: center;
+}
+
+.ribbon-img {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: start;
+    gap: 1rem;
+}
+
+#our-journey-text-6 {
+    text-align: center;
+}
+
+#our-journey-panel-3 {
+    background-image: url("https://static.igem.wiki/teams/5684/wikipics/entrepreneurship/journey-bg-3.webp");
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: row;
+    padding: 2rem;
+    gap: 2rem;
+    height: 100%;
+}
+
+#our-journey-panel-3-left-column {
+    display: flex;
+    height: 100%;
+    width: 30%;
+    align-self: center;
+}
+
+#our-journey-title-panel-3 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#our-journey-panel-3-title {
+    display: flex;
+    flex-direction: column;
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    padding: 50% 2%;
+    border: 10px;
+    color: #b7e4c7;
+    background-color: #927951;
+    border-radius: 20px;
+    height: 100%;
+    width: 100%;
+    align-self: center;
+}
+
+#our-journey-panel-3-right-column {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+    width: 70%;
+    gap: 3rem;
+}
+
+#our-journey-panel-3-right-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+    gap: 1rem;
+    height: 50%;
+}
+
+.our-journey-panel-3 {
+    font-size: 1.2rem;
+    text-align: left;
+    font-family: 'Poppins', sans-serif;
+    color: #b7e4c7;
+    border: 10px;
+    padding: 1rem;
+    background-color: #927951;
+    border-radius: 20px;
+    width: 70%;
+}
+
+#our-journey-panel-3-img-1 {
+    width: 50%;
+    height: 100%;
+}
+
+#our-journey-panel-3-right-bottom {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: end;
+    gap: 1rem;
+}
+
+#our-journey-panel-4 {
+    background-image: url("https://static.igem.wiki/teams/5684/wikipics/entrepreneurship/journey-bg-4.webp");
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+    gap: 2rem;
+    height: 100%;
+    width: 100%;
+}
+
+.our-journey-panel-4 {
+    font-size: 1.2rem;
+    text-align: left;
+    font-family: 'Poppins', sans-serif;
+    color: #b7e4c7;
+    border: 10px;
+    padding: 1rem;
+    background-color: #1b4332;
+    border-radius: 20px;
+    width: 100%;
+}
+
+#our-journey-panel-4-top-row-outer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: end;
+    gap: 1rem;
+    height: 80%;
+}
+
+#our-journey-panel-4-left-column-outer{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+    width: 70%;
+    gap: 3rem;
+}
+
+#our-journey-panel-4-top-row-middle {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: end;
+    gap: 1rem;
+    height: 60%;
+}
+
+#our-journey-panel-4-left-column-inner {
+    display: flex;
+    width: 30%;
+    height: 100%;
+}
+
+#our-journey-panel-4-title {
+    display: flex;
+    flex-direction: column;
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    padding: 50% 2%;
+    border: 10px;
+    color: #b7e4c7;
+    background-color: #1b4332;
+    border-radius: 20px;
+    height: 100%;
+    width: 100%;
+    align-self: center;
+}
+
+#our-journey-panel-4-right-column-inner {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+    width: 70%;
+    gap: 1rem;
+}
+
+#our-journey-panel-4-right-column-outer {
+    height: 100%;
+}
+
+#our-journey-panel-4-img-1 {
+    display: block;
+    width: 100%;
+    height: auto;
+    max-height: 85vh;
+    object-fit: contain;
+    border-radius: 20px;
+}
+
+#our-journey-panel-5 {
+    background-image: url("https://static.igem.wiki/teams/5684/wikipics/entrepreneurship/journey-bg-5.webp");
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: row;
+    padding: 2rem;
+    gap: 2rem;
+    height: 100%;
+    width: 100%;
+}
+
+#our-journey-panel-5-img-1 {
+    height: 80%;
+}
+
+.our-journey-panel-5 {
+    font-size: 1.2rem;
+    text-align: left;
+    font-family: 'Poppins', sans-serif;
+    color: #b7e4c7;
+    border: 10px;
+    padding: 1rem;
+    background-color: #927951;
+    border-radius: 20px;
+    width: 100%;
+}
+
+.our-journey-centered {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.our-journey-centered span {
+    display: block;
+    text-align: center;
+    margin: 0 auto;
+    width: 100%;
+}
+
+.our-journey-centered ul {
+    display:inline-block;
+    text-align: left;
+}
+
+/* ≤1024px (tablet + large phones) */
+@media (max-width:1024px){
+  #our-journey-container{gap:1.5rem;padding:1.25rem}
+
+  #our-journey-panel-1{flex-direction:column;gap:1.25rem;padding:1.25rem}
+  #our-journey-panel-1-texts{width:100%;gap:1.25rem}
+  #our-journey-panel-1-top-row,#our-journey-panel-1-bottom-row{flex-direction:column;align-items:stretch}
+  #our-journey-panel-1-title{width:100%;align-self:stretch}
+  #our-journey-title-panel-1{padding:1rem;aspect-ratio:1/1;min-height:220px}
+
+  #our-journey-panel-2{flex-direction:column;gap:1.25rem;padding:1.25rem}
+  #our-journey-panel-2-left-column,#our-journey-panel-2-right-column{width:100%;gap:1.25rem}
+  #our-journey-panel-2-left-top,#our-journey-panel-2-left-bottom{flex-direction:column;gap:1rem}
+  #our-journey-panel-2-right-top{flex-direction:column;gap:1rem;align-items:stretch}
+  #our-journey-panel-2-title{width:100%;height:auto}
+  #our-journey-title-panel-2{padding:1rem;aspect-ratio:1/1;min-height:240px}
+  .ribbon-img{flex-direction:column;gap:1rem}
+  #our-journey-panel-2-right-bottom{align-items:stretch}
+
+  #our-journey-panel-3{flex-direction:column;gap:1.25rem;padding:1.25rem;height:auto}
+  #our-journey-panel-3-left-column{width:100%}
+  #our-journey-panel-3-right-column{width:100%;gap:1.25rem}
+  #our-journey-panel-3-right-top,#our-journey-panel-3-right-bottom{flex-direction:column;gap:1rem;height:auto}
+  .our-journey-panel-3{width:100%}
+  #our-journey-panel-3-img-1{width:100%;height:auto}
+  #our-journey-panel-3-title{padding:1rem;aspect-ratio:1/1;min-height:240px}
+
+  #our-journey-panel-4{padding:1.25rem;gap:1.25rem}
+  #our-journey-panel-4-top-row-outer{flex-direction:column;gap:1.25rem;height:auto}
+  #our-journey-panel-4-left-column-outer{width:100%;gap:1.25rem;height:auto}
+  #our-journey-panel-4-top-row-middle{flex-direction:column;gap:1rem;height:auto}
+  #our-journey-panel-4-left-column-inner{width:100%;height:auto}
+  #our-journey-panel-4-title{padding:1rem;aspect-ratio:1/1;min-height:240px}
+  #our-journey-panel-4-right-column-inner{width:100%;gap:1rem}
+  #our-journey-panel-4-right-column-outer{height:auto}
+  /* tighter tall image on tablets */
+  #our-journey-panel-4-img-1{max-height:90vh;object-fit:contain}
+
+  #our-journey-panel-5{flex-direction:column;gap:1.25rem;padding:1.25rem;height:auto}
+  #our-journey-panel-5-img-1{width:100%;height:auto}
+}
+
+/* ≤640px (phones) */
+@media (max-width:640px){
+  .our-journey-panel-1,.our-journey-panel-2,.our-journey-panel-3,.our-journey-panel-4,.our-journey-panel-5{
+    font-size:1rem;padding:.9rem;border-radius:16px
+  }
+  #our-journey-container{gap:1.1rem;padding:.9rem}
+  #our-journey-title-panel-1,#our-journey-title-panel-2,#our-journey-panel-3-title,#our-journey-panel-4-title{
+    min-height:180px;aspect-ratio:auto
+  }
+  #our-journey-panel-1,#our-journey-panel-2,#our-journey-panel-3,#our-journey-panel-4,#our-journey-panel-5{
+    padding:1rem;gap:1rem;background-position:center;background-size:cover
+  }
+  #our-journey-panel-3-img-1,#our-journey-panel-3-img-2{width:100%}
+  .ribbon-img img{width:100%}
+  .our-journey-centered span{max-width:100%}
+  /* keep the newspaper image comfortable on phones */
+  #our-journey-panel-4-img-1{max-width:75vh;object-fit:contain}
+}
+
+/* ≤360px */
+@media (max-width:360px){
+  #our-journey-container{padding:.75rem}
+  #our-journey-title-panel-1,#our-journey-title-panel-2,#our-journey-panel-3-title,#our-journey-panel-4-title{min-height:150px}
+  #our-journey-panel-4-img-1{max-height:50vh}
+}
+
+/* Title panels: shrink to content */
+#our-journey-title-panel-1,
+#our-journey-title-panel-2,
+#our-journey-panel-3-title,
+#our-journey-panel-4-title{
+  display:inline-grid;
+  place-items:center;
+  padding:1rem 1.25rem !important;
+  width:-moz-fit-content;
+  width:fit-content;
+  height:auto !important;
+  max-width:100%;
+  aspect-ratio:auto !important;
+  min-height:unset !important;
+}
+
+/* Title wrappers: don't force stretch */
+#our-journey-panel-1-title,
+#our-journey-panel-2-title,
+#our-journey-panel-3-left-column,
+#our-journey-panel-4-left-column-inner{
+  align-self:flex-start;
+}
+
+/* Remove fixed widths/heights on wrappers that cause extra space */
+#our-journey-panel-1-title{ width:auto; }
+#our-journey-panel-2-title{ width:auto; height:auto; }
+#our-journey-panel-4-left-column-inner{ width:auto; height:auto; }
+
+/* Mobile/tablet: keep pills tight */
+@media (max-width:1024px){
+  #our-journey-title-panel-1,
+  #our-journey-title-panel-2,
+  #our-journey-panel-3-title,
+  #our-journey-panel-4-title{
+    padding:.9rem 1.1rem !important;
+  }
+}
+
+
+
+/* Prevent links or long text from overflowing */
+#our-journey-container,
+#our-journey-container a,
+#our-journey-container span,
+#our-journey-container p {
+  overflow-wrap: anywhere;
+  word-break: break-word;
+  hyphens: auto;
+}

@@ -1,0 +1,104 @@
+/* competitions.css */
+
+#competitions-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: "Poppins", sans-serif;
+    color: #1b4332;
+    font-size: 1.5rem;
+}
+
+.competition-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    gap: 2rem;
+    padding: 3rem;
+    background-position: center;
+    background-size: cover;
+}
+
+.competition-card {
+    background-color: #b7e4c7;
+    border-radius: 20px;
+    box-shadow: 20px 20px #927951;
+    padding: 2rem;
+    width: 40%;
+    height: fit-content;
+}
+
+#competition-card-2 {
+    box-shadow: -20px -20px #927951;
+}
+
+#competition-container-1 {
+    background-image: url("https://static.igem.wiki/teams/5684/wikipics/competitions/competition-bg-1.webp");
+}
+
+#competition-container-2 {
+    background-image: url("https://static.igem.wiki/teams/5684/wikipics/competitions/competition-bg-2.webp");
+}
+
+#competition-container-3 {
+    background-image: url("https://static.igem.wiki/teams/5684/wikipics/competitions/competition-bg-3.webp");
+}
+
+#competitions-content img {
+    width: 30%;
+    height: auto;
+    display: block;
+    border-radius: 12px;
+}
+
+/* wrap long URLs */
+#competitions-content p { overflow-wrap: anywhere; word-break: break-word; }
+
+/* ---------- Tablet (≤1024px) ---------- */
+@media (max-width:1024px){
+  #competitions-content{ font-size:1.25rem; padding-inline:1rem; gap:1.25rem; }
+
+  .competition-container{ padding:2rem; gap:1.5rem; }
+
+  .competition-card{
+    width:55%;
+    box-shadow:12px 12px #927951;
+    border-radius:18px;
+    padding:1.5rem;
+  }
+  #competition-card-2{ box-shadow:-12px -12px #927951; }
+
+  #competitions-content img{ width:45%; border-radius:14px; }
+}
+
+/* ---------- Phones (≤640px) ---------- */
+@media (max-width:640px){
+  #competitions-content{ font-size:1.05rem; padding-inline:.9rem; gap:1rem; }
+
+  .competition-container{
+    flex-direction:column;
+    align-items: stretch;
+    padding:1.25rem;
+    gap:1rem;
+  }
+
+  /* text first, image second on all sections for consistent reading */
+  #competition-container-1 .competition-card{ order:1; }
+  #competition-container-1 img{ order:2; }
+  #competition-container-2 .competition-card{ order:1; }
+  #competition-container-2 img{ order:2; }
+  #competition-container-3 .competition-card{ order:1; }
+  #competition-container-3 img{ order:2; }
+
+  .competition-card{
+    width:100%;
+    box-shadow:10px 10px #927951;
+    padding:1.1rem;
+    border-radius:16px;
+  }
+  #competition-card-2{ box-shadow:-10px -10px #927951; }
+
+  #competitions-content img{ width:100%; }
+}
