@@ -83,7 +83,7 @@ const ChatBot: React.FC = () => {
     const[selectedAnswer, setSelectedAnswer] = useState<FAQItem["answer"] | null>(null);
     const [selectedIndex, setSelectedIndex] = useState<number | null>(null);
 
-    const [language, setLanguage] = useState<'gr' | 'en'>('gr'); //for selecting a language
+    const [language, setLanguage] = useState<'gr' | 'en'>('en'); //for selecting a language
     const toggleChat = () => {
         setIsOpen(!isOpen);
         setSelectedAnswer(null);

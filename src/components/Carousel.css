@@ -1,0 +1,222 @@
+.carousel {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    overflow: hidden;
+}
+
+.slide-bg {
+    background-size: cover;
+    background-position: center;
+}
+
+.slide-bg img {
+    height: 100%;
+    width: 100%;
+    /* object-fit: contain;
+    backdrop-filter: blur(15px); */
+}
+
+
+#home-swiper {
+    width: 100%;
+    height: 100vh;
+}
+
+.footer-slide-wrapper {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+
+.home-end {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin: 10vh 0 0 0;
+    align-self: flex-start;
+}
+
+
+.nomination-links {
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    margin: 5% 0 0 0;
+    z-index: 10;
+}
+
+.carousel .nomination{
+    width: 12vw;
+    margin: 0 3vw;
+}
+
+.home-end h3 {
+    height: 20%;
+    background-color: #1B4332;
+    color: #D8F3DC;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 0 auto;
+    align-self: center;
+    text-align: center;
+    text-justify: center;
+}
+
+#footer-slide-container {
+    position: absolute;
+    bottom: 0;
+}
+
+/* .carousel .footer-logo{
+    width: 7vw;
+} */
+
+/* .carousel .footer-socials img {
+    width: 4vw;
+} */
+
+
+
+
+/* ----- Swiper pagination: darker, rounded, more visible ----- */
+.home-swiper > .swiper-pagination {
+  background: rgba(0, 0, 0, 0.6);
+  padding: 8px;
+  border-radius: 9999px;
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+  right: 16px;
+  left: auto;
+  z-index: 20;
+}
+
+
+.home-swiper > .swiper-pagination-bullet {
+  opacity: .65;
+  border: 1px solid rgba(255, 255, 255, 0.6);
+}
+
+.home-swiper .swiper-pagination-bullet-active {
+    opacity: 1;
+  border-color: #fff;
+}
+
+.home-swiper .slide-bg img {
+  object-fit: cover;
+  object-position: center;
+}
+
+
+
+/* ---------- Home-end base (desktop & large screens) ---------- */
+.home-end{
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  align-items:center;
+  width:100%;
+  margin:18vh 0 0;
+  align-self:flex-start;
+  padding:0 16px;               /* safe side padding */
+}
+
+.nomination-links{
+  display:flex;
+  flex-direction:row;
+  justify-content:center;
+  align-items:center;
+  align-content:center;
+  flex-wrap:wrap;               /* allow wrap when space is tight */
+  gap: clamp(12px, 2vw, 28px);  /* responsive gap */
+  margin: 3% 0 0 0;
+}
+
+.carousel .nomination{
+  width: clamp(120px, 12vw, 200px);  /* scales across sizes */
+  margin: 0;                         /* gap handled by container */
+}
+
+.home-end h3{
+  background-color:#1B4332;
+  color:#D8F3DC;
+  padding: clamp(8px, 1.2vw, 14px);
+  border-radius:10px;
+  margin:0 auto;
+  text-align:center;
+  font-size: clamp(1rem, 0.9rem + 0.8vw, 1.4rem);
+  line-height:1.25;
+  white-space:nowrap;               /* keeps the pill feeling on wide */
+}
+
+/* ---------- Narrow / short-height screens (laptops w/ short viewport) ---------- */
+@media (min-width: 968px) and (max-height: 760px),
+       (min-aspect-ratio: 16/9) and (max-height: 860px){
+  .home-end{
+    margin: 14vh 0 0;               /* less top space */
+  }
+  .home-end h3{
+    font-size: clamp(1rem, 0.7rem + 0.7vw, 1.2rem);
+    padding: clamp(6px, 0.8vw, 10px);
+  }
+  .carousel .nomination{
+    width: clamp(100px, 10vw, 130px);
+  }
+  .nomination-links{
+    gap: clamp(10px, 1.2vw, 18px);
+  }
+}
+
+/* ---------- Tablets / small laptops ---------- */
+@media (max-width: 992px){
+  .home-end{
+    margin: 17vh 0 0;
+  }
+  .carousel .nomination{
+    width: clamp(120px, 18vw, 200px);
+  }
+}
+
+/* ---------- Mobile (stacked) ---------- */
+
+@media (max-width: 780px) {
+    .home-end{
+    margin: 16vh 0 0;
+  }
+  .nomination-links{
+    /* flex-direction:column; */
+    gap: 12px;
+    margin-top: 16px;
+  }
+  .carousel .nomination{
+    width: 24vw;                   /* big, tappable */
+  }
+  .home-end h3{
+    white-space:normal;            /* allow wrap on small phones */
+  }
+}
+
+@media (max-width: 400px){
+  .home-end{
+    margin: 16vh 0 0;
+  }
+  .nomination-links{
+    /* flex-direction:column; */
+    gap: 12px;
+    margin-top: 16px;
+  }
+  .carousel .nomination{
+    width: 30vw;                   /* big, tappable */
+  }
+  .home-end h3{
+    white-space:normal;            /* allow wrap on small phones */
+  }
+}

@@ -4,5 +4,212 @@
   font-family: 'Poppins', sans-serif;
   font-weight: 600; 
   color: #1B4332;
+}
 
+.custom-navbar .nav-link,
+.custom-navbar .dropdown-item {
+  padding: 0.6rem 0.8rem;
+}
+
+.navbar-container {
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
+  padding-top: env(safe-area-inset-top, 0);
+}
+
+.navbar-bulge {
+  width: 20vw;
+  top: 10vh;
+}
+
+.navbar {
+  background-color: #D8F3DC;
+  width: 100%;
+  min-height: 56px;
+  padding: 0.5rem 1rem;
+  align-items: center;
+}
+
+.navbar-brand {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #1B4332;
+  position: relative;
+}
+
+#basic-navbar-nav {
+  position: relative;
+}
+
+.navbar-links {
+  margin-right: 2.5%;
+  display: flex;
+  margin-left: auto;
+  gap: 0.5rem;
+  flex-wrap: nowrap;
+  white-space: nowrap;
+}
+
+.subpage-icon {
+  width: 30px;
+  height: auto;
+  flex-shrink: 0;
+  justify-self: center;
+  align-content: center;
+}
+
+.dropdown-item-content {
+  display: grid;
+  align-items: center;
+  grid-template-columns: 20% 80%;
+}
+
+.dropdown-item-text {
+  white-space: normal;
+  word-wrap: normal;
+  flex: 1;
+}
+
+.custom-nav-link:hover {
+  border: 1px solid #1B4332;
+  border-radius: 5px;
+  box-shadow: 0px -5px rgba(0, 0, 0, 0.1);
+  transform: translateY(5px);
+  transition: all 0.3s ease;
+}
+
+.custom-nav-link {
+  border: 1px solid #112b20;
+  border-radius: 5px;
+  margin: 0 10px;
+}
+
+.navbar .dropdown-menu {
+  position: absolute;
+  display: none;
+  visibility: hidden;
+  opacity: 0;
+  transform: translateY(-10px);
+  transition: opacity 0.3s ease, transform 0.3s ease;
+  white-space: normal;
+  word-wrap: break-word;
+  min-width: 200px;
+  max-width: 400px;
+}
+
+.dropdown-menu.show {
+  display: block;
+  opacity: 1;
+  transform: translateY(0);
+  visibility: visible;
+}
+
+.dropdown-menu:hover {
+  opacity: 1;
+  transform: translateY(0);
+  visibility: visible;
+}
+
+.brand-image {
+  height: clamp(36px, 8vh, 72px);
+  width: auto;
+}
+
+/* ====== Mid/tighten before mobile ====== */
+@media (max-width: 1315px) {
+  .navbar { padding: 0.6rem 0.75rem; }
+  .brand-image { height: clamp(36px, 6.5vh, 58px); }
+  .navbar-links { gap: .4rem; }
+  .custom-navbar .nav-link,
+  .custom-navbar .dropdown-item { padding: .5rem .6rem; font-size: .97rem; }
+}
+
+@media screen and (max-width: 1200px) {
+  .brand-image {
+    height: clamp(40px, 7vh, 60px);
+  }
+}
+
+/* ====== Collapse to burger BEFORE links would wrap (1150px) ====== */
+@media (max-width: 1150px) {
+  .navbar-toggler { display: inline-flex; }
+
+  .navbar-collapse:not(.show) { display: none !important; }
+
+  .navbar-links {
+    margin-right: 0;
+    margin-top: 0;
+    gap: .4rem;
+  }
+}
+
+/* Mobile view */
+@media (max-width: 1200px) {
+  .navbar-collapse {
+    background-color: color-mix(in oklab, #c1e4c6 90%, transparent);
+    padding: 1rem;
+    transition: max-height 0.3s ease;
+    overflow: hidden;
+    margin: 0rem -1rem -.6rem;
+    border: 1px solid rgba(27, 67, 50, 0.15);
+    border-radius: .8rem;
+  }
+
+  .navbar-collapse .collapse.show {
+    display: block;
+  }
+
+  .navbar-links {
+    margin: 0;
+    gap: .25rem;
+    width: 100%;
+    white-space: normal;
+  }
+
+  .custom-nav-link {
+    width: 100%;
+    margin: 0;
+  }
+
+  .navbar-collapse .dropdown-menu {
+    position: static;
+    float: none;
+    width: 100%;
+    display: none;
+    right: auto !important;
+  }
+
+  .navbar-collapse .dropdown-menu.show {
+    display: block;
+    width: 100%;
+  }
+
+  .navbar-collapse .dropdown-menu,
+  .navbar-collapse .dropdown-menu.show {
+    width: 100%;
+    border-left: 0;
+    border-right: 0;
+    border-radius: 0;
+  }
+
+  .dropdown-menu .dropdown-item .dropdown-item-content,
+  .navbar-collapse .dropdown-menu.show .dropdown-item .dropdown-item-content {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 8px;
+  }
+}
+
+
+@media (prefers-reduced-motion: reduce) {
+  .navbar .dropdown-menu,
+  .navbar-collapse {
+    transition: none;
+  }
 }

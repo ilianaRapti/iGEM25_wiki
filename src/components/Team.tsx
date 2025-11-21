@@ -9,13 +9,23 @@ const teamMembers = [
     {id: 1, name: "Ifigeneia", photo: "https://static.igem.wiki/teams/5684/wikipics/teampics/ifigeneia-wiki.webp"},
     {id: 2, name: "Aristotelis", photo: "https://static.igem.wiki/teams/5684/wikipics/teampics/telis-wiki.webp"},
     {id: 3, name: "Eva", photo: "https://static.igem.wiki/teams/5684/wikipics/teampics/eva-wiki.webp"},
-    {id: 4, name: "Giannis", photo: "https://static.igem.wiki/teams/5684/wikipics/teampics/giannis-wiki.webp"},
-    {id: 5, name: "Giorgos", photo: "https://static.igem.wiki/teams/5684/wikipics/teampics/giorgos-wiki.webp"},
+    {id: 4, name: "Ioannis", photo: "https://static.igem.wiki/teams/5684/wikipics/teampics/giannis-wiki.webp"},
+    {id: 5, name: "Yiorgos", photo: "https://static.igem.wiki/teams/5684/wikipics/teampics/giorgos-wiki.webp"},
     {id: 6, name: "Iliana", photo: "https://static.igem.wiki/teams/5684/wikipics/teampics/iliana-wiki1.webp"},
     {id: 7, name: "Thomas", photo: "https://static.igem.wiki/teams/5684/wikipics/teampics/thomas-wiki.webp"},
     {id: 8, name: "Sokratis", photo: "https://static.igem.wiki/teams/5684/wikipics/teampics/sokratis-wiki.webp"},
     {id: 9, name: "Zisis", photo: "https://static.igem.wiki/teams/5684/wikipics/teampics/zhshs-wiki.webp"},
-    {id: 10, name: "Mairi", photo: "https://static.igem.wiki/teams/5684/wikipics/teampics/mairi-wiki.webp"},
+    {id: 10, name: "Mary", photo: "https://static.igem.wiki/teams/5684/wikipics/teampics/mairi-wiki.webp"},
+    {id: 11, name: "Vasiliki", photo: "https://static.igem.wiki/teams/5684/wikipics/teampics/vaso-wiki.webp"},
+    {id: 12, name: "Pandelis", photo: "https://static.igem.wiki/teams/5684/wikipics/teampics/pantelis-wiki.webp"},
+    {id: 13, name: "Panagiotis", photo: "https://static.igem.wiki/teams/5684/wikipics/teampics/panagiotis-wiki.webp"},
+    {id: 14, name: "Aggeliki", photo: "https://static.igem.wiki/teams/5684/wikipics/teampics/aggeliki-wiki.webp"},
+    {id: 15, name: "Dimitris", photo: "https://static.igem.wiki/teams/5684/wikipics/teampics/dimitris-wiki.webp"},
+    {id: 16, name: "Stella", photo: "https://static.igem.wiki/teams/5684/wikipics/teampics/stella-wiki.webp"},
+
+
+
+
 
 ];
 
