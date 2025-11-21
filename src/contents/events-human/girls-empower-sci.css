@@ -1,0 +1,248 @@
+
+
+.girlsemp1-section-sci {
+  position: relative;
+  width: 90%;
+  max-width: 1200px;
+  margin: -1rem auto;
+  padding: 2rem;
+}
+
+.girlsemp1-text-container-sci{
+  position: relative;   
+  top: 6rem;            
+  margin-right: 320px; 
+  color: #1b4332;
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.2rem;
+  line-height: 1.8;
+  width: 55rem;
+  right: 9rem;
+  border-radius: 12px;
+  padding: 3rem;
+
+}
+
+.girlsemp1-img-sci {
+  position: absolute;
+  width: 500px;   
+  height: auto;
+  border-radius: 12px;
+  top: -2rem;
+  left: 45rem;  
+  z-index: 10;
+}
+
+.girlsemp2-section-sci {
+  margin-top: 4rem;
+  text-align: center;
+}
+
+.girlsemp2-text-sci{
+  position: relative;   
+  color: #1b4332;
+  background-color: rgba(211, 241, 228, 0.75);
+  padding: 2rem;
+  border-radius: 12px;
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.1rem;
+  line-height: 1.8;
+  text-align: left;
+  top: 6rem;            
+  right: 10rem;
+  width: 85rem;
+  border-radius: 12px;
+  padding: 3rem;
+  margin-bottom: 8rem;
+}
+
+.girlsemp3-section-sci {
+  margin-top: 4rem;
+  text-align: center;
+}
+
+.girlsemp3-text-sci{
+  position: relative;   
+  color: #fff;
+  padding: 2rem;
+  border-radius: 12px;
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.1rem;
+  line-height: 1.8;
+  text-align: left;
+  top: -1rem;            
+  right: 8rem;
+  width: 80rem;
+  border-radius: 12px;
+  padding: 3rem;
+  margin-bottom: 8rem;
+}
+
+/*screens*/
+@media (max-width: 1280px) {
+
+.girlsemp1-section-sci {
+  position: relative;
+  width: 90%;
+  max-width: 1200px;
+  margin: -1rem auto;
+  padding: 2rem;
+}
+
+.girlsemp1-text-container-sci{
+    position: relative;   
+    top: 2rem;            
+    margin-right: 320px; 
+    color: #1b4332;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.2rem;
+    line-height: 1.8;
+    width: 55rem;
+    right: 10rem;
+    border-radius: 12px;
+    padding: 3rem;
+
+}
+
+.girlsemp1-img-sci {
+  position: absolute;
+  width: 450px;   
+  height: auto;
+  border-radius: 12px;
+  top: -2rem;
+  left: 42rem;  
+  z-index: 10;
+}
+
+.girlsemp2-section-sci {
+  margin-top: 4rem;
+  text-align: center;
+}
+
+.girlsemp2-text-sci{
+  position: relative;   
+  color: #1b4332;
+  background-color: rgba(211, 241, 228, 0.75);
+  padding: 2rem;
+  border-radius: 12px;
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.1rem;
+  line-height: 1.8;
+  text-align: left;
+  top: 6rem;            
+  right: 8rem;
+  width: 75rem;
+  border-radius: 12px;
+  padding: 3rem;
+}
+
+.girlsemp3-section-sci {
+  margin-top: 4rem;
+  text-align: center;
+}
+
+.girlsemp3-text-sci{
+  position: relative;   
+  color: #1b4332;
+  background-color: rgba(211, 241, 228, 0.75);
+  padding: 2rem;  
+  padding: 2rem;
+  border-radius: 12px;
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.1rem;
+  line-height: 1.8;
+  text-align: left;
+  top: 3rem;            
+  right: 8rem;
+  width: 75rem;
+  border-radius: 12px;
+  padding: 3rem;
+}
+}
+
+
+/* ---------- Tablet (≤1024px) ---------- */
+@media (max-width: 1024px) {
+  .girlsemp1-section-sci {
+    width: 94%;
+    margin: 0 auto 2rem;
+    padding: 1.5rem;
+  }
+
+  .girlsemp1-text-container-sci,
+  .girlsemp2-text-sci,
+  .girlsemp3-text-sci {
+    position: static;
+    top: auto;
+    right: auto;
+    left: auto;
+    width: 100%;
+    margin: 0 auto 2rem;
+    padding: 2rem;
+    font-size: 1.05rem;
+    line-height: 1.8;
+    border-radius: 12px;
+  }
+
+  .girlsemp1-img-sci {
+    position: static;
+    display: block;
+    width: 100%;
+    max-width: 560px;
+    height: auto;
+    border-radius: 12px;
+    margin: 0 auto 2rem;
+  }
+
+  /* Adjust vertical spacing */
+  .girlsemp2-text-sci,
+  .girlsemp3-text-sci {
+    margin-bottom: 1.5rem;
+  }
+}
+
+/* ---------- Large phones / Small tablets (≤768px) ---------- */
+@media (max-width: 768px) {
+  .girlsemp1-section-sci {
+    width: 96%;
+    padding: 1rem;
+  }
+
+  .girlsemp1-text-container-sci,
+  .girlsemp2-text-sci,
+  .girlsemp3-text-sci {
+    padding: 1.25rem 1rem;
+    font-size: 1rem;
+    line-height: 1.7;
+    border-radius: 12px;
+    margin-bottom: 1.25rem;
+  }
+
+  .girlsemp1-img-sci {
+    max-width: 440px;
+    margin-bottom: 1.25rem;
+  }
+}
+
+/* ---------- Small phones (≤480px) ---------- */
+@media (max-width: 480px) {
+  .girlsemp1-section-sci {
+    width: 98%;
+    padding: 0.75rem;
+  }
+
+  .girlsemp1-text-container-sci,
+  .girlsemp2-text-sci,
+  .girlsemp3-text-sci {
+    padding: 1rem 0.875rem;
+    font-size: 0.95rem;
+    line-height: 1.65;
+    border-radius: 10px;
+    margin-bottom: 1rem;
+  }
+
+  .girlsemp1-img-sci {
+    max-width: 100%;
+    margin-bottom: 1rem;
+  }
+}

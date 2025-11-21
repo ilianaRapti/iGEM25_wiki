@@ -1,0 +1,150 @@
+.section {
+    width: 100vw;                   /* makes row take up full wifth ignoring parent */
+    position: relative;             /* | */
+    left: 50%;                      /* | */
+    right: 50%;                     /* | */
+    margin-left: -50vw;             /* | */
+    margin-right: -50vw;            /* / */
+
+    min-height: 350px;              /* min height for small sections */
+    background-size: cover;         /* applies background to row correctly */
+    background-position: top;       /* | */
+    background-repeat: no-repeat;   /* / */
+
+    text-align: justify;
+}
+
+.bleed-top {
+    margin-top: -50px;
+    padding-top: 50px;
+}
+
+.bleed-bottom {
+    margin-bottom: -50px;
+    padding-bottom: 50px;
+}
+
+.text_color_light {
+    color: #d8f3dc;
+}
+
+.text_color_dark {
+    color: #2d6a4f;
+}
+
+.text_color_black {
+    color: black;
+}
+
+.title-row {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    height: 160px;
+    display: flex;
+    align-items: center;
+}
+
+.title-row img {
+    max-height: 100%;
+    width: auto;
+}
+
+.title-img-left {
+    justify-content: flex-start;
+    padding-left: 15%;
+}
+
+.title-img-center {
+    justify-content: center;
+}
+
+.title-img-right {
+    justify-content: flex-end;
+    padding-right: 15%;
+}
+
+.title-raise {
+    margin-top: -40px;
+    padding-top: 0px;
+    height: 130px;
+}
+
+.content {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.content-grid {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    gap: 30px;
+}
+
+.content-span {
+    grid-column: span 7;
+}
+
+.image-span {
+    grid-column: span 5;
+}
+
+.content-full {
+    grid-column: span 12;
+}
+
+.tagline-img {
+    max-width: 500px;
+    margin-bottom: 15px;
+}
+
+.tagline-left {
+    display: block;
+    margin-left: 0;
+    margin-right: auto;
+}
+
+.tagline-right {
+    display: block;
+    margin-left: auto;
+    margin-right: 0;
+}
+
+.tagline-center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.ref-box {
+    color: #d8f3dc;
+    background-color: #823d86;
+    border-radius: 50px;
+    padding: 2rem;
+    margin-bottom: 40px;
+}
+
+.ref-box a {
+    color: #d8f3dc;
+}
+
+/*adhd version*/
+.shared-adhd-text-inclu {
+    position: relative;
+    color: #1b4332;
+    background-color: rgba(210, 232, 222, 0.75);
+    padding: 2rem;
+    border-radius: 12px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.1rem;
+    line-height: 1.8;
+    text-align: left;
+    top: 2rem;
+    left: 5rem;
+    width: 60rem;
+    border-radius: 12px;
+    padding: 3rem;
+    margin-bottom: 5rem;
+}

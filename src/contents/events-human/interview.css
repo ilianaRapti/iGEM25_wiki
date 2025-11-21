@@ -1,0 +1,474 @@
+
+
+.inter-intro-section-inclu{
+  position: relative;
+  width: 90%;
+  max-width: 1200px;
+  margin: -20rem auto;
+  padding: 2rem;
+}
+
+.intro-inter-inclu-but{
+  position: absolute;
+  width: 320px;   
+  height: auto;
+  border-radius: 12px;
+  top: -12rem;
+  left: 60rem;  
+  z-index: 10;
+}
+
+.inter-intro-text-container-inclu{
+  position: relative;   
+  top: 25rem;            
+  margin-right: 320px; 
+  color: #fff;
+  background-color: #823d86;
+  padding: 2rem;
+  border-radius: 2rem;
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.2rem;
+  line-height: 1.8;
+  width: 85rem;
+  right: 8rem;
+}
+
+
+/* Organization section */
+.inter-org-section-inclu{
+  margin-top: 30rem;
+  text-align: center;
+}
+
+.org-inter-inclu-but{
+  position: absolute;
+  width: 400px;   
+  height: auto;
+  border-radius: 12px;
+  top: 53rem;
+  right: 39rem;  
+  z-index: 10;
+}
+
+.inter-org-text-container-inclu{
+  position: relative;   
+  color: #1b4332;
+  background-color: #D8F3DC;
+  padding: 2rem;
+  border-radius: 12px;
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.1rem;
+  line-height: 1.8;
+  text-align: left;
+  top: 2rem;
+  right: 1rem;
+  width: 70rem;
+  margin-bottom: 15rem;
+}
+
+
+
+/* Implementation section */
+.inter-impl-section-inclu{
+  margin-top: 4rem;
+  text-align: left;
+}
+
+.impl-inter-inclu-but{
+  position: absolute;
+  width: 300px;   
+  height: auto;
+  border-radius: 12px;
+  right: 39rem;  
+  z-index: 10;
+  width: 30rem;
+  top: 89rem;
+}
+
+.inter-impl-text-container-inclu{
+  position: absolute;
+  width: 300px;   
+  height: auto;
+  border-radius: 12px;
+  right: 10rem;  
+  z-index: 10;
+  width: 55rem;
+  top: 110rem;
+  color: #1b4332;
+}
+
+.impl-inter-inclu-icon{
+  position: absolute;
+  height: auto;
+  border-radius: 12px;
+  left: 50rem;  
+  z-index: 10;
+  width: 27rem;
+  top: 98rem;
+}
+
+/*outcomes*/
+.outc-inter-inclu-but{
+  position: absolute;
+  width: 250px;   
+  height: auto;
+  border-radius: 12px;
+  right: 47rem;  
+  z-index: 10;
+  width: 30rem;
+  top: 127rem;
+}
+
+.inter-outc-text-container-inclu{
+  position: relative;   
+  padding: 2rem;
+  border-radius: 12px;
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.1rem;
+  line-height: 1.8;
+  text-align: left;
+  top: 25rem;
+  left: 15rem;
+  width: 60rem;
+  color: #1b4332;
+  background-color: #D8F3DC;
+}
+
+
+/*why is it important part*/
+.inter-impo-section-inclu-conf{
+  display: flex;
+  align-items: flex-start;
+  gap: 2rem;
+  margin: 10rem auto;   
+  max-width: 1200px;
+}
+
+.impo-inter-inclu-but{
+  position: absolute;
+  height: auto;
+  border-radius: 12px;
+  left: 40rem;  
+  z-index: 10;
+  width: 30rem;
+  top: 143rem;
+}
+
+.inter-impo-text-container-inclu{
+  position: relative;   
+  padding: 2rem;
+  border-radius: 12px;
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.1rem;
+  line-height: 1.8;
+  text-align: left;
+  top: 18rem;
+  left: -10rem;
+  width: 50rem;
+  color: #D8F3DC;
+}
+
+
+/* What did we gain section */
+.inter-gain-section-inclu-conf{
+  display: flex;
+  align-items: flex-start;
+  gap: 2rem;
+  margin: 10rem auto;   
+  max-width: 1200px;
+}
+
+.gain-inter-inclu-but{
+  position: absolute;
+  height: auto;
+  border-radius: 12px;
+  right: 37rem;  
+  z-index: 10;
+  width: 30rem;
+  top: 161rem;
+}
+
+.inter-gain-text-container-inclu{
+  position: relative;   
+  padding: 2rem;
+  border-radius: 12px;
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.1rem;
+  line-height: 1.8;
+  text-align: left;
+  top: 17rem;
+  right:  10rem;
+  width: 50rem;
+  color: #1b4332;
+  background-color: #D8F3DC;  
+  margin-bottom: 33rem;
+}
+
+.inter-inclu-img{
+  position: absolute;
+  height: auto;
+  border-radius: 12px;
+  left: 45rem;  
+  z-index: 10;
+  width: 30rem;
+  top: 170rem;
+}
+
+
+/*adhd version*/
+.inter-adhd-text-inclu{
+  position: relative;   
+  color: #1b4332;
+  background-color: rgba(210, 232, 222, 0.75);
+  padding: 2rem;
+  border-radius: 12px;
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.1rem;
+  line-height: 1.8;
+  text-align: left;
+  top: 2rem;            
+  left: 5rem;
+  width: 60rem;
+  border-radius: 12px;
+  padding: 3rem;
+  margin-bottom: 5rem;
+}
+
+
+/*screens*/
+@media (max-width: 1280px) {
+
+.inter-intro-section-inclu{
+  position: relative;
+  width: 90%;
+  max-width: 1200px;
+  margin: -20rem auto;
+  padding: 2rem;
+}
+
+.intro-inter-inclu-but{
+  position: absolute;
+  width: 320px;   
+  height: auto;
+  border-radius: 12px;
+  top: -12rem;
+  left: 45rem;  
+  z-index: 10;
+}
+
+.inter-intro-text-container-inclu{
+  position: relative;   
+  top: 25rem;            
+  margin-right: 320px; 
+  color: #fff;
+  background-color: #823d86;
+  padding: 2rem;
+  border-radius: 2rem;
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.2rem;
+  line-height: 1.8;
+  width: 75rem;
+  right: 8rem;
+}
+
+
+/* Organization section */
+.inter-org-section-inclu{
+  margin-top: 30rem;
+  text-align: center;
+}
+
+.org-inter-inclu-but{
+  position: absolute;
+  width: 400px;   
+  height: auto;
+  border-radius: 12px;
+  top: 53rem;
+  right: 39rem;  
+  z-index: 10;
+}
+
+.inter-org-text-container-inclu{
+  position: relative;   
+  color: #1b4332;
+  background-color: #D8F3DC;
+  padding: 2rem;
+  border-radius: 12px;
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.1rem;
+  line-height: 1.8;
+  text-align: left;
+  top: 2rem;
+  right: 3rem;
+  width: 65rem;
+  margin-bottom: 15rem;
+}
+
+
+
+/* Implementation section */
+.inter-impl-section-inclu{
+  margin-top: 4rem;
+  text-align: left;
+}
+
+.impl-inter-inclu-but{
+  position: absolute;
+  width: 300px;   
+  height: auto;
+  border-radius: 12px;
+  right: 39rem;  
+  z-index: 10;
+  width: 30rem;
+  top: 89rem;
+}
+
+.inter-impl-text-container-inclu{
+  position: absolute;
+  width: 300px;   
+  height: auto;
+  border-radius: 12px;
+  right: 16rem;  
+  z-index: 10;
+  width: 50rem;
+  top: 110rem;
+  color: #1b4332;
+}
+
+.impl-inter-inclu-icon{
+  position: absolute;
+  height: auto;
+  border-radius: 12px;
+  left: 45rem;  
+  z-index: 10;
+  width: 27rem;
+  top: 102rem;
+}
+
+/*outcomes*/
+.outc-inter-inclu-but{
+  position: absolute;
+  height: auto;
+  border-radius: 12px;
+  right: 43rem;  
+  z-index: 10;
+  width: 25rem;
+  top: 130rem;
+}
+
+.inter-outc-text-container-inclu{
+  position: relative;   
+  padding: 2rem;
+  border-radius: 12px;
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.1rem;
+  line-height: 1.8;
+  text-align: left;
+  top: 25rem;
+  left: 18rem;
+  width: 50rem;
+  color: #1b4332;
+  background-color: #D8F3DC;
+}
+
+
+/*why is it important part*/
+.inter-impo-section-inclu-conf{
+  display: flex;
+  align-items: flex-start;
+  gap: 2rem;
+  margin: 10rem auto;   
+  max-width: 1200px;
+}
+
+.impo-inter-inclu-but{
+  position: absolute;
+  height: auto;
+  border-radius: 12px;
+  left: 40rem;  
+  z-index: 10;
+  width: 30rem;
+  top: 148rem;
+}
+
+.inter-impo-text-container-inclu{
+  position: relative;   
+  padding: 2rem;
+  border-radius: 12px;
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.1rem;
+  line-height: 1.8;
+  text-align: left;
+  top: 17rem;
+  left: -10rem;
+  width: 50rem;
+  color: #D8F3DC;
+}
+
+
+/* What did we gain section */
+.inter-gain-section-inclu-conf{
+  display: flex;
+  align-items: flex-start;
+  gap: 2rem;
+  margin: 10rem auto;   
+  max-width: 1200px;
+}
+
+.gain-inter-inclu-but{
+  position: absolute;
+  height: auto;
+  border-radius: 12px;
+  right: 37rem;  
+  z-index: 10;
+  width: 30rem;
+  top: 163rem;
+}
+
+.inter-gain-text-container-inclu{
+  position: relative;   
+  padding: 2rem;
+  border-radius: 12px;
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.1rem;
+  line-height: 1.8;
+  text-align: left;
+  top: 17rem;
+  right:  10rem;
+  width: 50rem;
+  color: #1b4332;
+  background-color: #D8F3DC;  
+  margin-bottom: 28rem;
+}
+
+.inter-inclu-img{
+  position: absolute;
+  height: auto;
+  border-radius: 12px;
+  left: 43rem;  
+  z-index: 10;
+  width: 25rem;
+  top: 170rem;
+}
+
+
+/*adhd version*/
+.inter-adhd-text-inclu{
+  position: relative;   
+  color: #1b4332;
+  background-color: rgba(210, 232, 222, 0.75);
+  padding: 2rem;
+  border-radius: 12px;
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.1rem;
+  line-height: 1.8;
+  text-align: left;
+  top: 2rem;            
+  left: 5rem;
+  width: 60rem;
+  border-radius: 12px;
+  padding: 3rem;
+  margin-bottom: 5rem;
+}
+
+}

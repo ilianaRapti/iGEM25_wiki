@@ -574,3 +574,249 @@
   height: auto;
 }
 }
+
+
+/* Tablets (≤1024px) */
+@media (max-width: 1024px) {
+  .sfhmmy-section-edu {
+    width: 95%;
+    padding: 1.5rem;
+  }
+
+  .sfhmmy-text-container-edu {
+    position: static;
+    width: 100%;
+    margin: 0;
+    top: 0;
+    font-size: 1.05rem;
+    line-height: 1.7;
+  }
+
+  .introduction-sfhmmy-edu,
+  .organization-image-edu,
+  .implementation-image-edu-sfhmmy,
+  .impl-pc-image,
+  .outcomes-image-edu-sfhmmy,
+  .outcomes-image-left-edu,
+  .outcomes-image-right-edu,
+  .important-image-edu-sfhmmy,
+  .gain-image-edu-sfhmmy {
+    position: static;
+    display: block;
+    width: 100%;
+    max-width: 520px;
+    height: auto;
+    margin: 1rem auto;
+  }
+
+  .organization-section-edu,
+  .implementation-section-edu,
+  .outcomes-section-edu,
+  .important-section-edu,
+  .gain-section-edu {
+    margin-top: 2rem;
+    text-align: left;
+  }
+
+  .organization-text-edu,
+  .impl-block-edu.center-edu,
+  .outcomes-text-edu-sfhmmy,
+  .outcomes-text-edu-sfhmmy1,
+  .important-text-edu-sfhmmy,
+  .gain-text-edu-sfhmmy {
+    position: static;
+    width: 100%;
+    padding: 1.25rem;
+  }
+
+  .references-edu {
+    position: static;
+    display: inline-block;
+    margin: 1rem 0 0 0;
+    padding: 0.5rem 1rem;
+  }
+
+  .edu-references {
+    position: static;
+    width: 100%;
+    max-width: 100%;
+    margin: 0.75rem 0 1.5rem 0;
+    padding: 1rem 1.25rem;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.12);
+    font-size: 0.95rem;
+  }
+
+  .iThess-image-edu {
+    width: 100%;
+    max-width: 720px;
+    margin: 2rem auto 0 auto;
+  }
+}
+
+/* Mobiles (≤768px) */
+@media (max-width: 768px) {
+  .sfhmmy-section-edu {
+    width: 92%;
+    padding: 1.25rem;
+    margin: 1.5rem auto;
+  }
+
+  .sfhmmy-text-container-edu {
+    font-size: 1rem;
+    line-height: 1.65;
+  }
+
+  .organization-text-edu,
+  .impl-block-edu.center-edu,
+  .outcomes-text-edu-sfhmmy,
+  .outcomes-text-edu-sfhmmy1,
+  .important-text-edu-sfhmmy,
+  .gain-text-edu-sfhmmy {
+    font-size: 1rem;
+    line-height: 1.65;
+    padding: 1rem;
+    border-radius: 10px;
+  }
+
+  .introduction-sfhmmy-edu,
+  .organization-image-edu,
+  .implementation-image-edu-sfhmmy,
+  .impl-pc-image,
+  .outcomes-image-edu-sfhmmy,
+  .outcomes-image-left-edu,
+  .outcomes-image-right-edu,
+  .important-image-edu-sfhmmy,
+  .gain-image-edu-sfhmmy {
+    max-width: 100%;
+    margin: 0.75rem auto;
+    border-radius: 10px;
+  }
+
+  .references-edu {
+    display: block;
+    margin-top: 0.5rem;
+  }
+
+  .edu-references {
+    padding: 0.9rem 1rem;
+    font-size: 0.95rem;
+  }
+
+  .edu-references ol {
+    padding-left: 1.1rem;
+  }
+
+  .iThess-image-edu {
+    width: 100%;
+    margin-top: 1.5rem;
+  }
+}
+
+/* Small Mobiles (≤480px) */
+@media (max-width: 480px) {
+  .sfhmmy-section-edu {
+    width: 90%;
+    padding: 1rem;
+  }
+
+  .sfhmmy-text-container-edu,
+  .organization-text-edu,
+  .impl-block-edu.center-edu,
+  .outcomes-text-edu-sfhmmy,
+  .outcomes-text-edu-sfhmmy1,
+  .important-text-edu-sfhmmy,
+  .gain-text-edu-sfhmmy {
+    font-size: 0.95rem;
+    line-height: 1.6;
+  }
+
+  .references-edu-title {
+    font-size: 1.05rem;
+  }
+
+  .edu-references {
+    font-size: 0.9rem;
+    padding: 0.85rem 0.9rem;
+  }
+
+  .introduction-sfhmmy-edu,
+  .organization-image-edu,
+  .implementation-image-edu-sfhmmy,
+  .impl-pc-image,
+  .outcomes-image-edu-sfhmmy,
+  .outcomes-image-left-edu,
+  .outcomes-image-right-edu,
+  .important-image-edu-sfhmmy,
+  .gain-image-edu-sfhmmy {
+    margin: 0.6rem auto;
+  }
+
+  .iThess-image-edu {
+    width: 100%;
+  }
+}
+
+
+
+
+/* Stack title image above text (tablets & below) */
+@media (max-width: 1024px) {
+  .important-section-edu,
+  .gain-section-edu {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0;
+    margin: 2rem auto;
+    max-width: 100%;
+  }
+
+  .important-image-edu-sfhmmy,
+  .gain-image-edu-sfhmmy,
+  .important-text-edu-sfhmmy,
+  .gain-text-edu-sfhmmy {
+    position: static !important;
+    top: auto !important;
+    left: auto !important;
+    right: auto !important;
+    width: 100%;
+    max-width: 640px;
+    margin: 0 auto;
+  }
+
+  /* ensure text appears under the title image */
+  .important-image-edu-sfhmmy,
+  .gain-image-edu-sfhmmy { order: 0; margin-top: 1rem; }
+
+  .important-text-edu-sfhmmy,
+  .gain-text-edu-sfhmmy { order: 1; margin-top: 0.75rem; }
+}
+
+/* Phones */
+@media (max-width: 768px) {
+  .important-image-edu-sfhmmy,
+  .gain-image-edu-sfhmmy {
+    max-width: 100%;
+    margin: 0.5rem auto 0;
+    border-radius: 10px;
+  }
+
+  .important-text-edu-sfhmmy,
+  .gain-text-edu-sfhmmy {
+    padding: 1rem;
+    border-radius: 10px;
+    font-size: 1rem;
+    line-height: 1.65;
+    margin-top: 0.5rem;
+  }
+}
+
+/* Small phones */
+@media (max-width: 480px) {
+  .important-text-edu-sfhmmy,
+  .gain-text-edu-sfhmmy {
+    font-size: 0.95rem;
+    line-height: 1.6;
+    padding: 0.85rem 0.9rem;
+  }
+}

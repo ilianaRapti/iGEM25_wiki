@@ -1,4 +1,5 @@
 import "./junhigh-edu.css"
+import "./shared.css"
 
 export const JunhighEdu = {
   id: 3,
@@ -141,8 +142,74 @@ export const JunhighEdu = {
       </div>
     
   ),
+
   adhdText: (
-    <p>
-    </p>
+  <div className="shared-adhd-text-inclu">
+    <p><b>Junior High Synthetic Biology Immersion</b></p>
+
+    <p><b>Introduction</b></p>
+    <ul>
+      <li>
+        Goal: Introduce junior high students to synthetic biology through hands-on, engaging activities and connect concepts to real-world applications.
+      </li>
+    </ul>
+
+    <p><b>Organization</b></p>
+    <ul>
+      <li>Planned a full-day immersion at the Department of Biological Applications and Technology.</li>
+      <li>Combined clear explanations, playful demonstrations, laboratory rotations, and an awards ceremony.</li>
+      <li>Prepared LEGO-based activities to illustrate genetic engineering in an intuitive, memorable way.</li>
+    </ul>
+
+    <p><b>Implementation</b></p>
+    <ul>
+      <li>
+        Welcomed thirty students and introduced synthetic biology using everyday language and analogies, likening genes to LEGO bricks.
+      </li>
+      <li>
+        Demonstrated how “knocking in” genes alters organism behavior and linked this to iGEM’s work and previous educational experiences.
+      </li>
+      <li>
+        Conducted playful demonstrations, Q&A sessions, and paired students to solve problems using synthetic-biology principles.
+      </li>
+      </ul>
+      <ul>
+    
+        Hosted lab rotations:
+        <ul>
+          <li>
+            <b>Organic Chemistry Lab:</b> Students performed “magic surgery” with potassium thiocyanate (KSCN), liquid nitrogen experiments (including shattering a rose), created a cloud with hot water and liquid nitrogen, and conducted the “Elephant’s Toothpaste” reaction.
+          </li>
+          <li>
+            <b>Microbiology Lab:</b> Students practiced aseptic techniques, streaked agar plates, and observed bacteria and probiotics under microscopes.
+          </li>
+        </ul>
+    
+      
+        Concluded with an awards ceremony, evaluating LEGO models on creativity, scientific plausibility, fun, and clarity; awarded commemorative plane tree candles to the top five teams.
+    </ul>
+
+    <p><b>Outcome and Results</b></p>
+    <ul>
+      <li>Students gained clear understanding of synthetic biology and real laboratory practices.</li>
+      <li>Hands-on activities fostered excitement and curiosity.</li>
+      <li>Awards reinforced achievement and encouraged continued exploration of science.</li>
+    </ul>
+
+    <p><b>Why This Is Important</b></p>
+    <ul>
+      <li>Provides interactive STEM education that connects theory to practice.</li>
+      <li>Encourages creative problem-solving and teamwork.</li>
+      <li>Inspires curiosity about genetic engineering and scientific processes among young learners.</li>
+    </ul>
+
+    <p><b>What We Gained</b></p>
+    <ul>
+      <li>Experience designing comprehensive, engaging educational activities.</li>
+      <li>Strengthened public speaking, teaching, and science communication skills.</li>
+      <li>Motivation to continue providing hands-on, immersive STEM outreach.</li>
+    </ul>
+  </div>
+
   ),
 };

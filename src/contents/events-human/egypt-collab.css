@@ -1,0 +1,259 @@
+
+.egy1-section-coll {
+  position: relative;
+  width: 90%;
+  max-width: 1200px;
+  padding: 2rem;
+  margin: -1rem auto;
+  
+}
+.egy1-text-container-coll{
+    position: relative;   
+    top: 1rem;            
+    color: #1b4332;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.2rem;
+    line-height: 1.8;
+    width: 50rem;
+    left: 20rem;
+    top: 2rem;
+    border-radius: 12px;
+    padding: 3rem;
+
+}
+.asthma-img1-coll{
+  position: absolute;
+  width: 590px;   
+  height: auto;
+  border-radius: 12px;
+  top: 3rem;
+  right: 40rem;  
+  z-index: 10;
+}
+
+
+.egy2-section-coll {
+  text-align: center;
+}
+
+.egy2-text-container-coll{
+  position: relative;   
+  color: #1b4332;
+  padding: 2rem;
+  border-radius: 12px;
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.1rem;
+  line-height: 1.8;
+  text-align: left;
+  top: -3rem;            
+  left: 20rem;
+  width: 50rem;
+  border-radius: 12px;
+  padding: 3rem;
+}
+
+.egy3-text-coll{
+  position: relative;   
+  color: #fff;
+  padding: 2rem;
+  border-radius: 12px;
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.1rem;
+  line-height: 1.8;
+  text-align: left;
+  top: -2rem;            
+  right: 19rem;
+  width: 70rem;
+  border-radius: 12px;
+  padding: 3rem;
+}
+
+
+.egylogo-img-coll{
+  position: absolute;
+  width: 400px;   
+  height: auto;
+  border-radius: 12px;
+  top: 30rem;
+  left: 49rem;  
+  z-index: 10;
+}
+
+
+/*screens*/
+@media (max-width: 1280px) {
+
+.egy1-section-coll {
+  position: relative;
+  width: 90%;
+  max-width: 1200px;
+  padding: 2rem;
+  margin: -1rem auto;
+  
+}
+.egy1-text-container-coll{
+    position: relative;   
+    top: 1rem;            
+    color: #1b4332;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.2rem;
+    line-height: 1.8;
+    width: 50rem;
+    left: 18rem;
+    top: 2rem;
+    border-radius: 12px;
+    padding: 3rem;
+
+}
+.asthma-img1-coll{
+  position: absolute;
+  width: 590px;   
+  height: auto;
+  border-radius: 12px;
+  top: 3rem;
+  right: 35rem;  
+  z-index: 10;
+}
+
+
+.egy2-section-coll {
+  text-align: center;
+}
+
+.egy2-text-container-coll{
+  position: relative;   
+  color: #1b4332;
+  padding: 2rem;
+  border-radius: 12px;
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.1rem;
+  line-height: 1.8;
+  text-align: left;
+  top: -3rem;            
+  left: 18rem;
+  width: 50rem;
+  border-radius: 12px;
+  padding: 3rem;
+}
+
+.egy3-text-coll{
+  position: relative;   
+  color: #fff;
+  padding: 2rem;
+  border-radius: 12px;
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.1rem;
+  line-height: 1.8;
+  text-align: left;
+  top: -8rem;            
+  right: 9rem;
+  width: 60rem;
+  border-radius: 12px;
+  padding: 3rem;
+}
+
+
+.egylogo-img-coll{
+  position: absolute;
+  width: 400px;   
+  height: auto;
+  border-radius: 12px;
+  top: 30rem;
+  left: 47rem;  
+  z-index: 10;
+}
+}
+
+
+
+/* Tablets */
+@media (max-width: 1024px) {
+  .egy1-section-coll {
+    width: 94%;
+    margin: 2rem auto;
+    padding: 1.25rem;
+  }
+
+  .egy1-text-container-coll,
+  .egy2-text-container-coll,
+  .egy3-text-coll {
+    position: static;
+    width: 100%;
+    max-width: 100%;
+    margin: 0 auto 1.25rem;
+    padding: 1.25rem 1rem;
+    box-sizing: border-box;
+    border-radius: 12px;
+  }
+
+  .egy1-text-container-coll,
+  .egy2-text-container-coll {
+    background: rgba(240, 249, 245, 0.9); /* soft light bg */
+    color: #1b4332;
+  }
+
+  .egy3-text-coll {
+    background: rgba(130, 61, 134, 0.9); /* soft purple bg */
+    color: #fff;
+  }
+
+  .egy2-section-coll,
+  .egy3-section-coll {
+    margin-top: 2rem;
+    text-align: left;
+  }
+
+  .asthma-img1-coll,
+  .egylogo-img-coll {
+    position: static;
+    display: block;
+    width: 100%;
+    height: auto;
+    max-width: 100%;
+    margin: 0.75rem auto;
+    border-radius: 12px;
+  }
+}
+
+/* Mobiles */
+@media (max-width: 768px) {
+  .egy1-section-coll {
+    width: 92%;
+    margin: 1.5rem auto;
+    padding: 1rem;
+  }
+
+  .egy1-text-container-coll,
+  .egy2-text-container-coll,
+  .egy3-text-coll {
+    margin-bottom: 1rem;
+    padding: 1rem 0.9rem;
+    font-size: 1rem;
+    line-height: 1.7;
+    word-break: break-word;
+  }
+
+  .egy2-section-coll,
+  .egy3-section-coll {
+    margin-top: 1rem;
+  }
+
+  .asthma-img1-coll,
+  .egylogo-img-coll {
+    margin-top: 0.5rem;
+  }
+}
+
+/* Very small phones */
+@media (max-width: 480px) {
+  .egy1-section-coll {
+    width: 95%;
+  }
+
+  .egy1-text-container-coll,
+  .egy2-text-container-coll,
+  .egy3-text-coll {
+    padding: 0.9rem 0.85rem;
+    font-size: 0.98rem;
+  }
+}

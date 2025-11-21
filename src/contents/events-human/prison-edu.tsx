@@ -1,8 +1,9 @@
 import "./prison-edu.css"
+import "./shared.css"
 
 export const PrisonEdu = {
   id: 2,
-  title: "Nigrita Prison",
+  title: "Second Chance School",
   thumbnail: "https://static.igem.wiki/teams/5684/wikipics/education/nigrita-prison/prison-cover.webp",
   background: "https://static.igem.wiki/teams/5684/wikipics/education/nigrita-prison/nigrita-prison-bg.webp",
   description: (
@@ -11,7 +12,7 @@ export const PrisonEdu = {
       {/* Introduction section */}
         <p>
             This activity was one of our most meaningful educational initiatives. 
-            By partnering with the <b>Second Chance School</b> inside Nigrita Prison, we aimed 
+            By partnering with the <b>Second Chance School</b> inside Correctional Facility In Nigrita, Serres, Greece, we aimed 
             to <b>bring science to a community often excluded from academic spaces</b>. 
             Our session focused on synthetic biology, environmental protection and 
             our project to combat a dangerous fungal pathogen affecting plane trees
@@ -139,9 +140,45 @@ export const PrisonEdu = {
       </div>
     
   ),
+
   adhdText: (
-    <p>
-      ΣΦΗΜΜΥ = φοιτητικό συνέδριο. Παρουσιάσαμε το project μας και μιλήσαμε με επισκέπτες.
-    </p>
+     <div className="shared-adhd-text-inclu">
+
+    <p><b>Event</b></p>
+    <ul>
+      <li>Online session with <b>Second Chance School</b> inside Nigrita Prison.</li>
+      <li>Topic: Synthetic biology, our project, and environmental protection.</li>
+    </ul>
+
+    <p><b>Goal</b></p>
+    <ul>
+      <li>Educate participants on basic science concepts.</li>
+      <li>Show how our project connects to climate change, their current study topic.</li>
+      <li>Provide a <b>safe and supportive learning experience</b>.</li>
+    </ul>
+
+    <p><b>How We Prepared</b></p>
+    <ul>
+      <li>Gained approval from <b>iGEM HQ</b>.</li>
+      <li>Worked with prison educators to plan an inclusive and respectful session.</li>
+      <li>Designed interactive discussions rather than a one-way lecture.</li>
+      <li>Created feedback forms for both teachers and students.</li>
+    </ul>
+
+    <p><b>Results</b></p>
+    <ul>
+      <li><b>100% of participants rated the session 5/5</b> for clarity and engagement.</li>
+      <li>Students actively shared their thoughts and experiences.</li>
+      <li>Teachers highlighted the session’s strong educational value.</li>
+    </ul>
+
+    <p><b>Why It Matters</b></p>
+    <ul>
+      <li>Education brings science to underserved communities.</li>
+      <li>Builds bridges between society and research.</li>
+      <li>Shows that knowledge is empowerment.</li>
+    </ul>
+
+  </div>
   ),
 };

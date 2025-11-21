@@ -1,0 +1,448 @@
+
+
+.styles1-section-inclu {
+  position: relative;
+  width: 90%;
+  max-width: 1200px;
+  margin: 40rem auto;
+  padding: 2rem;
+}
+
+.styles1-text-inclu{
+  position: relative;   
+  top: -40rem;
+  left: 1rem;          
+  margin-right: 320px; 
+  color: #1b4332;
+  background-color: rgba(210, 232, 222, 1);
+  padding: 2rem;
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.2rem;
+  line-height: 1.8;
+  width: 75rem;
+  border-radius: 12px;
+}
+
+.styles-img1-inclu{
+  position: absolute;
+  width: 500px;   
+  height: auto;
+  border-radius: 12px;
+  top: -35rem;
+  right: 50rem;  
+  z-index: 10;
+}
+
+
+/* Organization section */
+.styles2-organization-section-inclu{
+  margin-top: 4rem;
+  text-align: center;
+}
+
+.styles2-text-inclu{
+  position: relative;   
+  color: #1b4332;
+  background-color: rgba(210, 232, 222, 1);
+  padding: 2rem;
+  border-radius: 12px;
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.1rem;
+  line-height: 1.8;
+  text-align: left;
+  top: -40rem;
+  left: 7rem;
+  width: 70rem;
+}
+
+.styles-img2-inclu{
+  position: absolute;
+  width: 590px;   
+  height: auto;
+  border-radius: 12px;
+  top: -12rem;
+  left: 49rem;  
+  z-index: 10;
+}
+
+
+
+/* Implementation section */
+.styles3-impl-section-inclu{
+  margin-top: 4rem;
+  text-align: center;
+}
+
+.styles3-text-inclu{
+  position: relative;   
+  padding: 2rem;
+  border-radius: 12px;
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.1rem;
+  line-height: 1.8;
+  text-align: left;
+  top: -40rem;
+  right: 5rem;
+  width: 55rem;
+  color: #1b4332;
+  background-color: rgba(210, 232, 222, 1);
+}
+
+
+/*outcome part*/
+.styles4-out-section-inclu{
+  position: absolute;
+  width: 200px;   
+  height: auto;
+  border-radius: 12px;
+  z-index: 10;
+  width: 30rem;
+  top: 5rem;
+  right: 50rem;  
+}
+
+
+.styles4-text-inclu{
+  position: relative;   
+  padding: 2rem;
+  border-radius: 12px;
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.1rem;
+  line-height: 1.8;
+  text-align: left;
+  top: 9rem;
+  left: 29rem;
+  width: 50rem;
+  color: #1b4332;
+  background-color: rgba(210, 232, 222, 1);
+}
+
+.styles-img3-inclu{
+  position: absolute;
+  height: auto;
+  border-radius: 12px;
+  z-index: 10;
+  width: 30rem;
+  top: 2rem;
+  left: 1rem;  
+}
+
+
+/*why is it important part*/
+.styles5-section-inclu{
+  margin-top: 4rem;
+  text-align: center;
+}
+
+.styles5-text-inclu{
+  position: relative;   
+  padding: 2rem;
+  border-radius: 12px;
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.1rem;
+  line-height: 1.8;
+  text-align: left;
+  top: 10rem;
+  left: 20rem;
+  width: 50rem;
+  color: #1b4332;
+  background-color: rgba(210, 232, 222, 1);
+}
+
+.styles-img4-inclu{
+  position: absolute;
+  width: 550px;   
+  height: auto;
+  border-radius: 12px;
+  top: 20rem;
+  left: 68rem;  
+  z-index: 10;
+}
+
+.styles6-text-inclu{
+  position: relative;   
+  padding: 2rem;
+  border-radius: 12px;
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.1rem;
+  line-height: 1.8;
+  text-align: left;
+  top: 16rem;
+  left: 22rem;
+  width: 60rem;
+  color: #1b4332;
+  background-color: rgba(210, 232, 222, 1);
+}
+
+.styles7-text-inclu{
+  position: relative;   
+  padding: 2rem;
+  border-radius: 12px;
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.1rem;
+  line-height: 1.8;
+  text-align: left;
+  top: 20rem;
+  left: 15rem;
+  width: 75rem;
+  color: #1b4332;
+  background-color: rgba(210, 232, 222, 1);
+}
+
+.styles-img5-inclu{
+  position: absolute;
+  width: 250px;   
+  height: auto;
+  border-radius: 12px;
+  right: 55rem;  
+  z-index: 10;
+  width: 30rem;
+  top: 43rem;
+}
+
+
+
+/*adhd version*/
+.styles-adhd-text-inclu{
+  position: relative;   
+  color: #1b4332;
+  background-color: rgba(210, 232, 222, 0.75);
+  padding: 2rem;
+  border-radius: 12px;
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.1rem;
+  line-height: 1.8;
+  text-align: left;
+  top: 2rem;            
+  left: 5rem;
+  width: 60rem;
+  border-radius: 12px;
+  padding: 3rem;
+  margin-bottom: 5rem;
+}
+
+
+/*screens*/
+@media (max-width: 1280px) {
+
+
+.styles1-section-inclu {
+  position: relative;
+  width: 90%;
+  max-width: 1200px;
+  margin: 40rem auto;
+  padding: 2rem;
+}
+
+.styles1-text-inclu{
+  position: relative;   
+  top: -40rem;
+  left: 15rem;          
+  margin-right: 320px; 
+  color: #1b4332;
+  background-color: rgba(210, 232, 222, 1);
+  padding: 2rem;
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.2rem;
+  line-height: 1.8;
+  width: 50rem;
+  border-radius: 12px;
+}
+
+.styles-img1-inclu{
+  position: absolute;
+  width: 450px;   
+  height: auto;
+  border-radius: 12px;
+  top: -40rem;
+  right: 43rem;  
+  z-index: 10;
+}
+
+
+/* Organization section */
+.styles2-organization-section-inclu{
+  margin-top: 4rem;
+  text-align: center;
+}
+
+.styles2-text-inclu{
+  position: relative;   
+  color: #1b4332;
+  background-color: rgba(210, 232, 222, 1);
+  padding: 2rem;
+  border-radius: 12px;
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.1rem;
+  line-height: 1.8;
+  text-align: left;
+  top: -38rem;
+  left: 2rem;
+  width: 40rem;
+}
+
+.styles-img2-inclu{
+  position: absolute;
+  width: 450px;   
+  height: auto;
+  border-radius: 12px;
+  top: -23rem;
+  left: 43rem;  
+  z-index: 10;
+}
+
+
+
+/* Implementation section */
+.styles3-impl-section-inclu{
+  margin-top: 4rem;
+  text-align: center;
+}
+
+.styles3-text-inclu{
+  position: relative;   
+  padding: 2rem;
+  border-radius: 12px;
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.1rem;
+  line-height: 1.8;
+  text-align: left;
+  top: -40rem;
+  right: 5rem;
+  width: 65rem;
+  color: #1b4332;
+  background-color: rgba(210, 232, 222, 1);
+}
+
+
+/*outcome part*/
+.styles4-out-section-inclu{
+  position: absolute;
+  width: 200px;   
+  height: auto;
+  border-radius: 12px;
+  z-index: 10;
+  width: 30rem;
+  top: 5rem;
+  right: 50rem;  
+}
+
+
+.styles4-text-inclu{
+  position: relative;   
+  padding: 2rem;
+  border-radius: 12px;
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.1rem;
+  line-height: 1.8;
+  text-align: left;
+  top: 20rem;
+  left: 35rem;
+  width: 50rem;
+  color: #1b4332;
+  background-color: rgba(210, 232, 222, 1);
+}
+
+.styles-img3-inclu{
+  position: absolute;
+  height: auto;
+  border-radius: 12px;
+  z-index: 10;
+  width: 30rem;
+  top: 13rem;
+  left: 8rem;  
+}
+
+
+/*why is it important part*/
+.styles5-section-inclu{
+  margin-top: 4rem;
+  text-align: center;
+}
+
+.styles5-text-inclu{
+  position: relative;   
+  padding: 2rem;
+  border-radius: 12px;
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.1rem;
+  line-height: 1.8;
+  text-align: left;
+  top: 20rem;
+  left: 30rem;
+  width: 35rem;
+  color: #1b4332;
+  background-color: rgba(210, 232, 222, 1);
+}
+
+.styles-img4-inclu{
+  position: absolute;
+  width: 400px;   
+  height: auto;
+  border-radius: 12px;
+  top: 30rem;
+  left: 64rem;  
+  z-index: 10;
+}
+
+.styles6-text-inclu{
+  position: relative;   
+  padding: 2rem;
+  border-radius: 12px;
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.1rem;
+  line-height: 1.8;
+  text-align: left;
+  top: 25rem;
+  left: 35rem;
+  width: 50rem;
+  color: #1b4332;
+  background-color: rgba(210, 232, 222, 1);
+}
+
+.styles7-text-inclu{
+  position: relative;   
+  padding: 2rem;
+  border-radius: 12px;
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.1rem;
+  line-height: 1.8;
+  text-align: left;
+  top: 29rem;
+  left: 15rem;
+  width: 65em;
+  color: #1b4332;
+  background-color: rgba(210, 232, 222, 1);
+}
+
+.styles-img5-inclu{
+  position: absolute;
+  height: auto;
+  border-radius: 12px;
+  right: 43rem;  
+  z-index: 10;
+  width: 25rem;
+  top: 55rem;
+}
+
+
+
+/*adhd version*/
+.styles-adhd-text-inclu{
+  position: relative;   
+  color: #1b4332;
+  background-color: rgba(210, 232, 222, 0.75);
+  padding: 2rem;
+  border-radius: 12px;
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.1rem;
+  line-height: 1.8;
+  text-align: left;
+  top: 2rem;            
+  left: 5rem;
+  width: 60rem;
+  border-radius: 12px;
+  padding: 3rem;
+  margin-bottom: 5rem;
+}
+}

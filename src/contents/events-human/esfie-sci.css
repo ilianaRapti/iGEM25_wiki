@@ -1,0 +1,149 @@
+.esfie1-section-sci {
+  position: relative;
+  width: 90%;
+  max-width: 1200px;
+  margin: -5rem auto;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+/* ---------- Title (desktop/laptop: yellow badge, 0.8 opacity) ---------- */
+.esfie1-title-sci {
+  background-color: rgba(242, 201, 76, 0.8);
+  color: #1b4332;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-size: 1.8rem;
+  line-height: 1.2;
+  text-align: center;
+  width: fit-content;
+  padding: 0.8rem 2rem;
+  border-radius: 16px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
+}
+
+/* ---------- Text block (desktop/laptop: white bg 0.8 opacity) ---------- */
+.esfie1-text-container-sci {
+  position: relative;
+  top: 4rem;
+  color: #1b4332;
+  background-color: rgba(255, 255, 255, 0.8);
+  font-family: "Poppins", sans-serif;
+  font-size: 1.2rem;
+  line-height: 1.8;
+  width: 70rem;
+  right: 2rem;
+  border-radius: 20px;
+  padding: 3rem;
+  margin-bottom: 10rem;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+/* ---------- Desktop/Laptop slight responsiveness ---------- */
+@media (max-width: 1440px) and (min-width: 1025px) {
+  .esfie1-text-container-sci {
+    width: 60rem;
+    right: 1.5rem;
+    margin-right: 280px;
+    padding: 2.5rem;
+    font-size: 1.15rem;
+  }
+}
+
+@media (max-width: 1280px) and (min-width: 1025px) {
+  .esfie1-text-container-sci {
+    width: 52rem;
+    right: 1rem;
+    margin-right: 240px;
+    padding: 2rem;
+    font-size: 1.1rem;
+    top: 3rem;
+  }
+}
+
+/* ---------- Tablet (≤1024px): solid yellow + white bg ---------- */
+@media (max-width: 1024px) {
+  .esfie1-section-sci {
+    width: 94%;
+    margin: -2rem auto 2rem;
+    padding: 1.5rem;
+  }
+
+  .esfie1-title-sci {
+    background-color: rgba(242, 201, 76, 0.95);
+    color: #1b4332;
+    font-size: 1.5rem;
+    padding: 0.6rem 1.5rem;
+    border-radius: 16px;
+  }
+
+  .esfie1-text-container-sci {
+    position: static;
+    width: 100%;
+    max-width: 100%;
+    margin: 1rem auto 4rem;
+    right: auto;
+    top: auto;
+    padding: 2rem;
+    font-size: 1.05rem;
+    line-height: 1.8;
+    border-radius: 18px;
+    background-color: rgba(255, 255, 255, 0.95);
+  }
+}
+
+/* ---------- Large phones / Small tablets (≤768px) ---------- */
+@media (max-width: 768px) {
+  .esfie1-section-sci {
+    width: 96%;
+    margin: 0 auto 1.5rem;
+    padding: 1rem;
+  }
+
+  .esfie1-title-sci {
+    font-size: 1.3rem;
+    padding: 0.5rem 1.2rem;
+    border-radius: 14px;
+    background-color: rgba(242, 201, 76, 0.95);
+  }
+
+  .esfie1-text-container-sci {
+    padding: 1.25rem 1rem;
+    margin-bottom: 2.5rem;
+    font-size: 1rem;
+    line-height: 1.7;
+    border-radius: 12px;
+    background-color: rgba(255, 255, 255, 0.95);
+  }
+
+  .esfie1-text-container-sci p {
+    margin: 0;
+  }
+}
+
+/* ---------- Small phones (≤480px) ---------- */
+@media (max-width: 480px) {
+  .esfie1-section-sci {
+    width: 98%;
+    padding: 0.75rem;
+  }
+
+  .esfie1-title-sci {
+    font-size: 1.15rem;
+    padding: 0.45rem 1rem;
+    border-radius: 12px;
+    background-color: rgba(242, 201, 76, 0.95);
+  }
+
+  .esfie1-text-container-sci {
+    padding: 1rem 0.875rem;
+    font-size: 0.95rem;
+    line-height: 1.65;
+    margin-bottom: 2rem;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.95);
+  }
+}

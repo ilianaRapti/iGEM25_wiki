@@ -1,0 +1,268 @@
+
+
+.media1-section-sci {
+  position: relative;
+  width: 90%;
+  max-width: 1200px;
+  margin: 8rem auto;
+  padding: 2rem;
+}
+
+.media1-text-container-sci{
+    position: relative;   
+    top: -6rem;            
+    margin-right: 320px; 
+    color: #1b4332;
+    background-color: rgba(210, 232, 222, 0.75); 
+    box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.2rem;
+    line-height: 1.8;
+    width: 70rem;
+    border-radius: 12px;
+    padding: 3rem;
+
+}
+
+
+
+/* Organization section */
+.media2-section-sci {
+  margin-top: 4rem;
+  text-align: center;
+}
+
+.media2-text-sci{
+  position: relative;   
+  color: #1b4332;
+  background-color: rgba(210, 232, 222, 0.75);  
+  padding: 2rem;
+  border-radius: 12px;
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.1rem;
+  line-height: 1.8;
+  text-align: left;
+  top: -8rem;            
+  width: 70rem;
+  border-radius: 12px;
+  padding: 3rem;
+}
+
+.media3-text-sci {
+  position: relative;   
+  color: #1b4332;
+  background-color: rgba(210, 232, 222, 0.75);  
+  padding: 2rem;
+  border-radius: 12px;
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.1rem;
+  line-height: 1.8;
+  text-align: left;
+  top: -6rem;            
+  left: 33rem;
+  width: 40rem;
+  border-radius: 12px;
+  padding: 3rem;
+  margin-bottom: 25rem;
+}
+
+.media-img1-sci {
+  position: absolute;
+  width: 500px;   
+  height: auto;
+  border-radius: 12px;
+  top: 75rem;
+  right: 30rem;  
+  z-index: 10;
+}
+
+.media-img2-sci {
+  position: absolute;
+  width: 85rem;   
+  height: auto;
+  border-radius: 12px;
+  top: 110rem;
+  left: -9rem;  
+  z-index: 10;
+}
+
+/*screens*/
+@media (max-width: 1280px) {
+
+.media1-section-sci {
+  position: relative;
+  width: 90%;
+  max-width: 1200px;
+  margin: 8rem auto;
+  padding: 2rem;
+}
+
+.media1-text-container-sci{
+    position: relative;   
+    top: -6rem;
+    right: 5rem;           
+    margin-right: 320px; 
+    color: #1b4332;
+    background-color: rgba(210, 232, 222, 0.75); 
+    box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.2rem;
+    line-height: 1.8;
+    width: 70rem;
+    border-radius: 12px;
+    padding: 3rem;
+
+}
+
+
+
+/* Organization section */
+.media2-section-sci {
+  margin-top: 4rem;
+  text-align: center;
+}
+
+.media2-text-sci{
+  position: relative;   
+  color: #1b4332;
+  background-color: rgba(210, 232, 222, 0.75);  
+  padding: 2rem;
+  border-radius: 12px;
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.1rem;
+  line-height: 1.8;
+  text-align: left;
+  top: -8rem;
+  right: 5rem;           
+  width: 70rem;
+  border-radius: 12px;
+  padding: 3rem;
+}
+
+.media3-text-sci {
+  position: relative;   
+  color: #1b4332;
+  background-color: rgba(210, 232, 222, 0.75);  
+  padding: 2rem;
+  border-radius: 12px;
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.1rem;
+  line-height: 1.8;
+  text-align: left;
+  top: -5rem;            
+  left: 24rem;
+  width: 40rem;
+  border-radius: 12px;
+  padding: 3rem;
+  margin-bottom: 10rem;
+}
+
+.media-img1-sci {
+  position: absolute;
+  width: 450px;   
+  height: auto;
+  border-radius: 12px;
+  top: 75rem;
+  right: 39rem;  
+  z-index: 10;
+}
+
+.media-img2-sci {
+  position: absolute;
+  width: 75rem;   
+  height: auto;
+  border-radius: 12px;
+  top: 105rem;
+  left: -5rem;  
+  z-index: 10;
+}
+
+}
+
+
+
+/* ---------- Tablet (≤1024px) ---------- */
+@media (max-width: 1024px) {
+  .media1-section-sci {
+    width: 94%;
+    margin: 2rem auto;
+    padding: 1.5rem;
+  }
+
+  /* Make all text blocks full-width; remove offsets */
+  .media1-text-container-sci,
+  .media2-text-sci,
+  .media3-text-sci {
+    position: static;
+    top: auto; right: auto; left: auto; margin-right: 0;
+    width: 100%;
+    max-width: 100%;
+    margin: 0 auto 1.75rem;
+    padding: 2rem;
+    font-size: 1.05rem;
+    line-height: 1.8;
+    border-radius: 12px;
+    overflow-wrap: anywhere;
+  }
+
+  /* Images become fluid, centered, stacked */
+  .media-img1-sci,
+  .media-img2-sci {
+    position: static;
+    display: block;
+    width: 100%;
+    max-width: 560px;
+    height: auto;
+    border-radius: 12px;
+    margin: 0 auto 1.75rem;
+    z-index: 1;
+  }
+}
+
+/* ---------- Large phones / Small tablets (≤768px) ---------- */
+@media (max-width: 768px) {
+  .media1-section-sci {
+    width: 96%;
+    padding: 1rem;
+  }
+
+  .media1-text-container-sci,
+  .media2-text-sci,
+  .media3-text-sci {
+    padding: 1.25rem 1rem;
+    font-size: 1rem;
+    line-height: 1.7;
+    border-radius: 12px;
+    margin-bottom: 1.25rem;
+  }
+
+  .media-img1-sci,
+  .media-img2-sci {
+    max-width: 440px;
+    margin-bottom: 1.25rem;
+  }
+}
+
+/* ---------- Small phones (≤480px) ---------- */
+@media (max-width: 480px) {
+  .media1-section-sci {
+    width: 98%;
+    padding: 0.75rem;
+  }
+
+  .media1-text-container-sci,
+  .media2-text-sci,
+  .media3-text-sci {
+    padding: 1rem 0.875rem;
+    font-size: 0.95rem;
+    line-height: 1.65;
+    border-radius: 10px;
+    margin-bottom: 1rem;
+  }
+
+  .media-img1-sci,
+  .media-img2-sci {
+    max-width: 100%;
+    margin-bottom: 1rem;
+  }
+}

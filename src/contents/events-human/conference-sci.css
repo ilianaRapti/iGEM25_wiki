@@ -1,0 +1,292 @@
+
+
+.conf-section-sci {
+  position: relative;
+  width: 90%;
+  max-width: 1200px;
+  margin: 2rem auto;
+  padding: 2rem;
+}
+
+
+.conf-text-container-sci{
+  position: relative;   
+  top: 6rem;            
+  margin-right: 320px; 
+  color: #1b4332;
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.2rem;
+  line-height: 1.8;
+  width: 50rem;
+  right: 12rem;
+}
+
+.team-conf-sci{
+  position: absolute;
+  width: 500px;   
+  height: auto;
+  border-radius: 12px;
+  top: 10rem;
+  right: -10rem;  
+  z-index: 10;
+}
+
+/* Organization section */
+.organization-section-sci-conf {
+  margin-top: 60rem;
+  text-align: center;
+}
+
+.organization-text-sci-conf {
+  position: relative;   
+  color: #fff;
+  padding: 2rem;
+  border-radius: 12px;
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.1rem;
+  line-height: 1.8;
+  text-align: left;
+  bottom: 50rem;
+  right: 15rem;
+  width: 60rem;
+  margin-bottom: 15rem;
+}
+
+.thom-conf-sci{
+  position: absolute;
+  width: 500px;   
+  height: auto;
+  border-radius: 12px;
+  top: 55rem;
+  right: -9rem;  
+  z-index: 10;
+}
+
+/* Implementation section */
+.implementation-section-sci-conf {
+  margin-top: 4rem;
+  text-align: center;
+}
+
+.impl-conf-sci.center-sci-conf{
+  position: absolute;
+  width: 300px;   
+  height: auto;
+  border-radius: 12px;
+  right: 25rem;  
+  z-index: 10;
+  width: 50rem;
+  top: 57rem;
+  color: #1b4332;
+}
+
+.impl-conf-sci-last.center-sci-conf-last{
+  position: absolute;
+  width: 300px;   
+  height: auto;
+  border-radius: 12px;
+  right: 1rem;  
+  z-index: 10;
+  width: 60rem;
+  top: 102rem;
+  color: #1b4332;
+}
+
+
+
+/*screens*/
+@media (max-width: 1280px) {
+
+.conf-section-sci {
+  position: relative;
+  width: 90%;
+  max-width: 1200px;
+  margin: 25rem auto;
+  padding: 2rem;
+}
+
+
+.conf-text-container-sci{
+  position: relative;   
+  top: -22rem;            
+  margin-right: 320px; 
+  color: #1b4332;
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.2rem;
+  line-height: 1.8;
+  width: 30rem;
+  right: 4rem;
+}
+
+.team-conf-sci{
+  position: absolute;
+  width: 450px;   
+  height: auto;
+  border-radius: 12px;
+  top: -20rem;
+  left: 30rem;  
+  z-index: 10;
+}
+
+/* Organization section */
+.organization-section-sci-conf{
+  margin-top: 4rem;
+  text-align: center;
+}
+
+.organization-text-sci-conf {
+  position: relative;   
+  color: #1b4332;
+  padding: 2rem;
+  border-radius: 12px;
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.1rem;
+  line-height: 1.8;
+  text-align: left;
+  top: -25rem;
+  right: 4rem;
+  width: 70rem;
+}
+
+.thom-conf-sci{
+  position: absolute;
+  width: 420px;   
+  height: auto;
+  border-radius: 12px;
+  top: 30rem;
+  right: -7rem;  
+  z-index: 10;
+}
+
+/* Implementation section */
+.implementation-section-sci-conf {
+  margin-top: 4rem;
+  text-align: center;
+}
+
+.impl-conf-sci.center-sci-conf{
+  position: absolute;
+  width: 300px;   
+  height: auto;
+  border-radius: 12px;
+  right: 20rem;  
+  z-index: 10;
+  width: 45rem;
+  top: 30rem;
+  color: #1b4332;
+}
+
+.impl-conf-sci-last.center-sci-conf-last{
+  position: absolute;
+  width: 300px;   
+  height: auto;
+  border-radius: 12px;
+  right: 2rem;  
+  z-index: 10;
+  width: 60rem;
+  top: 79rem;
+  color: #1b4332;
+}
+}
+
+
+
+/* Tablets (≤1024px) */
+@media (max-width: 1024px) {
+  /* Intro: show image ABOVE text */
+  .conf-section-sci {
+    width: 95%;
+    padding: 1.5rem;
+    margin: 1.5rem auto;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-auto-rows: auto;
+    grid-template-areas:
+      "intro-title"
+      "intro-text";
+    row-gap: 0.75rem;
+  }
+  .team-conf-sci {
+    grid-area: intro-title;
+    position: static !important;
+    display: block;
+    width: 100%;
+    max-width: 640px;
+    height: auto;
+    margin: 0 auto;
+  }
+  .conf-text-container-sci {
+    grid-area: intro-text;
+    position: static !important;
+    top: auto; right: auto; left: auto; margin-right: 0;
+    width: 100%;
+  }
+
+  /* Unpin everything else & make fluid */
+  .organization-text-sci-conf,
+  .thom-conf-sci,
+  .impl-conf-sci.center-sci-conf,
+  .impl-conf-sci-last.center-sci-conf-last {
+    position: static !important;
+    top: auto; right: auto; left: auto; bottom: auto;
+    width: 100%;
+    margin: 1rem auto;
+  }
+
+  /* Images sizing */
+  .thom-conf-sci {
+    display: block;
+    width: 100%;
+    max-width: 640px;
+    height: auto;
+  }
+
+  /* Section container spacing */
+  .organization-section-sci-conf,
+  .implementation-section-sci-conf {
+    margin: 1.25rem auto;
+    text-align: left;
+    max-width: 100%;
+  }
+}
+
+/* Phones (≤768px) */
+@media (max-width: 768px) {
+  .conf-section-sci { width: 92%; padding: 1.25rem; margin: 1.25rem auto; row-gap: 0.6rem; }
+
+  .team-conf-sci,
+  .thom-conf-sci { max-width: 100%; border-radius: 12px; margin: 0.75rem auto; }
+
+  /* White rounded backgrounds + dark text for readability */
+  .conf-text-container-sci,
+  .organization-text-sci-conf,
+  .impl-conf-sci.center-sci-conf,
+  .impl-conf-sci-last.center-sci-conf-last {
+    background: #ffffff;
+    color: #1b4332 !important;
+    padding: 1rem 1.1rem;
+    border-radius: 12px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.08);
+    font-size: 1rem;
+    line-height: 1.65;
+  }
+}
+
+/* Small phones (≤480px) */
+@media (max-width: 480px) {
+  .conf-section-sci { width: 90%; padding: 1rem; margin: 1rem auto; }
+
+  .conf-text-container-sci,
+  .organization-text-sci-conf,
+  .impl-conf-sci.center-sci-conf,
+  .impl-conf-sci-last.center-sci-conf-last {
+    padding: 0.9rem 1rem;
+    font-size: 0.95rem;
+    line-height: 1.6;
+    border-radius: 12px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+  }
+
+  .team-conf-sci,
+  .thom-conf-sci { margin: 0.6rem auto; }
+}

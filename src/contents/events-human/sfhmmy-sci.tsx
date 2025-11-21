@@ -17,9 +17,9 @@ export const SfhmmySci = {
         </p>
     </div>
       {/* Organization section */}
-      <div className="organization-section-sci">
+      <div className="sf-organization-section-sci">
 
-        <div className="organization-text-sci">
+        <div className="sf-organization-text-sci">
           <p>
           Our approach focused on <b>clear communication</b>. Instead of relying on dense theory,
           we used storytelling, real-world examples, and interactive coding to bring participants
@@ -30,8 +30,8 @@ export const SfhmmySci = {
       </div>
       
       {/* Implementation section */}
-      <div className="implementation-section-sci">
-        <div className="impl-block-edu center-sci">
+      <div className="sf-implementation-section-sci">
+        <div className="sf-impl-block-edu sf-center-sci">
           <p>
             The workshop showed how <b>statistical tools tell stories</b> — stories 
             about patient outcomes, treatment effects and system performance. 
@@ -43,9 +43,9 @@ export const SfhmmySci = {
 
 
         {/* Outcomes&Results section */}
-        <div className="outcomes-section-sci">
+        <div className="outcomessfy-section-sci">
         
-          <div className="outcomes-text-sci">
+          <div className="outcomessfy-text-sci">
             <p>
              By the end of the session, participants left with a new skillset and a renewed
               understanding of how <b>science communication empowers</b> communities to engage with 
@@ -57,5 +57,38 @@ export const SfhmmySci = {
         </div>
       </div>
 
+    ),
+
+    adhdText:(
+      <div className="shared-adhd-text-inclu">
+
+      <p><b>Event</b></p>
+      <ul>
+        <li><b>ECESCON 2025</b>, Ioannina, Greece (April 25–27, 2025)</li>
+        <li>Hands-on workshop: <b>Survival Analysis and Risk Estimation in R</b></li>
+      </ul>
+
+      <p><b>Goal</b></p>
+      <ul>
+        <li>Make <b>complex statistical concepts</b> like survival analysis accessible</li>
+        <li>Show how science and engineering connect through data</li>
+        <li>Encourage public understanding of biomedical research</li>
+      </ul>
+
+      <p><b>How We Did It</b></p>
+      <ul>
+        <li>Interactive session with <b>live coding</b> on R</li>
+        <li>Participants worked with real-world datasets</li>
+        <li>Visualizations and step-by-step explanations made the content <b>clear and engaging</b></li>
+      </ul>
+
+      <p><b>Why It Matters</b></p>
+      <ul>
+        <li>Science communication turns intimidating concepts into practical, understandable tools</li>
+        <li>Participants gained the confidence to <b>talk about science clearly</b>, not just to do it</li>
+        <li>Strengthens trust and collaboration between <b>scientists and society</b></li>
+      </ul>
+
+    </div>
     ),
 };

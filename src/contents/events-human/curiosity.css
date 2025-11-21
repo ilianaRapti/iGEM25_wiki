@@ -1,0 +1,231 @@
+
+
+.fcur-section-col {
+  position: relative;
+  width: 90%;
+  max-width: 1200px;
+  margin: 10rem auto;
+  padding: 2rem;
+}
+
+.fcur-text-container-col{
+  position: relative;   
+  top: -2rem;            
+  margin-right: 320px; 
+  color: #fff;
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.2rem;
+  line-height: 1.8;
+  width: 70rem;
+  background-color:#823d86;
+  border-radius: 12px;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+  padding: 3rem;
+
+}
+
+.icon-cur-col {
+  position: absolute;
+  width: 250px;   
+  height: auto;
+  border-radius: 12px;
+  top: 15rem;
+  right: 55rem;  
+  z-index: 10;
+}
+
+
+/* Organization section */
+.scur-section-col {
+  margin-top: 4rem;
+  text-align: center;
+}
+
+.scur-text-col {
+  position: relative;   
+  color: #fff;
+  padding: 2rem;
+  border-radius: 12px;
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.1rem;
+  line-height: 1.8;
+  text-align: left;
+  top: -4rem;            
+  right: -4rem;
+  width: 40rem;
+  background-color:#823d86;
+  border-radius: 12px;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+  padding: 3rem;
+}
+
+
+.teamimg-cur-col {
+  position: absolute;
+  width: 350px;   
+  height: auto;
+  border-radius: 12px;
+  top: 20rem;
+  left: 47rem;  
+  z-index: 10;
+}
+
+/*screens*/
+@media (max-width: 1280px) {
+
+.fcur-section-col {
+  position: relative;
+  width: 90%;
+  max-width: 1200px;
+  margin: 10rem auto;
+  padding: 2rem;
+}
+
+.fcur-text-container-col{
+  position: relative;   
+  top: -2rem;            
+  margin-right: 320px; 
+  color: #fff;
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.2rem;
+  line-height: 1.8;
+  width: 70rem;
+  background-color:#823d86;
+  border-radius: 12px;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+  padding: 3rem;
+  right: 4rem;
+
+}
+
+.icon-cur-col {
+  position: absolute;
+  width: 250px;   
+  height: auto;
+  border-radius: 12px;
+  top: 15rem;
+  right: 55rem;  
+  z-index: 10;
+}
+
+
+/* Organization section */
+.scur-section-col {
+  margin-top: 4rem;
+  text-align: center;
+}
+
+.scur-text-col {
+  position: relative;   
+  color: #fff;
+  padding: 2rem;
+  border-radius: 12px;
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.1rem;
+  line-height: 1.8;
+  text-align: left;
+  top: -4rem;            
+  right: -4rem;
+  width: 40rem;
+  background-color:#823d86;
+  border-radius: 12px;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+  padding: 3rem;
+}
+
+
+.teamimg-cur-col {
+  position: absolute;
+  width: 350px;   
+  height: auto;
+  border-radius: 12px;
+  top: 20rem;
+  left: 47rem;  
+  z-index: 10;
+}
+}
+
+
+
+/* ---------- Tablet (≤1024px) ---------- */
+@media (max-width: 1024px) {
+  .fcur-section-col {
+    width: 94%;
+    margin: 2rem auto;
+    padding: 1.5rem;
+  }
+
+  /* Stack cards full-width; remove offsets */
+  .fcur-text-container-col,
+  .scur-text-col {
+    position: static;
+    top: auto; right: auto; left: auto; margin-right: 0;
+    width: 100%;
+    max-width: 100%;
+    margin: 0 auto 1.75rem;
+    padding: 2rem;
+    font-size: 1.05rem;
+    line-height: 1.8;
+    border-radius: 12px;
+    overflow-wrap: anywhere;
+  }
+
+  /* Images become fluid, centered, stacked */
+  .icon-cur-col,
+  .teamimg-cur-col {
+    position: static;
+    display: block;
+    width: 100%;
+    max-width: 560px;
+    height: auto;
+    border-radius: 12px;
+    margin: 0 auto 1.75rem;
+    z-index: 1;
+  }
+}
+
+/* ---------- Large phones / Small tablets (≤768px) ---------- */
+@media (max-width: 768px) {
+  .fcur-section-col {
+    width: 96%;
+    padding: 1rem;
+  }
+
+  .fcur-text-container-col,
+  .scur-text-col {
+    padding: 1.25rem 1rem;
+    font-size: 1rem;
+    line-height: 1.7;
+    border-radius: 12px;
+    margin-bottom: 1.25rem;
+  }
+
+  .icon-cur-col,
+  .teamimg-cur-col {
+    max-width: 440px;
+    margin-bottom: 1.25rem;
+  }
+}
+
+/* ---------- Small phones (≤480px) ---------- */
+@media (max-width: 480px) {
+  .fcur-section-col {
+    width: 98%;
+    padding: 0.75rem;
+  }
+
+  .fcur-text-container-col,
+  .scur-text-col {
+    padding: 1rem 0.875rem;
+    font-size: 0.95rem;
+    line-height: 1.65;
+    border-radius: 10px;
+    margin-bottom: 1rem;
+  }
+
+  .icon-cur-col,
+  .teamimg-cur-col {
+    max-width: 100%;
+    margin-bottom: 1rem;
+  }
+}

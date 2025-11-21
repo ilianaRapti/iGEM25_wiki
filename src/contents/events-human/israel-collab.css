@@ -1,0 +1,282 @@
+
+
+.isr-section-coll {
+  position: relative;
+  width: 90%;
+  max-width: 1200px;
+  padding: 2rem;
+  margin: 5rem auto;
+  
+}
+
+.isr-text-container-coll{
+    position: relative;   
+    top: 1rem;            
+    color: #1b4332;
+    background-color: rgba(240, 249, 245, 0.75);
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.2rem;
+    line-height: 1.8;
+    width: 80rem;
+    right: 5rem;
+    top: -5rem;
+    border-radius: 15px;
+    padding: 3rem;
+
+}
+
+
+
+/* Organization section */
+.isr2-section-coll {
+  text-align: center;
+}
+
+.isr2-text-coll{
+    position: relative;   
+    color: #1b4332;
+    background-color: rgba(240, 249, 245, 0.75);
+    padding: 2rem;
+    border-radius: 12px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.1rem;
+    line-height: 1.8;
+    text-align: left;
+    top: -1rem;            
+    right: 6rem;
+    width: 50rem;
+    border-radius: 12px;
+    padding: 3rem;
+}
+
+.pres-img-coll{
+  position: absolute;
+  width: 550px;   
+  height: auto;
+  border-radius: 12px;
+  top: 31rem;
+  left: 45rem;  
+  z-index: 10;
+}
+
+.isr3-section-coll {
+  text-align: center;
+}
+
+.isr3-text-coll{
+  position: relative;   
+  color: #fff;
+  padding: 2rem;
+  border-radius: 12px;
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.1rem;
+  line-height: 1.8;
+  text-align: left;
+  top: 2rem;            
+  left: 19rem;
+  width: 55rem;
+  border-radius: 12px;
+  padding: 3rem;
+}
+
+
+.isr-icon-coll{
+  position: absolute;
+  width: 500px;   
+  height: auto;
+  border-radius: 12px;
+  top: 62rem;
+  right:38rem;  
+  z-index: 10;
+}
+
+
+
+/*screens*/
+@media (max-width: 1280px) {
+
+.isr-section-coll {
+  position: relative;
+  width: 90%;
+  max-width: 1200px;
+  padding: 2rem;
+  margin: 5rem auto;
+  
+}
+
+.isr-text-container-coll{
+    position: relative;   
+    top: 1rem;            
+    color: #1b4332;
+    background-color: rgba(240, 249, 245, 0.75);
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.2rem;
+    line-height: 1.8;
+    width: 70rem;
+    right: 5rem;
+    top: -5rem;
+    border-radius: 15px;
+    padding: 3rem;
+
+}
+
+
+
+/* Organization section */
+.isr2-section-coll {
+  text-align: center;
+}
+
+.isr2-text-coll{
+    position: relative;   
+    color: #1b4332;
+    background-color: rgba(240, 249, 245, 0.75);
+    padding: 2rem;
+    border-radius: 12px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.1rem;
+    line-height: 1.8;
+    text-align: left;
+    top: -1rem;            
+    right: 5rem;
+    width: 40rem;
+    border-radius: 12px;
+    padding: 3rem;
+}
+
+.pres-img-coll{
+  position: absolute;
+  width: 550px;   
+  height: auto;
+  border-radius: 12px;
+  top: 39rem;
+  left: 35rem;  
+  z-index: 10;
+}
+
+.isr3-section-coll {
+  text-align: center;
+}
+
+.isr3-text-coll{
+  position: relative;   
+  color: #fff;
+  padding: 2rem;
+  border-radius: 12px;
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.1rem;
+  line-height: 1.8;
+  text-align: left;
+  top: -2rem;            
+  left: 19rem;
+  width: 50rem;
+  border-radius: 12px;
+  padding: 3rem;
+}
+
+
+.isr-icon-coll{
+  position: absolute;
+  width: 500px;   
+  height: auto;
+  border-radius: 12px;
+  top: 75rem;
+  right:38rem;  
+  z-index: 10;
+}
+
+}
+
+
+
+/* Tablets */
+@media (max-width: 1024px) {
+  .isr-section-coll {
+    width: 94%;
+    margin: 2rem auto;
+    padding: 1.25rem;
+  }
+
+  .isr-text-container-coll,
+  .isr2-text-coll,
+  .isr3-text-coll {
+    position: static;
+    width: 100%;
+    max-width: 100%;
+    margin: 0 auto 1.25rem;
+    padding: 1.25rem 1rem;
+    box-sizing: border-box;
+    border-radius: 12px;
+  }
+
+  .isr-text-container-coll,
+  .isr2-text-coll {
+    background: rgba(240, 249, 245, 0.9); /* light soft bg */
+    color: #1b4332;
+  }
+
+  .isr3-text-coll {
+    background: rgba(130, 61, 134, 0.9); /* soft purple bg */
+    color: #fff;
+  }
+
+  .isr2-section-coll,
+  .isr3-section-coll {
+    margin-top: 2rem;
+    text-align: left;
+  }
+
+  .pres-img-coll,
+  .isr-icon-coll {
+    position: static;
+    display: block;
+    width: 100%;
+    height: auto;
+    max-width: 100%;
+    margin: 0.75rem auto;
+    border-radius: 12px;
+  }
+}
+
+/* Mobiles */
+@media (max-width: 768px) {
+  .isr-section-coll {
+    width: 92%;
+    margin: 1.5rem auto;
+    padding: 1rem;
+  }
+
+  .isr-text-container-coll,
+  .isr2-text-coll,
+  .isr3-text-coll {
+    margin-bottom: 1rem;
+    padding: 1rem 0.9rem;
+    font-size: 1rem;
+    line-height: 1.7;
+    word-break: break-word;
+  }
+
+  .isr2-section-coll,
+  .isr3-section-coll {
+    margin-top: 1rem;
+  }
+
+  .pres-img-coll,
+  .isr-icon-coll {
+    margin-top: 0.5rem;
+  }
+}
+
+/* Very small phones */
+@media (max-width: 480px) {
+  .isr-section-coll {
+    width: 95%;
+  }
+
+  .isr-text-container-coll,
+  .isr2-text-coll,
+  .isr3-text-coll {
+    padding: 0.9rem 0.85rem;
+    font-size: 0.98rem;
+  }
+}

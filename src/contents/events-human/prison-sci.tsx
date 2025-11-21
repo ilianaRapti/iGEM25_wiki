@@ -2,7 +2,7 @@ import "./prison-sci.css"
 
 export const PrisonSci = {
   id: 2,
-  title: "Nigrita Prison",
+  title: "Second Chance School",
   thumbnail: "https://static.igem.wiki/teams/5684/wikipics/education/nigrita-prison/prison-cover.webp",
   background: "https://static.igem.wiki/teams/5684/wikipics/science-communication/prison/bg-pri-sci.webp",
   description: (
@@ -11,7 +11,7 @@ export const PrisonSci = {
       {/* Introduction section */}
         <p>
         This action was a powerful example of how science communication can <b>cross boundaries
-        and build bridges</b>. We connected with the Second Chance School inside Nigrita Prison, 
+        and build bridges</b>. We connected with the Second Chance School inside Correctional Facility in Nigrita, Serres,Greece 
         bringing synthetic biology to a group that rarely has access to scientific outreach.    
         </p>
     </div>
@@ -74,5 +74,35 @@ export const PrisonSci = {
         </div>
 
         
+  ),
+
+  adhdText: (
+  <div className="shared-adhd-text-inclu">
+
+    <p><b>Event</b></p>
+    <ul>
+      <li>Online call with <b>Second Chance School inside Correctional Facility in Nigrita</b></li>
+    </ul>
+
+    <p><b>Goal</b></p>
+    <ul>
+      <li>Introduce synthetic biology and our project in a <b>safe, accessible way</b></li>
+    </ul>
+
+    <p><b>Approach</b></p>
+    <ul>
+      <li>Checked with iGEM HQ to ensure ethical guidelines were followed</li>
+      <li>Collaborated with prison educators to <b>design sensitive, respectful communication</b></li>
+      <li>Created space for open discussion and mutual exchange</li>
+    </ul>
+
+    <p><b>Why It Matters</b></p>
+    <ul>
+      <li>Science communication brings <b>knowledge to underserved groups</b></li>
+      <li>Builds <b>trust and understanding</b> through dialogue</li>
+      <li>Shows that science can be for everyone, no matter the setting</li>
+    </ul>
+
+  </div>
   ),
 };

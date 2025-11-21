@@ -1,0 +1,485 @@
+
+
+.junhigh-section-inclu {
+  position: relative;
+  width: 90%;
+  max-width: 1200px;
+  margin: 2rem auto;
+  padding: 2rem;
+}
+
+.junhigh-text-container-inclu{
+  position: relative;   
+  top: 7rem;            
+  margin-right: 320px; 
+  color: #1b4332;
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.2rem;
+  line-height: 1.8;
+  width: 70rem;
+}
+
+.introduction-junhigh-inclu{
+  position: absolute;
+  width: 300px;   
+  height: auto;
+  border-radius: 12px;
+  top: -4rem;
+  right: 43rem;  
+  z-index: 10;
+}
+
+
+/* Organization section */
+.organization-section-inclu {
+  margin-top: 4rem;
+  text-align: center;
+}
+
+.organization-junhigh-image-inclu {
+  position: absolute;
+  width: 300px;   
+  height: auto;
+  border-radius: 12px;
+  top: 13rem;
+  right: 20rem;  
+  z-index: 10;
+}
+
+.organization-junhigh-text-inclu {
+  position: relative;   
+  background: #823d86;
+  color: white;
+  padding: 2rem;
+  border-radius: 12px;
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.1rem;
+  line-height: 1.8;
+  text-align: left;
+  top: 9rem;
+  right: 1rem;
+  width: 70rem;
+}
+
+/* Implementation section */
+.implementation-junhigh-section-inclu {
+  margin-top: 4rem;
+  text-align: center;
+}
+
+.implementation-junhigh-image-inclu {
+  position: absolute;
+  width: 300px;   
+  height: auto;
+  border-radius: 12px;
+  right: 35rem;  
+  z-index: 10;
+  width: 30rem;
+  top: 40rem;
+}
+
+.impl-block-inclu-junhigh{
+  padding: 1rem;
+  font-size: 1.1rem;
+  line-height: 1.8;
+}
+
+.impl-block-inclu-junhigh.junhigh-center-inclu {
+  position: relative;
+  color: #1b4332;
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.2rem;
+  line-height: 1.8;
+  width: 50rem;
+  top: 20rem;
+  right: 15rem;
+}
+
+.impl-block-inclu-junhigh.junhigh-center-inclu ul {
+  list-style: disc;
+  list-style-position: inside;
+  padding-left: 0; 
+  margin: 0;
+}
+
+.impl-block-inclu-junhigh.junhigh-center-inclu li {
+  margin-bottom: 0.8rem;
+}
+
+
+.presentation-image-inclu {
+  position: absolute;
+  width: 300px;   
+  height: auto;
+  border-radius: 12px;
+  left: 40rem;  
+  z-index: 10;
+  width: 30rem;
+  top: 60rem;
+}
+
+
+/*outcome part*/
+.outcomes-junhigh-section-inclu {
+  margin-top: 4rem;
+  text-align: center;
+}
+
+.outcomes-text-inclu-high {
+  position: relative;   
+  padding: 2rem;
+  border-radius: 12px;
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.1rem;
+  line-height: 1.8;
+  text-align: left;
+  top: 15rem;
+  left: 20rem;
+  width: 50rem;
+  color: #1b4332;
+}
+
+.outcomes-junhigh-image-inclu {
+  position: absolute;
+  width: 250px;   
+  height: auto;
+  border-radius: 12px;
+  left: -10rem;  
+  z-index: 10;
+  width: 30rem;
+  top: 93rem;
+}
+
+/*why is it important part*/
+.important-junhigh-section-inclu {
+  display: flex;
+  align-items: flex-start;
+  gap: 2rem;
+  margin: 10rem auto;   
+  max-width: 1200px;
+}
+
+.important-junhigh-image-inclu {
+  position: absolute;
+  width: 250px;   
+  height: auto;
+  border-radius: 12px;
+  right: -10rem;  
+  z-index: 10;
+  width: 30rem;
+  top: 115rem;
+}
+
+.important-junhigh-text-inclu {
+  position: relative;   
+  padding: 2rem;
+  border-radius: 12px;
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.1rem;
+  line-height: 1.8;
+  text-align: left;
+  top: 15rem;
+  right: 14rem;
+  width: 60rem;
+  color: #fff;
+}
+
+/* What did we gain section */
+.gain-junhigh-section-inclu{
+  display: flex;
+  align-items: flex-start;
+  gap: 2rem;
+  margin: 10rem auto;   
+  max-width: 1200px;
+}
+
+.gain-junhigh-image-inclu {
+  position: absolute;
+  width: 250px;   
+  height: auto;
+  border-radius: 12px;
+  right: 15rem;  
+  z-index: 10;
+  width: 30rem;
+  top: 130rem;
+}
+
+.gain-junhigh-text-inclu {
+  position: relative;   
+  padding: 2rem;
+  border-radius: 12px;
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.1rem;
+  line-height: 1.8;
+  text-align: left;
+  top: 25rem;
+  left: 29rem;
+  width: 40rem;
+  color: #1b4332;
+  padding-bottom: 30rem;
+}
+
+.lab-image-inclu {
+  position: absolute;
+  width: 300px;   
+  height: auto;
+  border-radius: 12px;
+  right: 40rem;  
+  z-index: 10;
+  width: 30rem;
+  top: 150rem;
+}
+
+/*adhd version*/
+.junhigh-adhd-text-inclu{
+  position: relative;   
+  color: #1b4332;
+  background-color: rgba(210, 232, 222, 0.75);
+  padding: 2rem;
+  border-radius: 12px;
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.1rem;
+  line-height: 1.8;
+  text-align: left;
+  top: 2rem;            
+  left: 5rem;
+  width: 60rem;
+  border-radius: 12px;
+  padding: 3rem;
+  margin-bottom: 5rem;
+}
+
+/*screens*/
+@media (max-width: 1280px) {
+
+.junhigh-section-inclu {
+  position: relative;
+  width: 90%;
+  max-width: 1200px;
+  margin: 2rem auto;
+  padding: 2rem;
+}
+
+.junhigh-text-container-inclu{
+  position: relative;   
+  top: 7rem;            
+  margin-right: 320px; 
+  color: #1b4332;
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.2rem;
+  line-height: 1.8;
+  width: 70rem;
+  left: -2rem;
+}
+
+.introduction-junhigh-inclu{
+  position: absolute;
+  width: 300px;   
+  height: auto;
+  border-radius: 12px;
+  top: -4rem;
+  right: 43rem;  
+  z-index: 10;
+}
+
+
+/* Organization section */
+.organization-section-inclu {
+  margin-top: 4rem;
+  text-align: center;
+}
+
+.organization-junhigh-image-inclu {
+  position: absolute;
+  width: 300px;   
+  height: auto;
+  border-radius: 12px;
+  top: 13rem;
+  right: 20rem;  
+  z-index: 10;
+}
+
+.organization-junhigh-text-inclu {
+  position: relative;   
+  background: #823d86;
+  color: white;
+  padding: 2rem;
+  border-radius: 12px;
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.1rem;
+  line-height: 1.8;
+  text-align: left;
+  top: 9rem;
+  right: 5rem;
+  width: 70rem;
+}
+
+/* Implementation section */
+.implementation-junhigh-section-inclu {
+  margin-top: 4rem;
+  text-align: center;
+}
+
+.implementation-junhigh-image-inclu {
+  position: absolute;
+  width: 300px;   
+  height: auto;
+  border-radius: 12px;
+  right: 30rem;  
+  z-index: 10;
+  width: 30rem;
+  top: 40rem;
+}
+
+.impl-block-inclu-junhigh{
+  padding: 1rem;
+  font-size: 1.1rem;
+  line-height: 1.8;
+}
+
+.impl-block-inclu-junhigh.junhigh-center-inclu {
+  position: relative;
+  color: #1b4332;
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.2rem;
+  line-height: 1.8;
+  width: 50rem;
+  top: 20rem;
+  right: 10rem;
+}
+
+.impl-block-inclu-junhigh.junhigh-center-inclu ul {
+  list-style: disc;
+  list-style-position: inside;
+  padding-left: 0; 
+  margin: 0;
+}
+
+.impl-block-inclu-junhigh.junhigh-center-inclu li {
+  margin-bottom: 0.8rem;
+}
+
+
+.presentation-image-inclu{
+  position: absolute;
+  width: 300px;   
+  height: auto;
+  border-radius: 12px;
+  left: 40rem;  
+  z-index: 10;
+  width: 30rem;
+  top: 65rem;
+}
+
+
+/*outcome part*/
+.outcomes-junhigh-section-inclu {
+  margin-top: 4rem;
+  text-align: center;
+}
+
+.outcomes-text-inclu-high{
+  position: relative;   
+  padding: 2rem;
+  border-radius: 12px;
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.1rem;
+  line-height: 1.8;
+  text-align: left;
+  top: 36rem;
+  left: 8rem;
+  width: 50rem;
+  color: #1b4332;
+}
+
+.outcomes-junhigh-image-inclu {
+  position: absolute;
+  width: 250px;   
+  height: auto;
+  border-radius: 12px;
+  left: 18rem;  
+  z-index: 10;
+  width: 30rem;
+  top: 100rem;
+}
+
+/*why is it important part*/
+.important-junhigh-section-inclu {
+  display: flex;
+  align-items: flex-start;
+  gap: 2rem;
+  margin: 10rem auto;   
+  max-width: 1200px;
+}
+
+.important-junhigh-image-inclu {
+  position: absolute;
+  width: 250px;   
+  height: auto;
+  border-radius: 12px;
+  right: -6rem;  
+  z-index: 10;
+  width: 30rem;
+  top: 133rem;
+}
+
+.important-junhigh-text-inclu {
+  position: relative;   
+  padding: 2rem;
+  border-radius: 12px;
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.1rem;
+  line-height: 1.8;
+  text-align: left;
+  top: 32rem;
+  left: -10rem;
+  width: 50rem;
+  color: #fff;
+}
+
+/* What did we gain section */
+.gain-junhigh-section-inclu{
+  display: flex;
+  align-items: flex-start;
+  gap: 2rem;
+  margin: 10rem auto;   
+  max-width: 1200px;
+}
+
+.gain-junhigh-image-inclu {
+  position: absolute;
+  width: 250px;   
+  height: auto;
+  border-radius: 12px;
+  right: -2rem;  
+  z-index: 10;
+  width: 25rem;
+  top: 150rem;
+}
+
+.gain-junhigh-text-inclu {
+  position: relative;   
+  padding: 2rem;
+  border-radius: 12px;
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.1rem;
+  line-height: 1.8;
+  text-align: left;
+  top: 33rem;
+  left: 33rem;
+  width: 35rem;
+  color: #1b4332;
+  padding-bottom: 30rem;
+}
+
+.lab-image-inclu {
+  position: absolute;
+  width: 300px;   
+  height: auto;
+  border-radius: 12px;
+  right: 30rem;  
+  z-index: 10;
+  width: 30rem;
+  top: 156rem;
+}
+}

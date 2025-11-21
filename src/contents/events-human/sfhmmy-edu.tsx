@@ -190,8 +190,96 @@ export const SfhmmyEdu = {
     
   ),
   adhdText: (
-    <p>
-      ΣΦΗΜΜΥ = φοιτητικό συνέδριο. Παρουσιάσαμε το project μας και μιλήσαμε με επισκέπτες.
-    </p>
+  <div className="shared-adhd-text-inclu">
+
+    <p><b>Introduction</b></p>
+    <ul>
+      <li>Event: ECESCON 2025, Thessaloniki, Greece.</li>
+      <li>Dates: April 25–27, 2025.</li>
+      <li>Conference for Electrical & Computer Engineering students and young researchers.</li>
+      <li>Goal: Teach R programming and survival analysis techniques.</li>
+      <li>Help participants analyze real-world datasets and link engineering, medicine, and biology through statistics.</li>
+      <li>Addressed the lack of biomedical data analysis exposure among engineering students.</li>
+      <li>Survival analysis importance:</li>
+      <ul>
+        <li>Cancer and cardiovascular research </li>
+        <li>Clinical trials </li>
+        <li>Mechanical system reliability </li>
+      </ul>
+      <li>Workshop aimed to make these analytical skills accessible.</li>
+    </ul>
+
+    <p><b>Organization</b></p>
+    <ul>
+      <li><b>Topic chosen</b>: Survival analysis and risk estimation.</li>
+      <li><b>Materials prepared</b>:
+        <ul>
+          <li>Preprocessed real-world datasets.</li>
+          <li>R code snippets for step-by-step learning.</li>
+          <li>Visual slides with clear explanations.</li>
+        </ul>
+      </li>
+      <li>Participants brought laptops for hands-on practice.</li>
+      <li>QR feedback form used for evaluations and improvement.</li>
+      <li>Collaboration with conference organizers ensured session fit audience needs and goals.</li>
+
+      <li><b>Logistics:</b>:
+        <ul>
+          <li>Each participant brought a laptop for hands-on practice.</li>
+          <li>QR code feedback form created to collect evaluations and improve future sessions.</li>
+          <li>Visual slides with clear explanations.</li>
+        </ul>
+      </li>
+      <li>Collaboration with organizers: Ensured session fit audience needs and conference goals.</li>
+    </ul>
+
+    <p><b>Implementation</b></p>
+    <ol>
+      <li><b>Introduction to R</b>: basics for complete beginners.</li>
+      <li><b>Live coding session</b>: participants followed in real time.</li>
+      <li>Hands-on exercises:
+        <ul>
+          <li>Kaplan–Meier curves – visualize survival over time.</li>
+          <li>Log-rank tests – compare survival between groups.</li>
+          <li>Cox proportional hazards models – estimate risk effects.</li>
+        </ul>
+      </li>
+      <li>Approach:</li> 
+      <ul>
+      <li>Step-by-step pace, open questions.</li>
+      <li>Focus on practical skills and problem-solving.</li>
+      </ul>
+    </ol>
+
+    <p><b>Outcomes and Results</b></p>
+    <ul>
+      <li>81.3% had no prior R experience.</li>
+      <li>Clarity: 81.3% rated 4–5/5.</li>
+      <li>Dataset relevance: 75% rated examples highly relevant.</li>
+      <li>Overall satisfaction: 62.5% rated 4–5/5.</li>
+      <li>Feedback highlights:
+        <ul>
+          <li>Loved visualizations and interactivity.</li>
+          <li>Appreciated team energy and approachability.</li>
+          <li>Suggested slightly faster pacing and more datasets for practice.</li>
+        </ul>
+      </li>
+    </ul>
+
+    <p><b>Why Is This Important</b></p>
+    <ul>
+      <li>Builds practical skills that students can use in research and industry.</li>
+      <li>Shows how statistics connects disciplines, breaking down barriers between fields.</li>
+      <li>Encourages lifelong learning beyond the classroom.</li>
+    </ul>
+
+    <p><b>What We Gained</b></p>
+    <ul>
+      <li>Improved teaching and science communication skills.</li>
+      <li>Learned to manage mixed-skill-level groups.</li>
+      <li>Saw that education empowers scientists to collaborate and innovate.</li>
+    </ul>
+  </div>
+
   ),
 };

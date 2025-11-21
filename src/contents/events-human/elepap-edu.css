@@ -1,0 +1,23 @@
+.elepap-edu-row1{background-image:url("https://static.igem.wiki/teams/5684/wikipics/education/pfsb/bg-1.webp")}
+.elepap-edu-row2{background-image:url("https://static.igem.wiki/teams/5684/wikipics/education/pfsb/bg-2.webp")}
+.elepap-edu-row3{background-image:url("https://static.igem.wiki/teams/5684/wikipics/education/pfsb/bg-3.webp")}
+.elepap-edu-row4{background-image:url("https://static.igem.wiki/teams/5684/wikipics/education/pfsb/bg-4.webp")}
+
+.fancy-li {
+  padding-left: 0; /* remove default list indent */
+  color: black;
+}
+
+.fancy-li li{
+  margin: 8px 0;              /* extra vertical spacing between items */
+  padding: 6px 30px;
+  background-color: #d7e1c0b0; /* yellow with 60% opacity */
+  list-style: none;          /* turn off default bullets */
+  border-radius: 9999px;      /* makes it pill-shaped */
+}
+
+
+.fancy-li li::before {
+  content: "• ";             /* Unicode bullet */
+  font-weight: bold;         /* make it stand out */
+}

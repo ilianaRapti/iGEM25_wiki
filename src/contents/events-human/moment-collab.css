@@ -1,0 +1,248 @@
+
+
+.mom-section-coll {
+  position: relative;
+  width: 90%;
+  max-width: 1200px;
+  margin: 8rem auto;
+  padding: 2rem;
+}
+
+.mom-text-container-coll{
+    position: relative;   
+    top: 1rem;            
+    margin-right: 320px; 
+    color: #fff;
+    background-color: #823d86;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.2rem;
+    line-height: 1.8;
+    width: 70rem;
+    border-radius: 12px;
+    padding: 3rem;
+
+}
+
+
+
+/* Organization section */
+.smom-section-coll {
+  margin-top: 4rem;
+  text-align: center;
+}
+
+.smom-text-coll{
+  position: relative;   
+  color: #1b4332;
+  padding: 2rem;
+  border-radius: 12px;
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.1rem;
+  line-height: 1.8;
+  text-align: left;
+  top: -3rem;            
+  right: 3rem;
+  width: 70rem;
+  border-radius: 12px;
+  padding: 3rem;
+}
+
+.last-mom-text-coll {
+  position: relative;   
+  color: #fff;
+  background-color: #823d86;
+  padding: 2rem;
+  border-radius: 12px;
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.1rem;
+  line-height: 1.8;
+  text-align: left;
+  top: -0.1rem;            
+  right: -1rem;
+  width: 40rem;
+  border-radius: 12px;
+  padding: 3rem;
+}
+
+.mom-img-coll {
+  position: absolute;
+  width: 500px;   
+  height: auto;
+  border-radius: 12px;
+  top: 45rem;
+  left: 40rem;  
+  z-index: 10;
+}
+
+/*screens*/
+@media (max-width: 1280px) {
+
+.mom-section-coll{
+  position: relative;
+  width: 90%;
+  max-width: 1200px;
+  margin: -2rem auto;
+  padding: 2rem;
+}
+
+.mom-text-container-coll{
+  position: relative;   
+  top: 5rem;            
+  margin-right: 320px; 
+  color: #fff;
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.2rem;
+  line-height: 1.8;
+  width: 70rem;
+  background-color:#823d86;
+  border-radius: 12px;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+  padding: 3rem;
+  right: 4rem;
+
+}
+
+
+
+/* Organization section */
+.smom-section-coll {
+  margin-top: 4rem;
+  text-align: center;
+}
+
+.smom-text-coll {
+  position: relative;   
+  color: #1b4332;
+  padding: 2rem;
+  border-radius: 12px;
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.1rem;
+  line-height: 1.8;
+  text-align: left;
+  top: -0.5rem;            
+  right: 1rem;
+  width: 40rem;
+  border-radius: 12px;
+  padding: 3rem;
+}
+
+.last-mom-text-coll{
+  position: relative;   
+  top: -2rem;            
+  margin-right: 320px; 
+  color: #fff;
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.2rem;
+  line-height: 1.8;
+  width: 70rem;
+  background-color:#823d86;
+  border-radius: 12px;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+  padding: 3rem;
+  right: 4rem;
+
+}
+
+.mom-img-coll{
+  position: absolute;
+  width: 450px;   
+  height: auto;
+  border-radius: 12px;
+  top: 27rem;
+  left: 38rem;  
+  z-index: 10;
+}
+
+}
+
+
+
+/* Tablets */
+@media (max-width: 1024px) {
+  .moment-title {
+    background-color: #823d86;
+    padding: 3% 4%;
+    width: fit-content;
+    border-radius: 40px;
+    margin: auto;
+  }
+
+  .mom-section-coll {
+    width: 94%;
+    margin: 2rem auto;
+    padding: 1.25rem;
+  }
+
+  .mom-text-container-coll,
+  .smom-text-coll,
+  .last-mom-text-coll {
+    position: static;
+    width: 100%;
+    max-width: 100%;
+    margin: 0 auto 1.25rem;
+    padding: 1.25rem 1rem;
+    box-sizing: border-box;
+    border-radius: 12px;
+  }
+
+  .smom-text-coll {
+    background: rgba(216, 243, 220, 0.9);
+  }
+
+  .smom-section-coll {
+    margin-top: 2rem;
+    text-align: left;
+  }
+
+  .mom-img-coll {
+    position: static;
+    display: block;
+    width: 100%;
+    height: auto;
+    max-width: 100%;
+    margin: 0.5rem auto 0;
+    border-radius: 12px;
+  }
+}
+
+/* Mobiles */
+@media (max-width: 768px) {
+  .mom-section-coll {
+    width: 92%;
+    margin: 1.5rem auto;
+    padding: 1rem;
+  }
+
+  .mom-text-container-coll,
+  .smom-text-coll,
+  .last-mom-text-coll {
+    margin-bottom: 1rem;
+    padding: 1rem 0.9rem;
+    font-size: 1rem;
+    line-height: 1.7;
+    word-break: break-word;
+  }
+
+  .smom-section-coll {
+    margin-top: 1rem;
+  }
+
+  .mom-img-coll {
+    margin-top: 0.75rem;
+  }
+}
+
+/* Very small phones */
+@media (max-width: 480px) {
+  .mom-section-coll {
+    width: 95%;
+  }
+
+  .mom-text-container-coll,
+  .smom-text-coll,
+  .last-mom-text-coll {
+    padding: 0.9rem 0.85rem;
+    font-size: 0.98rem;
+  }
+}

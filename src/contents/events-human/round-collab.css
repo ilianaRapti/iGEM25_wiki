@@ -1,0 +1,254 @@
+
+
+.round-section-coll {
+  position: relative;
+  width: 90%;
+  max-width: 1200px;
+  margin: 8rem auto;
+  padding: 2rem;
+}
+
+.round-text-container-coll{
+    position: relative;   
+    top: -9rem;            
+    margin-right: 320px; 
+    color: #1b4332;
+    background-color: rgba(240, 249, 245, 0.75);
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.2rem;
+    line-height: 1.8;
+    width: 70rem;
+    border-radius: 12px;
+    padding: 3rem;
+
+}
+
+.sround-section-coll {
+  margin-top: 4rem;
+  text-align: center;
+}
+
+.sround-text-coll{
+  position: relative;   
+  color: #1b4332;
+  background-color: rgba(240, 249, 245, 0.75);  padding: 2rem;
+  border-radius: 12px;
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.1rem;
+  line-height: 1.8;
+  text-align: left;
+  top: -9rem;            
+  left: 30rem;
+  width: 40rem;
+  border-radius: 12px;
+  padding: 3rem;
+}
+
+.roundpres-img-coll {
+  position: absolute;
+  width: 500px;   
+  height: auto;
+  border-radius: 12px;
+  top: 5rem;
+  right: 32rem;  
+  z-index: 10;
+}
+
+
+.last-round-text-coll {
+  position: relative;   
+  color: #1b4332;
+  background-color: rgba(240, 249, 245, 0.75);
+  padding: 2rem;
+  border-radius: 12px;
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.1rem;
+  line-height: 1.8;
+  text-align: left;
+  top: 3rem;            
+  right: 5rem;
+  width: 40rem;
+  border-radius: 12px;
+  padding: 3rem;
+}
+
+.roundfun-img-coll {
+  position: absolute;
+  width: 500px;   
+  height: auto;
+  border-radius: 12px;
+  top: 28rem;
+  left: 40rem;  
+  z-index: 10;
+}
+
+/*screens*/
+@media (max-width: 1280px) {
+
+.round-section-coll{
+  position: relative;
+  width: 90%;
+  max-width: 1200px;
+  margin: 5rem auto;
+  padding: 2rem;
+}
+
+.round-text-container-coll{
+  position: relative;   
+  top: -6rem;            
+  margin-right: 320px; 
+  color: #1b4332;
+  background-color: rgba(240, 249, 245, 0.75);  font-family: 'Poppins', sans-serif;
+  font-size: 1.2rem;
+  line-height: 1.8;
+  width: 70rem;
+  border-radius: 12px;
+  padding: 3rem;
+  right: 4rem;
+
+}
+
+
+.sround-section-coll {
+  margin-top: 4rem;
+  text-align: center;
+}
+
+.sround-text-coll {
+  position: relative;   
+  color: #1b4332;
+  background-color: rgba(240, 249, 245, 0.75);
+  padding: 2rem;
+  border-radius: 12px;
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.1rem;
+  line-height: 1.8;
+  text-align: left;
+  top: -8rem;            
+  left: 28rem;
+  width: 40rem;
+  border-radius: 12px;
+  padding: 3rem;
+}
+
+.roundpres-img-coll {
+  position: absolute;
+  width: 500px;   
+  height: auto;
+  border-radius: 12px;
+  top: 4rem;
+  right: 32rem;  
+  z-index: 10;
+}
+
+
+
+.last-round-text-coll{
+  position: relative;   
+  top: -2rem;            
+  margin-right: 320px; 
+  color: #1b4332;
+  background-color: rgba(240, 249, 245, 0.75);
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.2rem;
+  line-height: 1.8;
+  width: 40rem;
+  border-radius: 12px;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+  padding: 2rem;
+  right: 6rem;
+
+}
+
+.roundfun-img-coll{
+  position: absolute;
+  width: 450px;   
+  height: auto;
+  border-radius: 12px;
+  top: 32rem;
+  left: 38rem;  
+  z-index: 10;
+}
+
+}
+
+
+
+/* Tablets */
+@media (max-width: 1024px) {
+  .round-section-coll {
+    width: 94%;
+    margin: 2rem auto;
+    padding: 1.25rem;
+  }
+
+  .round-text-container-coll,
+  .sround-text-coll,
+  .last-round-text-coll {
+    position: static;
+    width: 100%;
+    max-width: 100%;
+    margin: 0 auto 1.25rem;
+    padding: 1.25rem 1rem;
+    box-sizing: border-box;
+    border-radius: 12px;
+  }
+
+  .sround-section-coll {
+    margin-top: 2rem;
+    text-align: left;
+  }
+
+  .roundpres-img-coll,
+  .roundfun-img-coll {
+    position: static;
+    display: block;
+    width: 100%;
+    height: auto;
+    max-width: 100%;
+    margin: 0.75rem auto 0;
+    border-radius: 12px;
+  }
+}
+
+/* Mobiles */
+@media (max-width: 768px) {
+  .round-section-coll {
+    width: 92%;
+    margin: 1.5rem auto;
+    padding: 1rem;
+  }
+
+  .round-text-container-coll,
+  .sround-text-coll,
+  .last-round-text-coll {
+    margin-bottom: 1rem;
+    padding: 1rem 0.9rem;
+    font-size: 1rem;
+    line-height: 1.7;
+    word-break: break-word;
+  }
+
+  .sround-section-coll {
+    margin-top: 1rem;
+  }
+
+  .roundpres-img-coll,
+  .roundfun-img-coll {
+    margin-top: 0.5rem;
+  }
+}
+
+/* Very small phones */
+@media (max-width: 480px) {
+  .round-section-coll {
+    width: 95%;
+  }
+
+  .round-text-container-coll,
+  .sround-text-coll,
+  .last-round-text-coll {
+    padding: 0.9rem 0.85rem;
+    font-size: 0.98rem;
+  }
+}

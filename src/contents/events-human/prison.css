@@ -1,0 +1,453 @@
+
+.pri-section-inclu {
+  position: relative;
+  width: 90%;
+  max-width: 1200px;
+  margin: 2rem auto;
+  padding: 2rem;
+}
+
+
+.pri-text-container-inclu{
+  position: relative;   
+  top: 8rem;            
+  margin-right: 320px; 
+  color: #1b4332;
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.2rem;
+  line-height: 1.8;
+  width: 70rem;
+}
+
+.introduction-pri-inclu{
+  position: absolute;
+  width: 300px;   
+  height: auto;
+  border-radius: 12px;
+  top: -3rem;
+  left: 1rem;  
+  z-index: 10;
+}
+
+/* Organization section */
+.organization-section-pri-inclu{
+  margin-top: 4rem;
+  text-align: center;
+}
+
+.organization-image-pri-inclu{
+  position: absolute;
+  width: 300px;   
+  height: auto;
+  border-radius: 12px;
+  top: 34rem;
+  right: 19rem;  
+  z-index: 10;
+  
+}
+
+.organization-text-pri-inclu{
+  position: relative;   
+  background: #823d86;
+  color: white;
+  padding: 2rem;
+  border-radius: 12px;
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.1rem;
+  line-height: 1.8;
+  text-align: left;
+  top: 11rem;
+  right: 1rem;
+  width: 70rem;
+}
+
+
+/* Implementation section */
+.implementation-section-pri-inclu {
+  margin-top: 4rem;
+  text-align: center;
+}
+
+.implementation-image-pri-inclu{
+  position: absolute;
+  width: 350px;   
+  height: auto;
+  border-radius: 12px;
+  top: 74rem;
+  right: 35rem;  
+  z-index: 10;
+}
+
+.impl-pri-inclu.center-pri-inclu{
+  position: absolute;
+  width: 300px;   
+  height: auto;
+  border-radius: 12px;
+  right: 1rem;  
+  z-index: 10;
+  width: 60rem;
+  top: 90rem;
+  color: #1b4332;
+}
+
+.impl-pri-inclu.center-pri-inclu1{
+  position: absolute;
+  width: 300px;   
+  height: auto;
+  border-radius: 12px;
+  left: 25rem;  
+  z-index: 10;
+  width: 45rem;
+  top: 107rem;
+  color: #1b4332;
+}
+
+.board-game-pri-inclu{
+  position: absolute;
+  width: 400px;   
+  height: auto;
+  border-radius: 12px;
+  top: 102rem;
+  left: -2rem;  
+  z-index: 10;
+}
+
+/*outcome part*/
+.outcomes-section-pri-inclu {
+  position: absolute;
+  width: 250px;   
+  height: auto;
+  border-radius: 12px;
+  left: 30rem;  
+  z-index: 10;
+  width: 30rem;
+  top: 80rem;
+}
+
+.outcomes-text-pri-inclu {
+  position: relative;   
+  padding: 2rem;
+  border-radius: 12px;
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.1rem;
+  line-height: 1.8;
+  text-align: left;
+  top: 48rem;
+  right: 30rem;  
+  width: 70rem;
+  color: #1b4332;
+}
+
+.outcomes-image-pri-inclu{
+  position: absolute;
+  width: 380px;   
+  height: auto;
+  border-radius: 12px;
+  top: 34rem;
+  right: 5rem;  
+  z-index: 10;
+}
+
+/*why is it important part*/
+.important-section-pri-inclu{
+  display: flex;
+  align-items: flex-start;
+  gap: 2rem;
+  margin: 20rem auto;   
+  max-width: 1200px;
+}
+
+.important-image-pri-inclu{
+  position: absolute;
+  width: 350px;   
+  height: auto;
+  border-radius: 12px;
+  top: 153rem;
+  right: 39rem;  
+  z-index: 10;
+}
+
+.important-text-pri-inclu {
+  position: relative;   
+  padding: 2rem;
+  border-radius: 12px;
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.1rem;
+  line-height: 1.8;
+  text-align: left;
+  top: 80rem;
+  right: -1rem;  
+  width: 70rem;
+  color: #1b4332;
+}
+
+/*gain section*/
+.gain-section-pri-inclu{
+  display: flex;
+  align-items: flex-start;
+  gap: 2rem;
+  margin: 50rem auto;   
+  max-width: 1200px;
+}
+
+.gain-image-pri-inclu{
+  position: absolute;
+  width: 350px;   
+  height: auto;
+  border-radius: 12px;
+  top: 175rem;
+  right: 22rem;  
+  z-index: 10;
+}
+
+.gain-text-pri-inclu {
+  position: relative;   
+  padding: 2rem;
+  border-radius: 12px;
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.1rem;
+  line-height: 1.8;
+  text-align: left;
+  top: 35rem;
+  right: 0.5rem;
+  width: 55rem;
+  color: #1b4332;
+}
+
+.image-pri-inclu{
+  position: absolute;
+  width: 250px;   
+  height: auto;
+  border-radius: 12px;
+  top: 205rem;
+  right: 25rem;  
+  z-index: 10;
+}
+/*screens*/
+@media (max-width: 1280px) {
+
+.pri-section-inclu {
+  position: relative;
+  width: 90%;
+  max-width: 1200px;
+  margin: 2rem auto;
+  padding: 2rem;
+}
+
+
+.pri-text-container-inclu{
+  position: relative;   
+  top: 8rem;            
+  margin-right: 320px; 
+  color: #1b4332;
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.2rem;
+  line-height: 1.8;
+  width: 60rem;
+}
+
+.introduction-pri-inclu{
+  position: absolute;
+  width: 300px;   
+  height: auto;
+  border-radius: 12px;
+  top: -3rem;
+  left: 1rem;  
+  z-index: 10;
+}
+
+/* Organization section */
+.organization-section-pri-inclu{
+  margin-top: 4rem;
+  text-align: center;
+}
+
+.organization-image-pri-inclu{
+  position: absolute;
+  width: 300px;   
+  height: auto;
+  border-radius: 12px;
+  top: 39rem;
+  right: 22rem;  
+  z-index: 10;
+  
+}
+
+.organization-text-pri-inclu{
+  position: relative;   
+  background: #823d86;
+  color: white;
+  padding: 2rem;
+  border-radius: 12px;
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.1rem;
+  line-height: 1.8;
+  text-align: left;
+  top: 11rem;
+  right: 4rem;
+  width: 70rem;
+}
+
+
+/* Implementation section */
+.implementation-section-pri-inclu {
+  margin-top: 4rem;
+  text-align: center;
+}
+
+.implementation-image-pri-inclu{
+  position: absolute;
+  width: 350px;   
+  height: auto;
+  border-radius: 12px;
+  top: 76rem;
+  right: 35rem;  
+  z-index: 10;
+}
+
+.impl-pri-inclu.center-pri-inclu{
+  position: absolute;
+  width: 300px;   
+  height: auto;
+  border-radius: 12px;
+  right: 1rem;  
+  z-index: 10;
+  width: 60rem;
+  top: 91rem;
+  color: #1b4332;
+}
+
+.impl-pri-inclu.center-pri-inclu1{
+  position: absolute;
+  width: 300px;   
+  height: auto;
+  border-radius: 12px;
+  left: 25rem;  
+  z-index: 10;
+  width: 45rem;
+  top: 107rem;
+  color: #1b4332;
+}
+
+.board-game-pri-inclu{
+  position: absolute;
+  width: 400px;   
+  height: auto;
+  border-radius: 12px;
+  top: 102rem;
+  left: -2rem;  
+  z-index: 10;
+}
+
+/*outcome part*/
+.outcomes-section-pri-inclu {
+  position: absolute;
+  width: 250px;   
+  height: auto;
+  border-radius: 12px;
+  left: 30rem;  
+  z-index: 10;
+  width: 30rem;
+  top: 80rem;
+}
+
+.outcomes-text-pri-inclu {
+  position: relative;   
+  padding: 2rem;
+  border-radius: 12px;
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.1rem;
+  line-height: 1.8;
+  text-align: left;
+  top: 48rem;
+  right: 30rem;  
+  width: 70rem;
+  color: #1b4332;
+}
+
+.outcomes-image-pri-inclu{
+  position: absolute;
+  width: 380px;   
+  height: auto;
+  border-radius: 12px;
+  top: 34rem;
+  right: 5rem;  
+  z-index: 10;
+}
+
+/*why is it important part*/
+.important-section-pri-inclu{
+  display: flex;
+  align-items: flex-start;
+  gap: 2rem;
+  margin: 20rem auto;   
+  max-width: 1200px;
+}
+
+.important-image-pri-inclu{
+  position: absolute;
+  width: 350px;   
+  height: auto;
+  border-radius: 12px;
+  top: 153rem;
+  right: 39rem;  
+  z-index: 10;
+}
+
+.important-text-pri-inclu {
+  position: relative;   
+  padding: 2rem;
+  border-radius: 12px;
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.1rem;
+  line-height: 1.8;
+  text-align: left;
+  top: 76rem;
+  right: -1rem;  
+  width: 70rem;
+  color: #1b4332;
+}
+
+/*gain section*/
+.gain-section-pri-inclu{
+  display: flex;
+  align-items: flex-start;
+  gap: 2rem;
+  margin: 50rem auto;   
+  max-width: 1200px;
+}
+
+.gain-image-pri-inclu{
+  position: absolute;
+  width: 350px;   
+  height: auto;
+  border-radius: 12px;
+  top: 175rem;
+  right: 22rem;  
+  z-index: 10;
+}
+
+.gain-text-pri-inclu {
+  position: relative;   
+  padding: 2rem;
+  border-radius: 12px;
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.1rem;
+  line-height: 1.8;
+  text-align: left;
+  top: 31rem;
+  right: -2rem;
+  width: 55rem;
+  color: #1b4332;
+}
+
+.image-pri-inclu{
+  position: absolute;
+  width: 250px;   
+  height: auto;
+  border-radius: 12px;
+  top: 205rem;
+  right: 25rem;  
+  z-index: 10;
+}
+}

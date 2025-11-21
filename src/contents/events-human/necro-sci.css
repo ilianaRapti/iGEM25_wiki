@@ -1,0 +1,269 @@
+
+
+.necro-section-sci {
+  position: relative;
+  width: 90%;
+  max-width: 1200px;
+  margin: 2rem auto;
+  padding: 2rem;
+}
+
+
+.necro-text-container-sci{
+  position: relative;   
+  top: -2rem;            
+  margin-right: 320px; 
+  color: #1b4332;
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.2rem;
+  line-height: 1.8;
+  width: 50rem;
+  left: 19rem;
+}
+
+.icon-necro-sci{
+  position: absolute;
+  width: 400px;   
+  height: auto;
+  border-radius: 12px;
+  top: 1rem;
+  left: -9rem;  
+  z-index: 10;
+}
+
+/* Organization section */
+.organization-section-sci-necro {
+  margin-top: 4rem;
+  text-align: center;
+}
+
+.organization-text-sci-necro {
+  position: relative;   
+  color: #1b4332;
+  padding: 2rem;
+  border-radius: 12px;
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.1rem;
+  line-height: 1.8;
+  text-align: left;
+  top: 5rem;
+  right: 10rem;
+  width: 50rem;
+  margin-bottom: 15rem;
+}
+
+.icon1-necro-sci{
+  position: absolute;
+  width: 400px;   
+  height: auto;
+  border-radius: 12px;
+  top: 40rem;
+  right: -6rem;  
+  z-index: 10;
+}
+
+/* Implementation section */
+.implementation-section-sci-necro {
+  margin-top: 4rem;
+  text-align: center;
+}
+
+.impl-prison-sci.center-sci-necro{
+  position: absolute;
+  width: 300px;   
+  height: auto;
+  border-radius: 12px;
+  right: 1rem;  
+  z-index: 10;
+  width: 60rem;
+  top: 70rem;
+  color: #1b4332;
+}
+
+
+/*screens*/
+@media (max-width: 1280px) {
+
+.necro-section-sci {
+  position: relative;
+  width: 90%;
+  max-width: 1200px;
+  margin: 2rem auto;
+  padding: 2rem;
+}
+
+
+.necro-text-container-sci{
+  position: relative;   
+  top: 8rem;            
+  margin-right: 320px; 
+  color: #1b4332;
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.2rem;
+  line-height: 1.8;
+  width: 40rem;
+}
+
+.icon-necro-sci{
+  position: absolute;
+  width: 300px;   
+  height: auto;
+  border-radius: 12px;
+  top: 12rem;
+  left: -1rem;  
+  z-index: 10;
+}
+
+/* Organization section */
+.organization-section-sci-necro {
+  margin-top: 4rem;
+  text-align: center;
+}
+
+.organization-text-sci-necro{
+  position: relative;   
+  color: #1b4332;
+  padding: 2rem;
+  border-radius: 12px;
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.1rem;
+  line-height: 1.8;
+  text-align: left;
+  top: 6rem;
+  right: 8rem;
+  width: 50rem;
+}
+
+.icon1-necro-sci{
+  position: absolute;
+  width: 400px;   
+  height: auto;
+  border-radius: 12px;
+  top: 46rem;
+  right: -5rem;  
+  z-index: 10;
+}
+
+/* Implementation section */
+.implementation-section-sci-necro {
+  margin-top: 4rem;
+  text-align: center;
+}
+
+.impl-prison-sci.center-sci-necro{
+  position: absolute;
+  width: 300px;   
+  height: auto;
+  border-radius: 12px;
+  right: 1rem;  
+  z-index: 10;
+  width: 60rem;
+  top: 75rem;
+  color: #1b4332;
+}
+}
+
+
+/* Tablets (≤1024px) */
+@media (max-width: 1024px) {
+  .necro-section-sci {
+    width: 95%;
+    padding: 1.5rem;
+    margin: 1.5rem auto;
+
+    /* Put intro image ABOVE intro text */
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-auto-rows: auto;
+    grid-template-areas:
+      "intro-title"
+      "intro-text";
+    row-gap: 0.75rem;
+  }
+  .icon-necro-sci {
+    grid-area: intro-title;
+    position: static !important;
+    display: block;
+    width: 100%;
+    max-width: 560px;
+    height: auto;
+    margin: 0 auto;
+  }
+  .necro-text-container-sci {
+    grid-area: intro-text;
+    position: static !important;
+    top: auto; left: auto; margin-right: 0;
+    width: 100%;
+  }
+
+  /* Unpin all absolutely/offset elements and make them fluid */
+  .organization-text-sci-necro,
+  .icon1-necro-sci,
+  .impl-prison-sci.center-sci-necro {
+    position: static !important;
+    top: auto; right: auto; left: auto;
+    width: 100%;
+    margin: 1rem auto;
+  }
+
+  /* Image sizing */
+  .icon1-necro-sci {
+    display: block;
+    max-width: 560px;
+    height: auto;
+  }
+
+  /* Text blocks padding */
+  .necro-text-container-sci,
+  .organization-text-sci-necro,
+  .impl-prison-sci.center-sci-necro {
+    padding: 1.25rem;
+  }
+}
+
+/* Phones (≤768px) */
+@media (max-width: 768px) {
+  .necro-section-sci {
+    width: 92%;
+    padding: 1.25rem;
+    margin: 1.25rem auto;
+    row-gap: 0.6rem; /* keep the intro stack tight */
+  }
+
+  .icon-necro-sci,
+  .icon1-necro-sci {
+    max-width: 100%;
+    border-radius: 12px;
+    margin: 0.75rem auto;
+  }
+
+  .necro-text-container-sci,
+  .organization-text-sci-necro,
+  .impl-prison-sci.center-sci-necro {
+    font-size: 1rem;
+    line-height: 1.65;
+    padding: 1rem;
+    border-radius: 12px;
+  }
+}
+
+/* Small phones (≤480px) */
+@media (max-width: 480px) {
+  .necro-section-sci {
+    width: 90%;
+    padding: 1rem;
+    margin: 1rem auto;
+  }
+
+  .necro-text-container-sci,
+  .organization-text-sci-necro,
+  .impl-prison-sci.center-sci-necro {
+    font-size: 0.95rem;
+    line-height: 1.6;
+    padding: 0.9rem 1rem;
+    border-radius: 12px;
+  }
+
+  .icon-necro-sci,
+  .icon1-necro-sci { margin: 0.6rem auto; }
+}
