@@ -1,0 +1,256 @@
+
+
+.we4all1-section-sci {
+  position: relative;
+  width: 90%;
+  max-width: 1200px;
+  padding: 2rem;
+}
+
+.we4all1-text-container-sci{
+  position: relative;   
+  top: 2rem;            
+  margin-right: 320px; 
+  color: #1b4332;
+  background-color: rgba(211, 241, 228, 1);  
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.2rem;
+  line-height: 1.8;
+  width: 55rem;
+  right: 8rem;
+  border-radius: 12px;
+  padding: 3rem;
+
+}
+
+.we4all-logo-img-sci {
+  position: absolute;
+  width: 450px;   
+  height: auto;
+  border-radius: 12px;
+  top: -1rem;
+  left: 53rem;  
+  z-index: 10;
+}
+
+.we4all2-text-container-sci{
+  position: relative;   
+  color: #1b4332;
+  background-color: rgba(211, 241, 228, 0.75);
+  padding: 2rem;
+  border-radius: 12px;
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.1rem;
+  line-height: 1.8;
+  text-align: left;
+  top: 6rem;            
+  left: 10rem;
+  width: 65rem;
+  border-radius: 12px;
+  padding: 3rem;
+}
+
+.we4all2-img-sci {
+  position: absolute;
+  width: 300px;   
+  height: auto;
+  border-radius: 40px;
+  top: 25rem;
+  right: 52rem;  
+  z-index: 10;
+}
+
+.we4all3-text-container-sci{
+  position: relative;   
+  color: #1b4332;
+  background-color: rgba(211, 241, 228, 0.75);
+  padding: 2rem;
+  border-radius: 12px;
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.1rem;
+  line-height: 1.8;
+  text-align: left;
+  top: 10rem;            
+  right: 10rem;
+  width: 85rem;
+  border-radius: 12px;
+  padding: 3rem;
+  margin-bottom: 20rem;
+}
+
+
+/*screens*/
+@media (max-width: 1280px) {
+
+
+.we4all1-section-sci {
+  position: relative;
+  width: 90%;
+  max-width: 1200px;
+  padding: 2rem;
+}
+
+.we4all1-text-container-sci{
+  position: relative;   
+  top: 2rem;            
+  margin-right: 320px; 
+  color: #1b4332;
+  background-color: rgba(211, 241, 228, 1);  
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.2rem;
+  line-height: 1.8;
+  width: 45rem;
+  right: 4rem;
+  border-radius: 12px;
+  padding: 3rem;
+
+}
+
+.we4all-logo-img-sci {
+  position: absolute;
+  width: 400px;   
+  height: auto;
+  border-radius: 12px;
+  top: 2rem;
+  left: 45rem;  
+  z-index: 10;
+}
+
+.we4all2-text-container-sci{
+  position: relative;   
+  color: #1b4332;
+  background-color: rgba(211, 241, 228, 0.75);
+  padding: 2rem;
+  border-radius: 12px;
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.1rem;
+  line-height: 1.8;
+  text-align: left;
+  top: 9rem;            
+  left: 15rem;
+  width: 55rem;
+  border-radius: 12px;
+  padding: 3rem;
+}
+
+.we4all2-img-sci {
+  position: absolute;
+  width: 300px;   
+  height: auto;
+  border-radius: 40px;
+  top: 32rem;
+  right: 45rem;  
+  z-index: 10;
+}
+
+.we4all3-text-container-sci{
+  position: relative;   
+  color: #1b4332;
+  background-color: rgba(211, 241, 228, 0.75);
+  padding: 2rem;
+  border-radius: 12px;
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.1rem;
+  line-height: 1.8;
+  text-align: left;
+  top: 15rem;            
+  right: 5rem;
+  width: 75rem;
+  border-radius: 12px;
+  padding: 3rem;
+  margin-bottom: 20rem;
+}
+
+
+}
+
+
+
+
+/* ---------- Tablet (≤1024px) ---------- */
+@media (max-width: 1024px) {
+  .we4all1-section-sci {
+    width: 94%;
+    margin: 0 auto 2rem;
+    padding: 1.5rem;
+  }
+
+  /* Make text cards full-width; remove offsets */
+  .we4all1-text-container-sci,
+  .we4all2-text-container-sci,
+  .we4all3-text-container-sci {
+    position: static;
+    top: auto; right: auto; left: auto; margin-right: 0;
+    width: 100%;
+    padding: 2rem;
+    font-size: 1.05rem;
+    line-height: 1.8;
+    border-radius: 12px;
+    margin: 0 auto 1.75rem;
+  }
+
+  /* Image becomes fluid, centered, stacked */
+  .we4all-logo-img-sci,
+  .we4all2-img-sci {
+    position: static;
+    display: block;
+    width: 100%;
+    max-width: 560px;
+    height: auto;
+    border-radius: 12px;
+    margin: 0 auto 1.75rem;
+  }
+
+  /* Trim the big desktop spacing at the end */
+  .we4all3-text-container-sci {
+    margin-bottom: 1.75rem;
+  }
+}
+
+/* ---------- Large phones / Small tablets (≤768px) ---------- */
+@media (max-width: 768px) {
+  .we4all1-section-sci {
+    width: 96%;
+    padding: 1rem;
+  }
+
+  .we4all1-text-container-sci,
+  .we4all2-text-container-sci,
+  .we4all3-text-container-sci {
+    padding: 1.25rem 1rem;
+    font-size: 1rem;
+    line-height: 1.7;
+    border-radius: 12px;
+    margin-bottom: 1.25rem;
+  }
+
+  .we4all-logo-img-sci,
+  .we4all2-img-sci {
+    max-width: 440px;
+    margin-bottom: 1.25rem;
+  }
+}
+
+/* ---------- Small phones (≤480px) ---------- */
+@media (max-width: 480px) {
+  .we4all1-section-sci {
+    width: 98%;
+    padding: 0.75rem;
+  }
+
+  .we4all1-text-container-sci,
+  .we4all2-text-container-sci,
+  .we4all3-text-container-sci {
+    padding: 1rem 0.875rem;
+    font-size: 0.95rem;
+    line-height: 1.65;
+    border-radius: 10px;
+    margin-bottom: 1rem;
+  }
+
+  .we4all-logo-img-sci,
+  .we4all2-img-sci {
+    max-width: 100%;
+    margin-bottom: 1rem;
+  }
+}
